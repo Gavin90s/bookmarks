@@ -742,25 +742,26 @@ yum install cjkuni-ukai-fonts
 再次运行
 dot graph.gv -Tpng -o image.png
 ```
-Train non-backoff LM,
-一、利用 LM training text， 直接train non-backoff LM。
-用SRILM ngram-count 的 -gt1max 0 -gt2max 0 -gt3max 0 -gt4max 0 -gt5max 0 就可以了train non-backoff LM。
-Setting -gtNmax to 0 would disable discounting.
- 
-二、利用 backoff LM， convert 成 non-backoff LM， 而不是只是把BOW 都扔掉。
-1、先把每个order的ngram 从 你的backoff LM里抽出来， 比如所有的trigram， 存在一个文件里。
-2、用 SRILM 的ngram-rescore function， run ngram -debug 1 -order 3 -lm $backoff_lm -rescore $trigram_file, 它会用这个backoff LM去compute每个ngram 的probability.
+#### Train non-backoff LM,
+一、利用 LM training text， 直接train non-backoff LM。
+用SRILM ngram-count 的 -gt1max 0 -gt2max 0 -gt3max 0 -gt4max 0 -gt5max 0 就可以了train non-backoff LM。
+Setting -gtNmax to 0 would disable discounting.
+ 
+二、利用 backoff LM， convert 成 non-backoff LM， 而不是只是把BOW 都扔掉。
+1、先把每个order的ngram 从 你的backoff LM里抽出来， 比如所有的trigram， 存在一个文件里。
+2、用 SRILM 的ngram-rescore function， run ngram -debug 1 -order 3 -lm $backoff_lm -rescore $trigram_file, 它会用这个backoff LM去compute每个ngram 的probability.
 
-prune LM
-ngram -lm tiangong.arpa -order 4 -prune 1e-7 -prune-lowprobs -write-lm tiangong.order4.1e-7.arpa
+prune LM
+ngram -lm tiangong.arpa -order 4 -prune 1e-7 -prune-lowprobs -write-lm tiangong.order4.1e-7.arpa
 
-arpa format lm to fst
-/home/zhuozhu.zz/kaldi/egs/wsj/s5/utils/format_lm.sh
-arpa2fst --disambig-symbol=#0 /home/zhuozhu.zz/tiangong.order4.1e-7.arpa $out_dir/G.fst
- 
-./fstcompile --isymbols=/home/zhuozhu.zz/tiangong.words.txt --osymbols=/home/zhuozhu.zz/tiangong.words.txt /home/zhuozhu.zz/select_empty.fst.txt | ./fstarcsort --sort_type=olabel | ./fstcompose - /home/zhuozhu.zz/tiangong.order4.1e-7.fst > empty_words.fst
- 
-./fstinfo ~/empty_words.fst | grep cyclic | grep -w 'y' && echo "Language model has cycles with empty words"
+arpa format lm to fst
+/home/zhuozhu.zz/kaldi/egs/wsj/s5/utils/format_lm.sh
+arpa2fst --disambig-symbol=#0 /home/zhuozhu.zz/tiangong.order4.1e-7.arpa $out_dir/G.fst
+ 
+./fstcompile --isymbols=/home/zhuozhu.zz/tiangong.words.txt --osymbols=/home/zhuozhu.zz/tiangong.words.txt /home/zhuozhu.zz/select_empty.fst.txt | ./fstarcsort --sort_type=olabel | ./fstcompose - /home/zhuozhu.zz/tiangong.order4.1e-7.fst > empty_words.fst
 
-安装Opencc
-在centos中，直接使用yum install opencc是不够的，使用opencc会提示没有这个命令。yum search opencc一下，发现有个opencc-tools安装之，使用opencc  -i wiki_00 -o wiki_chs -c zht2zhs.ini命令，果断成功！
+./fstinfo ~/empty_words.fst | grep cyclic | grep -w 'y' && echo "Language model has cycles with empty words"
+
+安装Opencc
+在centos中，直接使用yum install opencc是不够的，使用opencc会提示没有这个命令。yum search opencc一下，发现有个opencc-tools安装之，使用opencc  -i wiki_00 -o wiki_chs -c zht2zhs.ini命令，果断成功！
+```
