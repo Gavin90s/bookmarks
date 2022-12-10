@@ -567,18 +567,18 @@ awk中gsub的应用
 gsub函数则使得在所有正则表达式被匹配的时候都发生替换
 gsub(regular expression, subsitution string, target string);简称 gsub（r,s,t)
 （1）文件filename的内容
-cat awk_file
-1 2 3 $1,200.00
-1 2 3 $2,300.00
-1 2 3 $4,000.00
+   cat awk_file
+   1 2 3 $1,200.00
+   1 2 3 $2,300.00
+   1 2 3 $4,000.00
 （2）去掉第四列的$和,并汇总第四列的和。
-awk '{gsub(/\$/,"");gsub(/,/,"");cost+=$4;}END{print "The sum is $"cost > "filename"}' awk_file
-gsub函数用空串替换$和,再将结果输出到filename中。
+   awk '{gsub(/\$/,"");gsub(/,/,"");cost+=$4;}END{print "The sum is $"cost > "filename"}' awk_file
+   gsub函数用空串替换$和,再将结果输出到filename中。
 （3）输出结果。
-cat filename
-The sum is $7500
+   cat filename
+   The sum is $7500
 （4）格式化形式的输出
-#awk '{gsub(/\$/,"");gsub(/,/,"");
+    #awk '{gsub(/\$/,"");gsub(/,/,"");
     if ($4>1000&&$4<2000) c1+=$4;
     else if ($4>2000&&$4<3000) c2+=$4;
     else if ($4>3000&&$4<4000) c3+=$4;
@@ -590,7 +590,7 @@ awk 'gsub(/\t/, "," ,$0)' filename.txt
  
 cut
 1、文件内容查看。
-cut fl f2 > f3     将把文件fl和几的内容合并起来。
+  cut fl f2 > f3     将把文件fl和几的内容合并起来。
 2、显示行中的指定部分
    -b：仅显示行中指定直接范围的内容；
    -c：仅显示行中指定范围的字符；
@@ -609,13 +609,15 @@ File1删除File2的内容
 comm -23file1 file2
 ```
  
-centos关闭 CPU throttling
- /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
-powersave
-Performance
-http://blog.sciencenet.cn/blog-935970-892170.html
-echo -n performance > /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor
-http://blog.chinaunix.net/uid-20620288-id-5751294.html
+#### centos关闭 CPU throttling
+```
+  /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+  powersave
+  Performance
+  http://blog.sciencenet.cn/blog-935970-892170.html
+  echo -n performance > /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor
+  http://blog.chinaunix.net/uid-20620288-id-5751294.html
+```
  
  
 #### ffmpeg使用
@@ -637,11 +639,11 @@ Done
 ```
 示例五查看静态库中的文件
 [root@node56 lib]# ar -t libhycu.a
-base64.c.o
-binbuf.c.o
-cache.c.o
-chunk.c.o
-codec_a.c.o
+  base64.c.o
+  binbuf.c.o
+  cache.c.o
+  chunk.c.o
+  codec_a.c.o
  
 [root@node56 lib]# ar -tv libhycu.a
 rw-r--r-- 0/0   7220 Jul 29 19:18 2011 base64.c.o
@@ -742,6 +744,7 @@ yum install cjkuni-ukai-fonts
 再次运行
 dot graph.gv -Tpng -o image.png
 ```
+
 #### Train non-backoff LM,
 一、利用 LM training text， 直接train non-backoff LM。
 用SRILM ngram-count 的 -gt1max 0 -gt2max 0 -gt3max 0 -gt4max 0 -gt5max 0 就可以了train non-backoff LM。
