@@ -745,7 +745,8 @@ yum install cjkuni-ukai-fonts
 dot graph.gv -Tpng -o image.png
 ```
 
-#### Train non-backoff LM,
+#### Train non-backoff LM
+```
 一、利用 LM training text， 直接train non-backoff LM。
 用SRILM ngram-count 的 -gt1max 0 -gt2max 0 -gt3max 0 -gt4max 0 -gt5max 0 就可以了train non-backoff LM。
 Setting -gtNmax to 0 would disable discounting.
