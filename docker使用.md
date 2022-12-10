@@ -106,7 +106,7 @@ $ sudo docker push registry.cn-hangzhou.aliyuncs.com/docker_workspace_zz/fairseq
 如果您使用的机器位于VPC网络，请使用 registry-vpc.cn-hangzhou.aliyuncs.com 作为Registry的域名登录。
 ```
 
-5. 示例
+#### 5. 示例
 使用"docker tag"命令重命名镜像，并将它通过专有网络地址推送至Registry。
 ```
 $ sudo docker tag 37bb9c63c8b2 registry-vpc.cn-hangzhou.aliyuncs.com/acs/agent:0.7-dfb6816
