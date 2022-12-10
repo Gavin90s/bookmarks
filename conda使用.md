@@ -47,9 +47,11 @@ pip show tensorflow-gpu
  
 conda 打包虚拟环境
 # 把虚拟环境 my_env 打包为 
-my_env.tar.gz conda pack -n my_env 
+my_env.tar.gz conda pack -n my_env
+
 # -o 参数指定打包路径和名称，把虚拟环境 my_env 打包为 out_name.tar.gz 
-conda pack -n my_env -o out_name.tar.gz 
+conda pack -n my_env -o out_name.tar.gz
+
 # 把某个特定路径的虚拟环境打包为 my_env.tar.gz 
 conda pack -p /explicit/path/to/my_env
  
