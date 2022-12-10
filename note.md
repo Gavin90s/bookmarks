@@ -555,10 +555,11 @@ Bash is not fully functional for a new user新用户可能刚开始只能使用�
 chsh -s /bin/bash username
 ```
 
---------------------------
-cat tv_online_shopping_jsgf_expand.txt | awk -vOFS='\t' '{print $2,$3}' > tv_online_shopping_two_column.txt
+#### awk 使用
+```
+cat tv_online_shopping_jsgf_expand.txt | awk -vOFS='\t' '{print $2,$3}' > tv.txt
  
- cat types.txt | sort | uniq -c | sort -k1,1nr > types.count.txt
+cat types.txt | sort | uniq -c | sort -k1,1nr > types.count.txt
 将文件中的多行拼接成一行
 awk ' { printf ("%s ", $0)} END {printf ("\n") } '
  
@@ -606,7 +607,7 @@ find . -type f -name "*.vocab" | xargs grep "变形金刚" | grep  "USER.PERSON
  
 File1删除File2的内容
 comm -23file1 file2
- 
+```
  
 centos关闭 CPU throttling
  /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
@@ -617,7 +618,8 @@ echo -n performance > /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor
 http://blog.chinaunix.net/uid-20620288-id-5751294.html
  
  
-ffmpeg使用
+#### ffmpeg使用
+```
 ls | grep -v "*.txt" | grep -v "*.sh" > templst.txt
 cat templst.txt | while read line
 do
@@ -629,9 +631,10 @@ do
    fi
    ffmpeg -i $line -ar 16000 ../`echo "$line" | cut -d . -f 1`.wav
 Done
- 
-查看静态库中的文件
- 
+```
+
+#### 查看静态库中的文件
+```
 示例五查看静态库中的文件
 [root@node56 lib]# ar -t libhycu.a
 base64.c.o
@@ -657,14 +660,16 @@ encode64 in base64.c.o
 decode64 in base64.c.o
 check64 in base64.c.o
 test64 in base64.c.o
- 
-JAVA core dump处理
- jstack -J-d64 $JAVA_HOME/bin/java java.core.32134
+```
+
+#### JAVA core dump处理
+```
+jstack -J-d64 $JAVA_HOME/bin/java java.core.32134
 gdb -c corefile java
-options.semantic_size
+``` 
  
- 
-wave格式转换
+#### wave格式转换
+```
 #! /usr/bin/python
 __author__ = 'zhuozhu.zz'
 import os
@@ -696,7 +701,7 @@ def main():
  
 if __name__ == '__main__':
     main()
-
+```
 
 gdb -c core.100721 python
 https://www.boost.org/users/history/version_1_66_0.html
