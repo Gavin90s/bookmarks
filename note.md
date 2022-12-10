@@ -331,11 +331,8 @@ do
 done
 ```
 
-离线物理机
-ssh zhuozhu.zz@11.238.144.94
-代码调试工具torchsnooper
-
-python fire 库
+#### python fire 库
+```
 import fire
 
 def hello(name):
@@ -344,54 +341,76 @@ def hello(name):
 def main():
   fire.Fire(hello)
 不再需要指定hello函数，因为我们调用了fire.Fire(hello)
-espnet ASR模型训练目录
-b05b01460.nt12：/data7/zy134358/work/espnet/egs2/ai shell/asr/data/train
+```
 
-oracle WER 
+#### oracle WER 
+```
 计算asr decoding lattice 和hypothesis之间的关系。
 it prints out the corresponding WERs in its logging output. This is done by constructing an "edit-distance FST" and composing this with unweighted acceptors constructed from the lattice and from the reference.
-danielpovey主页
+```
+
+#### danielpovey主页
 http://www.danielpovey.com/publications.html
-huggingface tranformers安装
+
+#### huggingface tranformers安装
+```
 import error “version `GLIBC_2.29’ not found” 解决方法
 conda install -c conda-forge transformers
 conda install importlib-metadata
-huggingface tranformers将 tf 模型转化为 pytorch模型
+```
+
+#### huggingface tranformers将 tf 模型转化为 pytorch模型
+```
 https://huggingface.co/transformers/converting_tensorflow_models.html
 transformers-cli convert --model_type bert \
                          --tf_checkpoint roberta_tiny_50G_whole_model.ckpt.index \
                          --config bert_config_tiny.json \
                          --pytorch_dump_output pytorch_model.bin
-roberta 代码
+```
+
+#### roberta 代码
 https://github.com/Gavin90s/CLUEPretrainedModels/blob/b384fd41665a8261f9c689c940cf750b3bc21fce/baselines/models/roberta/modeling.py#L754
-bart 代码
+#### bart 代码
 https://github.com/huggingface/transformers/blob/master/src/transformers/models/bart/modeling_bart.py
-自监督预训练（三）wav2vec 2.0原理剖析
+
+#### 自监督预训练（三）wav2vec 2.0原理剖析
 https://blog.csdn.net/xmdxcsj/article/details/115787729
-CLUECorpus2020
+
+#### CLUECorpus2020
 A Large-scale Chinese Corpus for Pre-training Language Model
-集团docker地址
+
+#### 集团docker地址
 https://docker.alibaba-inc.com/#/dockerImage/2955998/detail
 
-Scheduled Sampling
+#### Scheduled Sampling
+```
 主要应用在序列到序列模型的训练阶段，而生成阶段则不需要使用。训练阶段解码器在最大化第t个元素概率时，标准序列到序列模型使用上一时刻的真实元素yt−1作为输入。设上一时刻生成的元素为gt−1，Scheduled Sampling算法会以一定概率使用gt−1作为解码器输入。
 https://blog.csdn.net/zlrai5895/article/details/84748749
-查看压缩包内容
+```
+
+#### 查看压缩包内容
+```
 tar -tf xxxx.tar.gz
-prefix beam search
+```
+
+#### prefix beam search
+```
 https://blog.csdn.net/weixin_42615068/article/details/93767781
-解决sort磁盘空间不足
+```
+#### 解决sort磁盘空间不足
+```
 export TMPDIR=/tmp
-pytorch 调试
+```
+#### pytorch 调试
+```
 import torchsnooper
 @torchsnooper.snoop()
-调研报告｜在线语音识别改进之 RNN-T 训练
+```
+#### 调研报告｜在线语音识别改进之 RNN-T 训练
 https://zhuanlan.zhihu.com/p/146832796
 
-
-
-
-多线程压缩
+#### 多线程压缩
+```
 #下载pigz
 wget https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/p/pigz-2.3.4-1.el7.x86_64.rpm
     
@@ -403,18 +422,24 @@ tar cf - wenetspeech | pigz -9 -p 32 > /data6/zhuozhu.zz/wenetspeech_8k.tar.gz
 
 #多线程解压
 pigz -dc wenetspeech_8k.tar.gz | tar xf -
-gdb 调试
-gdb test.bin pid.core
-VScode c++环境
-wget https://vscode.cdn.azure.cn/stable/f4af3cbf5a99787542e2a30fe1fd37cd644cc31f/VSCode-darwin-universal.zip
+```
 
+#### gdb 调试
+gdb test.bin pid.core
+
+#### VScode c++环境
+wget https://vscode.cdn.azure.cn/stable/f4af3cbf5a99787542e2a30fe1fd37cd644cc31f/VSCode-darwin-universal.zip
+```
 #使用clang-format插件
     
 #安装 clang-format, 用code formatter
 wget http://releases.llvm.org/8.0.0/clang+llvm-8.0.0-x86_64-apple-darwin.tar.xz
 tar xvfJ clang+llvm-8.0.0-x86_64-apple-darwin.tar.xz -C ./clang-format
 ln -s /Users/zhuozhu/clang-format/clang+llvm-8.0.0-x86_64-apple-darwin/bin/clang-format /usr/local/bin/clang-format
-opustool安装
+```
+
+#### opustool安装
+```
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 wget https://codeload.github.com/xiph/opus-tools/zip/refs/heads/master
 wget https://ftp.osuosl.org/pub/xiph/releases/ogg/libogg-1.3.5.tar.gz
@@ -424,12 +449,17 @@ git clone https://github.com/xiph/libopusenc.git
 git clone https://github.com/xiph/flac.git
 
 opusenc --bitrate 6 --max-delay 10 hkust/dev/data/format.1/20040503_222707_A000687_B000688-B-000391-001021.wav 20040503_222707_A000687_B000688-B-000391-001021.opus
-查看python包路径
+```
+
+#### 查看python包路径
+```
 import a_module 
 print(a_module.__file__)
-在模型中将某些参数设置为不可学习但保存在模型中
+```
+#### 在模型中将某些参数设置为不可学习但保存在模型中
 self.register_buffer('my_buffer', buffer) 
 
+```
 https://huggingface.co/microsoft/wavlm-base-plus-sv
 https://arxiv.org/pdf/2103.07552.pdf
 https://github.com/Gavin90s/t5-pegasus-chinese
@@ -443,19 +473,22 @@ https://arxiv.org/pdf/2012.05958.pdf
 https://thegradient.pub/prompting/
 https://arxiv.org/abs/2001.07676
 https://zhuanlan.zhihu.com/p/366771566
-$sudo nvidia-docker run -it --name espnet_env --network=host --shm-size 32G -v /data2/zhuozhu.zz/quake_wav2vec:/workspace/train reg.docker.alibaba-inc.com/algorithm/quake:torch-1.8.0-cuda102-cudnn7-centos7-train-v2.0 bash
+```
 
-linux 终端使用技巧
+#### linux 终端使用技巧
+```
 https://blog.csdn.net/qq_26399665/article/details/81063211
-Ctrl – a ：移到行首
-Ctrl – e ：移到行尾
-Ctrl – k ：由光标所在位置开始，删除右方所有的字符，直到该行结束。
-Ctrl – u ：由光标所在位置开始，删除左方所有的字符，直到该行开始。
-Ctrl -a + Ctrl -k 或 Ctrl -e + Ctrl -u 或 Ctrl -k + Ctrl -u 组合可删除整行。
-Ctrl-L：进行清屏操作
-Ctrl-d 由光标位置开始，往右删除单词。往行尾删
-Ctrl – y ：粘贴之前删除的内容到光标后。
-粘贴 Shift-Command-V
+Ctrl – a ：移到行首
+Ctrl – e ：移到行尾
+Ctrl – k ：由光标所在位置开始，删除右方所有的字符，直到该行结束。
+Ctrl – u ：由光标所在位置开始，删除左方所有的字符，直到该行开始。
+Ctrl -a + Ctrl -k 或 Ctrl -e + Ctrl -u 或 Ctrl -k + Ctrl -u 组合可删除整行。
+Ctrl-L：进行清屏操作
+Ctrl-d 由光标位置开始，往右删除单词。往行尾删
+Ctrl – y ：粘贴之前删除的内容到光标后。
+粘贴 Shift-Command-V
+```
+
 Using page-locked host memory
 In every example until this point, we have used the malloc function to allocate memory on the host, which allocates standard pageable memory on the host. CUDA provides another API called cudaHostAlloc(), which allocates page-locked host memory or what is sometimes referred to as pinned memory. It guarantees that the operating system will never page this memory out of this disk and that it will remain in physical memory. So, any application can access the physical address of the buffer. This property helps the GPU copy data to and from the host via Direct Memory Access (DMA) without CPU intervention. This helps improve the performance of memory transfer operations. 
 查看.so、.a 文件的函数
