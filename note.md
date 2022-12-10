@@ -704,6 +704,9 @@ if __name__ == '__main__':
 ```
 
 gdb -c core.100721 python
+
+#### boost 安装
+```
 https://www.boost.org/users/history/version_1_66_0.html
 tar -xzf download
 cd boost_1_58_0
@@ -713,27 +716,32 @@ cd boost_1_58_0
 //---------------------------------------------------------------
 ./bootstrap.sh --prefix=/disk4/zhuozhu.zz/tops/boost-1.66 --with-python=python
 ./b2 define=_GLIBCXX_USE_CXX11_ABI=1 install -j5
+```
 
-
-convert_flac_to_wav
+#### convert_flac_to_wav
+```
 for f in `cat flac.lst`
 do
   wav=$(echo $f | sed "s/\.flac/\.wav/g")
   echo "convert $f to $wav."
   sox $f -r 16000 -b 16 -c 1 $wav
 done
+```
 
+#### dot 画图及中文乱码解决
+```
+sudo yum install graphviz
+fstdraw origin.fst | dot -Tpng -Gdpi=2500  -oorigin.png
+dot -Tpdf xxx.dot -o xxx.pdf
+```
 
-dot 画图及中文乱码解决
-sudo yum install graphviz
-fstdraw origin.fst | dot -Tpng -Gdpi=2500  -oorigin.png
-dot -Tpdf xxx.dot -o xxx.pdf
- 
-Graphviz 中文乱码
-安装字体
-yum install cjkuni-ukai-fonts
-再次运行
-dot graph.gv -Tpng -o image.png
+#### Graphviz 中文乱码
+```
+安装字体
+yum install cjkuni-ukai-fonts
+再次运行
+dot graph.gv -Tpng -o image.png
+```
 Train non-backoff LM,
 一、利用 LM training text， 直接train non-backoff LM。
 用SRILM ngram-count 的 -gt1max 0 -gt2max 0 -gt3max 0 -gt4max 0 -gt5max 0 就可以了train non-backoff LM。
