@@ -54,6 +54,7 @@ create a volume
     $ docker volume create my-vol
 ```
 
+```
 1创建完成之后可以查看详细信息
  $ docker volume inspect my-vol
  可得信息如下：注意这个Mountpoint所对应的目录就是我们用来主机和容器进行文件传输的目录。
@@ -68,17 +69,17 @@ docker文件传递
 （1）先拿到容器的短ID或者指定的name.
 如下图：可以看出一个docker容器为ssd，短ID为1cd9b9bd0db8
 命令：sudo docker ps -a
-(2) 然后根据这两项的任意一项拿到ID全称。
+ (2) 然后根据这两项的任意一项拿到ID全称。
 命令：sudo docker inspect -f '{{.ID}}' ssd 
 可得：ID的全称为 1cd9b9bd0db84a513f7d859903ab4863f58d5a2524edd74aad73fabedde9ec66
 （3）有了ID的全称后，本机和容器之间的文件传输就简单了。
-1）本地文件传到docker中：
-docker cp 本地文件路径 ID全称:容器路径  
-如：sudo docker cp temp 1cd9b9bd0db84a513f7d859903ab4863f58d5a2524edd74aad73fabedde9ec66:/opt/caffe
-将本地当前目录下的temp文件传输docker ssd中的/opt/caffe目录下了。
-2）docker中文件传到本地
-docker cp ID全称:容器文件路径 本地路径
-
+   1）本地文件传到docker中：
+      docker cp 本地文件路径 ID全称:容器路径  
+      如：sudo docker cp temp 1cd9b9bd0db84a513f7d859903ab4863f58d5a2524edd74aad73fabedde9ec66:/opt/caffe
+      将本地当前目录下的temp文件传输docker ssd中的/opt/caffe目录下了。
+   2）docker中文件传到本地
+      docker cp ID全称:容器文件路径 本地路径
+```
 
 #### 1. 登录阿里云Docker Registry
 ```
@@ -107,10 +108,14 @@ $ sudo docker push registry.cn-hangzhou.aliyuncs.com/docker_workspace_zz/fairseq
 
 5. 示例
 使用"docker tag"命令重命名镜像，并将它通过专有网络地址推送至Registry。
+```
 $ sudo docker tag 37bb9c63c8b2 registry-vpc.cn-hangzhou.aliyuncs.com/acs/agent:0.7-dfb6816
+```
 
 使用 "docker push" 命令将该镜像推送至远程。
+```
 $ sudo docker push registry-vpc.cn-hangzhou.aliyuncs.com/acs/agent:0.7-dfb6816
+```
 
 ```
 sudo docker run -it --name wenet_test --shm-size 32G -v /home/zhuozhu.zz:/workspace/zhuozhu.zz reg.docker.alibaba-inc.com/algorithm/quake:torch-1.8.2-cuda111-centos7-train-v2.0 bash
