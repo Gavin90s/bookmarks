@@ -489,24 +489,26 @@ Ctrl – y ：粘贴之前删除的内容到光标后。
 粘贴 Shift-Command-V
 ```
 
-Using page-locked host memory
-In every example until this point, we have used the malloc function to allocate memory on the host, which allocates standard pageable memory on the host. CUDA provides another API called cudaHostAlloc(), which allocates page-locked host memory or what is sometimes referred to as pinned memory. It guarantees that the operating system will never page this memory out of this disk and that it will remain in physical memory. So, any application can access the physical address of the buffer. This property helps the GPU copy data to and from the host via Direct Memory Access (DMA) without CPU intervention. This helps improve the performance of memory transfer operations. 
-查看.so、.a 文件的函数
+#### 查看.so、.a 文件的函数
 nm -C --defined-only ../extra/kaldi/src/base/kaldi-base.a | grep "RandInt"
 
+#### mkv 转 wav
+```
 ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of default=nokey=1:noprint_wrappers=1 10027992976_10027992977-03-26-21.mkv
 ffprobe -v error -select_streams a:1 -show_entries stream=codec_name -of default=nokey=1:noprint_wrappers=1 10027992976_10027992977-03-26-21.mkv
 
 ffmpeg -i 10027992958_10027992959-03-26-14.mkv -map 0:a:0 xxx.wav
 ffmpeg -i 10027992958_10027992959-03-26-14.mkv -map 0:a:1 yyy.wav
+```
 
-pip 清华源下载
+#### pip 清华源下载
 pip install sklearn -i https://pypi.tuna.tsinghua.edu.cn/simple 
 
-THOP: 统计 PyTorch 模型的 FLOPs 和参数量
+#### THOP: 统计 PyTorch 模型的 FLOPs 和参数量
 https://blog.csdn.net/yiran103/article/details/97756720
 
-python map 用法
+#### python map 用法
+```
 def f(x):
   return x*x
 
@@ -521,17 +523,20 @@ for i in a:
 
 注意：map()函数不改变原有的 list，而是返回一个新的 list。
 利用map()函数，可以把一个 list 转换为另一个 list，只需要传入转换函数。
+```
 
-
-在catch中打印完整堆栈：
+#### 在catch中打印完整堆栈
+```
 catch (Exception e) {
-StringWriter errorsWriter = new StringWriter();
-e.printStackTrace(new PrintWriter(errorsWriter));
-Logger.info("get exception in matchTopicDaEQuan: [%s]", errorsWriter.getBuffer().toString());
-return RetCode.RE_ERROR;
+  StringWriter errorsWriter = new StringWriter();
+  e.printStackTrace(new PrintWriter(errorsWriter));
+  Logger.info("get exception in matchTopicDaEQuan: [%s]", errorsWriter.getBuffer().toString());
+  return RetCode.RE_ERROR;
 }
+```
 
-Shell 常用命令
+#### Shell 常用命令
+```
 linux 创建新用户
 创建新用户
 useradd -m -d /PATH/TO/FOLDER USERNAME
@@ -548,7 +553,7 @@ usermod -aG sudo username
 Bash is not fully functional for a new user新用户可能刚开始只能使用部分功能，比如说history命令都不行。
 解决方法 https://unix.stackexchange.com/questions/25475/bash-is-not-fully-functional-for-a-new-user
 chsh -s /bin/bash username
-
+```
 
 --------------------------
 cat tv_online_shopping_jsgf_expand.txt | awk -vOFS='\t' '{print $2,$3}' > tv_online_shopping_two_column.txt
