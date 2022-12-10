@@ -1,4 +1,4 @@
-# paperlist
+# note
 
 #### mac 查询本机地址 
 ifconfig
