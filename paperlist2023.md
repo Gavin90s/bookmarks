@@ -13,3 +13,12 @@ https://ai.googleblog.com/2022/04/learning-to-prompt-for-continual.html
 ```
 https://arxiv.org/pdf/2301.12004.pdf
 ```
+
+#### SELECTIVE ANNOTATION MAKES LANGUAGE MODELS BETTER FEW-SHOT LEARNERS
+```
+通过从 unlabeled 数据集中筛选数据进行标注，然后给每一条 test 数据选择一条相似的标注数据进行In-context learning。
+在low resource情况下，In-context learning比finetune的方式效果要好。
+```
+```
+https://arxiv.org/pdf/2209.01975.pdf
+```
