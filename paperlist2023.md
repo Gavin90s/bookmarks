@@ -22,3 +22,16 @@ https://arxiv.org/pdf/2301.12004.pdf
 ```
 https://arxiv.org/pdf/2209.01975.pdf
 ```
+
+#### Scaling Instruction-Finetuned Language Models
+```
+证明了 Instruction-Finetuned 的有效性和必要性。
+1、instruction finetuning：the size of the model and the number of finetuning tasks—improve performance.
+2、CoT finetuning is critical for reasoning abilities.
+3、Instruction finetuning generalizes across models.
+4、Instruction finetuning improves usability and mitigates some potential harms.
+5、Instruction finetuning is relatively compute-efficient.
+```
+```
+https://arxiv.org/pdf/2210.11416.pdf
+```
