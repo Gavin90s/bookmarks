@@ -16,3 +16,4 @@ Held-out tasks (tasks which data not included in the finetuning data)
 implicit 含蓄的; 不直接言明的; 成为一部分的; 内含的; 完全的; 无疑问的;
 implicit multitask learning, language model pretraining training process.
 explicit multitask learning, the technique for mixing multiple tasks into a single supervised training process.
+agnostic 不可知论（者）的;
