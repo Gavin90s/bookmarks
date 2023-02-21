@@ -38,10 +38,10 @@ https://arxiv.org/pdf/2210.11416.pdf
 
 #### MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION
 ```
-1、multitask training enables zero-shot task generalization by showing that our model matches 
-or exceeds the performance of GPT-3 (Brown et al.,2020) on 9 out of 11 held-out datasets, despite being about 16× smaller. 
-2、training on more prompts per dataset consistently improves the median 
-and decreases the variability of performance on held-out tasks. 
+1、multitask training enables zero-shot task generalization by showing that our model matches or exceeds the performance
+of GPT-3 (Brown et al.,2020) on 9 out of 11 held-out datasets, despite being about 16× smaller. 
+2、training on more prompts per dataset consistently improves the median and decreases the variability of performance
+on held-out tasks. 
 ```
 ```
 https://arxiv.org/pdf/2110.08207.pdf
