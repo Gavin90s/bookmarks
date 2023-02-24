@@ -14,7 +14,7 @@ https://ai.googleblog.com/2022/04/learning-to-prompt-for-continual.html
 https://arxiv.org/pdf/2301.12004.pdf
 ```
 
-#### SELECTIVE ANNOTATION MAKES LANGUAGE MODELS BETTER FEW-SHOT LEARNERS
+#### Selective Annotation Makes Language Models Better Few-Shot Learners (Provide Many Prompt Samples)
 ```
 通过从 unlabeled 数据集中筛选数据进行标注，然后给每一条 test 数据选择一条相似的标注数据进行In-context learning。
 在low resource情况下，In-context learning比finetune的方式效果要好。
@@ -36,7 +36,7 @@ https://arxiv.org/pdf/2209.01975.pdf
 https://arxiv.org/pdf/2210.11416.pdf
 ```
 
-#### MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION
+#### Multitask Prompted Training Enables Zero-Shot Task Generalization
 ```
 1、multitask training enables zero-shot task generalization by showing that our model matches or exceeds the performance
 of GPT-3 (Brown et al.,2020) on 9 out of 11 held-out datasets, despite being about 16× smaller. 
