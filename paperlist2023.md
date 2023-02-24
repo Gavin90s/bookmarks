@@ -1,4 +1,4 @@
-#### PROGRESSIVE PROMPTS: CONTINUAL LEARNING FOR LANGUAGE MODELS
+#### Progressive Prompts: Continual Learning For Language Models
 ```
 大模型在业务上使用，避免知识遗忘，实现知识迁移学习。
 ```
