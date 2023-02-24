@@ -46,3 +46,8 @@ on held-out tasks.
 ```
 https://arxiv.org/pdf/2110.08207.pdf
 ```
+
+#### Language Models are Few-Shot Learners (GPT3)
+```
+https://arxiv.org/pdf/2005.14165.pdf
+```
