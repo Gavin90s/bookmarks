@@ -1,8 +1,6 @@
 #### [Progressive Prompts: Continual Learning For Language Models](https://arxiv.org/pdf/2301.12314.pdf)
 ```
 大模型在业务上使用，避免知识遗忘，实现知识迁移学习。
-```
-```
 https://ai.googleblog.com/2022/04/learning-to-prompt-for-continual.html
 ```
 
