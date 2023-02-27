@@ -769,3 +769,8 @@ arpa2fst --disambig-symbol=#0 /home/zhuozhu.zz/tiangong.order4.1e-7.arpa $out_di
 安装Opencc
 在centos中，直接使用yum install opencc是不够的，使用opencc会提示没有这个命令。yum search opencc一下，发现有个opencc-tools安装之，使用opencc  -i wiki_00 -o wiki_chs -c zht2zhs.ini命令，果断成功！
 ```
+
+#### pip 指定安装源
+```
+pip install fire -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
