@@ -36,7 +36,12 @@ on held-out tasks.
 #### [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)(GPT3)
 
 #### [The Power of Scale for Parameter-Efficient Prompt Tuning](https://aclanthology.org/2021.emnlp-main.243.pdf)
+```
 学习 “soft prompts”  用于 specific downstream tasks。可以保留 zero-shot, few-shot 的能力。
+```
 
 #### [Question-Generation-Paper-List](https://github.com/teacherpeterpan/Question-Generation-Paper-List)
-
+```
+Question Generation 输入 article contents 输出 questions。
+Answer system 通过输入article contents和 question 文件，生成回复。
+```
