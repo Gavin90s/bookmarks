@@ -54,5 +54,6 @@ but abstaining when presented with a question that cannot be answered based on t
 Question answering can be segmented into domain-specific tasks like community question answering 
 and knowledge-base question answering. Popular benchmark datasets for evaluation question 
 answering systems include SQuAD, HotPotQA, bAbI, TriviaQA, WikiQA, and many others. 
-Models for question answering are typically evaluated on metrics like EM and F1. Some recent top performing models are T5 and XLNet.
+Models for question answering are typically evaluated on metrics like EM and F1. 
+Some recent top performing models are T5 and XLNet.
 ```
