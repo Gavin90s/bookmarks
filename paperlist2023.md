@@ -37,3 +37,6 @@ on held-out tasks.
 
 #### [The Power of Scale for Parameter-Efficient Prompt Tuning](https://aclanthology.org/2021.emnlp-main.243.pdf)
 学习 “soft prompts”  用于 specific downstream tasks。可以保留 zero-shot, few-shot 的能力。
+
+#### [Question-Generation-Paper-List](https://github.com/teacherpeterpan/Question-Generation-Paper-List)
+
