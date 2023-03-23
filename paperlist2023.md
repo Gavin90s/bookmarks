@@ -60,7 +60,7 @@ Some recent top performing models are T5 and XLNet.
 
 #### [AUTOPROMPT: Eliciting Knowledge from Language Models with Automatically Generated Prompts](https://arxiv.org/pdf/2010.15980.pdf)
 
-AUTOPROMPT，用MLM语言模型实现情感分析。每个输入x<sub>inp</sub>都被放入一个自然语言提示符 x<sub>prompt</sub> 中，包含单个[MASK] token。
+AUTOPROMPT，用MLM语言模型实现情感分析。每个输入x<sub>inp</sub>都被放入到一个自然语言提示符 x<sub>prompt</sub> 中，包含单个[MASK] token。
 Prompt是使用模板 λ 创建的，它结合了x<sub>inp</sub>和x<sub>trig</sub> tokens。x<sub>trig</sub> tokens在所有输入之间共享，并使用gradient-based
 search确定x<sub>trig</sub> tokens。然后通过p([MASK]|x<sub>prompt</sub>) 预测类别标签y的值。标签y的集合是通过算法自动生成的。
 <img width="976" alt="image" src="https://user-images.githubusercontent.com/8350994/227159328-fa8d13c6-e8df-45ad-b5da-fd7ff5c3ae04.png">
