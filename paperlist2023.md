@@ -57,3 +57,14 @@ answering systems include SQuAD, HotPotQA, bAbI, TriviaQA, WikiQA, and many othe
 Models for question answering are typically evaluated on metrics like EM and F1. 
 Some recent top performing models are T5 and XLNet.
 ```
+
+#### [AUTOPROMPT: Eliciting Knowledge from Language Models with Automatically Generated Prompts](https://arxiv.org/pdf/2010.15980.pdf)
+
+AUTOPROMPT 的图示，用于探测屏蔽语言模型 (MLM) 执行情感分析的能力。每个输入 ${x}_{inp}$ 都被放入一个自然语言提示符 xprompt 中，其中包含一个
+单个 [MASK] 令牌。提示是使用模板 λ 创建的，它结合了原始输入和集合
+触发令牌，${x}_{trig}$。触发令牌在所有输入之间共享，并使用基于梯度的方法确定
+搜索）。然后通过边缘化 MLM 预测获得每个类别标签 y 的概率，
+p([MASK]|xprompt)，自动检测到的标签标记集。
+
+<img width="976" alt="image" src="https://user-images.githubusercontent.com/8350994/227159328-fa8d13c6-e8df-45ad-b5da-fd7ff5c3ae04.png">
+
