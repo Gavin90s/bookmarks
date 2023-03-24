@@ -65,9 +65,15 @@ Prompt是使用模板 λ 创建的，它结合了x<sub>inp</sub>和x<sub>trig</s
 search确定x<sub>trig</sub> tokens。然后通过p([MASK]|x<sub>prompt</sub>) 预测类别标签y的值。标签y的集合是通过算法自动生成的。
 <img width="976" alt="image" src="https://user-images.githubusercontent.com/8350994/227159328-fa8d13c6-e8df-45ad-b5da-fd7ff5c3ae04.png">
 
+#### [Reading Wikipedia to Answer Open-Domain Questions](https://aclanthology.org/P17-1171.pdf)
+系统分为两大块，首先有一个 Document Retriever，对给定的问题 question，从所有维基百科文章中检索（这里面注意SQuAD 实际上是有具体的位置的，但是WebQuestion等等数据集就是没有的，这里面她是通过远程监督的方式做的处理）；检索到文章后切分成段落，然后用一个称之为 Document Reader 的模块在段落中预测答案位置并给出分数。后者其实就是标准的阅读理解模型了，完全可以替换成其他的机器阅读理解模型。
+
+<img width="617" alt="image" src="https://user-images.githubusercontent.com/8350994/227428539-e2da805b-21a3-497d-8c64-f47dc98a0ff3.png">
+
 #### [REALM: Retrieval-Augmented Language Model Pre-Training](https://arxiv.org/pdf/2002.08909.pdf)
 REALM通过Neural Knowledge Retriever检索文本知识库增强语言模型预训练，整个系统是端到端训练的。Retriever计算每个文档的embedding，并都缓存起来，异步更新。最佳匹配文档通过最大内积搜索（MIPS) 得到。
 
 <img width="476" alt="image" src="https://user-images.githubusercontent.com/8350994/227415246-17b4ee9e-96de-4f0e-9f10-66983a82de53.png">
+
 
 
