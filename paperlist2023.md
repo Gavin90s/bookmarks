@@ -99,7 +99,7 @@ OpenPrompt是一个research-friendly Prompt Tunning框架, 具有效率(efficien
 <img width="836" alt="image" src="https://user-images.githubusercontent.com/8350994/227429179-8e33a1df-7d84-4cac-a4e7-a269635d864d.png">
 
 #### [Improving Unsupervised Question Answering via Summarization-Informed Question Generation](https://arxiv.org/pdf/2109.07954.pdf)
-(1) 为了避免生成trivial question, 论文基于Summarization生成Question。（2）利用句法依存(dependency parser)、命名实体识别(NER)、语义角色识别(semantic role labeling）等方法根据Summarization生成question和answer对。
+(1) 为了避免生成trivial question, 论文基于Summarization生成Question。（2）利用句法依存(dependency parser)、命名实体识别(NER)、[语义角色识别](https://zhuanlan.zhihu.com/p/46315087)(semantic role labeling）等方法根据Summarization生成question和answer对。
 <img width="530" alt="image" src="https://user-images.githubusercontent.com/8350994/227466369-a7e120e9-1190-4fff-bf85-14cc4b89e20c.png">
 
 整体系统结构如下
