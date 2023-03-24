@@ -75,6 +75,13 @@ REALM通过Neural Knowledge Retriever检索文本知识库增强语言模型预�
 
 <img width="476" alt="image" src="https://user-images.githubusercontent.com/8350994/227415246-17b4ee9e-96de-4f0e-9f10-66983a82de53.png">
 
+#### [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks] (https://arxiv.org/pdf/2005.11401.pdf)
+RAG 解决的痛点是之前的研究比如REALM是基于MLM模型的，只方便做提取任务，其他能做的任务就比较受限，用generator可以赋予其更大的能力。
+https://ai.facebook.com/blog/retrieval-augmented-generation-streamlining-the-creation-of-intelligent-natural-language-processing-models/
+
+<img width="833" alt="image" src="https://user-images.githubusercontent.com/8350994/227430284-f716c91f-2a61-43db-b374-9ce61dc73bdd.png">
+
+
 #### [OpenPrompt: An Open-source Framework for Prompt-learning](https://arxiv.org/pdf/2111.01998.pdf)
 OpenPrompt是一个research-friendly Prompt Tunning框架, 具有效率(efficiency)，模块化(modularity)、可扩展性(extendibility)的特点。用户可以在一个统一的范式中使用不同的PLM、任务格式(task formats)和提示模块，并评估效果。
 
