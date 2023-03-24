@@ -75,5 +75,9 @@ REALM通过Neural Knowledge Retriever检索文本知识库增强语言模型预�
 
 <img width="476" alt="image" src="https://user-images.githubusercontent.com/8350994/227415246-17b4ee9e-96de-4f0e-9f10-66983a82de53.png">
 
+#### [OpenPrompt: An Open-source Framework for Prompt-learning](https://arxiv.org/pdf/2111.01998.pdf)
+OpenPrompt是一个research-friendly Prompt Tunning框架, 具有效率(efficiency)，模块化(modularity)、可扩展性(extendibility)的特点。用户可以在一个统一的范式中使用不同的PLM、任务格式(task formats)和提示模块，并评估效果。
+
+<img width="836" alt="image" src="https://user-images.githubusercontent.com/8350994/227429179-8e33a1df-7d84-4cac-a4e7-a269635d864d.png">
 
 
