@@ -75,11 +75,16 @@ REALM通过Neural Knowledge Retriever检索文本知识库增强语言模型预�
 
 <img width="476" alt="image" src="https://user-images.githubusercontent.com/8350994/227415246-17b4ee9e-96de-4f0e-9f10-66983a82de53.png">
 
-#### [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks] (https://arxiv.org/pdf/2005.11401.pdf)
+#### [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/pdf/2005.11401.pdf)
 RAG 解决的痛点是之前的研究比如REALM是基于MLM模型的，只方便做提取任务，其他能做的任务就比较受限，用generator可以赋予其更大的能力。
 https://ai.facebook.com/blog/retrieval-augmented-generation-streamlining-the-creation-of-intelligent-natural-language-processing-models/
 
 <img width="833" alt="image" src="https://user-images.githubusercontent.com/8350994/227430284-f716c91f-2a61-43db-b374-9ce61dc73bdd.png">
+
+#### [Open Domain Question Answering with A Unified Knowledge Interface](https://arxiv.org/pdf/2110.08417.pdf)
+论文提出了一个用于 ODQA 的 verbalizer-retriever-reader 框架，来自维基百科的文字、表格、图被用作增强知识来源。
+
+<img width="943" alt="image" src="https://user-images.githubusercontent.com/8350994/227441640-2313a245-5751-4d27-8f49-2684e9397182.png">
 
 
 #### [OpenPrompt: An Open-source Framework for Prompt-learning](https://arxiv.org/pdf/2111.01998.pdf)
