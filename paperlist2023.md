@@ -103,6 +103,7 @@ OpenPrompt是一个research-friendly Prompt Tunning框架, 具有效率(efficien
 <img width="530" alt="image" src="https://user-images.githubusercontent.com/8350994/227466369-a7e120e9-1190-4fff-bf85-14cc4b89e20c.png">
 
 整体系统结构如下
+
 <img width="640" alt="image" src="https://user-images.githubusercontent.com/8350994/227469176-35bc998a-b0c2-4651-bf86-6d55a2c90128.png">
 
 
