@@ -65,3 +65,9 @@ Prompt是使用模板 λ 创建的，它结合了x<sub>inp</sub>和x<sub>trig</s
 search确定x<sub>trig</sub> tokens。然后通过p([MASK]|x<sub>prompt</sub>) 预测类别标签y的值。标签y的集合是通过算法自动生成的。
 <img width="976" alt="image" src="https://user-images.githubusercontent.com/8350994/227159328-fa8d13c6-e8df-45ad-b5da-fd7ff5c3ae04.png">
 
+#### [REALM: Retrieval-Augmented Language Model Pre-Training](https://arxiv.org/pdf/2002.08909.pdf)
+REALM 通过Neural Knowledge Retriever检索文本知识库增强语言模型预训练，整个系统是端到端训练的。Retriever将每个文档的embedding都缓存起来，异步更新。最佳匹配文档通过最大内积搜索（MIPS) 得到。
+
+<img width="476" alt="image" src="https://user-images.githubusercontent.com/8350994/227415246-17b4ee9e-96de-4f0e-9f10-66983a82de53.png">
+
+
