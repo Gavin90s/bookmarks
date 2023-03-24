@@ -774,3 +774,5 @@ arpa2fst --disambig-symbol=#0 /home/zhuozhu.zz/tiangong.order4.1e-7.arpa $out_di
 ```
 pip install fire -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
+
+#### [大模型对比评测](https://crfm.stanford.edu/helm/v0.2.0/?group=core_scenarios)
