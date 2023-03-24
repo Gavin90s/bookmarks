@@ -32,6 +32,11 @@ of GPT-3 (Brown et al.,2020) on 9 out of 11 held-out datasets, despite being abo
 2、training on more prompts per dataset consistently improves the median and decreases the variability of performance
 on held-out tasks. 
 ```
+#### [Making Pre-trained Language Models Better Few-shot Learners](https://arxiv.org/pdf/2012.15723.pdf)
+(1) 在 prompt-based fine-tuning 过程中，使用自动化的方法生成 prompt。
+(2) 动态筛选样例加入到context用于模型预训练。
+
+<img width="805" alt="image" src="https://user-images.githubusercontent.com/8350994/227448399-2ee41597-943e-4696-a5b4-01029012465c.png">
 
 #### [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)(GPT3)
 
