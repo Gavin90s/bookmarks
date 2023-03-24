@@ -106,7 +106,7 @@ OpenPrompt是一个research-friendly Prompt Tunning框架, 具有效率(efficien
 
 <img width="640" alt="image" src="https://user-images.githubusercontent.com/8350994/227469176-35bc998a-b0c2-4651-bf86-6d55a2c90128.png">
 
-####[Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering](https://aclanthology.org/2021.eacl-main.74.pdf)
+#### [Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering](https://aclanthology.org/2021.eacl-main.74.pdf)
 文章提出增加Retrieval passages的数量，使用Fusion-in-Decoder方法能大幅增加QA的效果。
 
 <img width="902" alt="image" src="https://user-images.githubusercontent.com/8350994/227504958-fa14930a-fdd6-428c-8585-d5f010cf6444.png">
