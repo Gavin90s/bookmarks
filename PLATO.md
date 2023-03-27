@@ -3,11 +3,11 @@
 
 The classical training objective of dialogue generation is to minimize the negative log-likelihood (NLL) loss:
 
-L<sub>NLL</sub> = − log pθ(r<sub>H</sub>|c) 
+&emsp;&emsp; L<sub>NLL</sub> = − log pθ(r<sub>H</sub>|c) 
     
- The preference estimation (PE) loss is then defined as:
+The preference estimation (PE) loss is then defined as:
  
-L<sub>PE</sub> = −1/3*[log(σ(s(c, r<sub>H</sub>) − s(c, r<sub>M</sub>)))+log(σ(s(c, r<sub>H</sub>) − s(c, r<sub>R</sub>))) + log(σ(s(c, r<sub>M</sub>) − s(c, r<sub>R</sub>)))]
+&emsp;&emsp; L<sub>PE</sub> = −1/3*[log(σ(s(c, r<sub>H</sub>) − s(c, r<sub>M</sub>)))+log(σ(s(c, r<sub>H</sub>) − s(c, r<sub>R</sub>))) + log(σ(s(c, r<sub>M</sub>) − s(c, r<sub>R</sub>)))]
 
  <img width="1013" alt="image" src="https://user-images.githubusercontent.com/8350994/227929218-db0821f5-e135-4497-b1e3-d828419e60dc.png">
 
