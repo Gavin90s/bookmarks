@@ -12,3 +12,5 @@
 
 #### [PLATO: Pre-trained Dialogue Generation Model with Discrete Latent Variable](https://aclanthology.org/2020.acl-main.9.pdf)
 
+
+#### [百度PLATO 知乎](https://www.zhihu.com/question/493911256/answer/2931945930)
