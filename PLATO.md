@@ -12,6 +12,14 @@ The preference estimation (PE) loss is then defined as:
  <img width="1013" alt="image" src="https://user-images.githubusercontent.com/8350994/227929218-db0821f5-e135-4497-b1e3-d828419e60dc.png">
 
 #### [Link the World: Improving Open-domain Conversation with Dynamic Spatiotemporal-aware Knowledge](https://arxiv.org/pdf/2206.14000.pdf)
+发布了DuSinc数据集。可以根据dialog context and spatiotemporal state(时空状态）检索信息服务，进行实时问答服务。
+
+<img width="852" alt="image" src="https://user-images.githubusercontent.com/8350994/227996238-d1102093-6bf2-4970-b40d-84f4b0a9cf3b.png">
+
+基于DuSinc的模型训练才有share parameter的方式。预测query和response,计算NLL(Negative Log Likelihood) loss。
+
+<img width="1015" alt="image" src="https://user-images.githubusercontent.com/8350994/227996545-51b7c64a-afe7-4262-9cea-ce1dd78eb2d3.png">
+
 
 
 #### [PLATO-K: Internal and External Knowledge Enhanced Dialogue Generation](https://arxiv.org/pdf/2211.00910.pdf)
