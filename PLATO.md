@@ -25,7 +25,7 @@ PLATO-K 通过两个阶段的训练，来强化内部知识的记忆和外部知
 
 <img width="922" alt="image" src="https://user-images.githubusercontent.com/8350994/228116207-58960dda-fe02-4bbf-9b13-79833118f4c8.png">
 
-将社会媒体评论和网络文本转化为对话的流程：
+将社会媒体评论(social media comments)和网络文本(web texts)转化为对话的流程：
 
 <img width="912" alt="image" src="https://user-images.githubusercontent.com/8350994/228116367-87621aab-7191-406c-98fa-531afd2bf0fb.png">
 
