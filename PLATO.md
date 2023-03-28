@@ -47,6 +47,12 @@ PLATO-XL 拥有11B参数, 训练自**中英文社交媒体(social media)对话**
 
 
 #### [PLATO: Pre-trained Dialogue Generation Model with Discrete Latent Variable](https://aclanthology.org/2020.acl-main.9.pdf)
+上下文部分(context)使用bi-directional attention，在response 部分使用uni-directional attention，使用discrete latent variables保证结果的多样性。模型的网络结构如下，
+
+<img width="819" alt="image" src="https://user-images.githubusercontent.com/8350994/228151633-b33153ac-9ff4-48ab-8c41-0e191f326b7d.png">
+
+预训练的LOSS包括，L = L<sub>NLL</sub> + L<sub>BOW</sub> + L<sub>RS</sub> 
+<br/> negative log-likelihood (NLL) loss, bag-of-words (BOW) loss and response selection (RS) loss.
 
 
 #### [百度PLATO 知乎](https://www.zhihu.com/question/493911256/answer/2931945930)
