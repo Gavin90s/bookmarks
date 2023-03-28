@@ -30,7 +30,7 @@ PLATO-K 通过两个阶段的训练，来强化内部知识的记忆和外部知
 <img width="912" alt="image" src="https://user-images.githubusercontent.com/8350994/228116367-87621aab-7191-406c-98fa-531afd2bf0fb.png">
 
 
-#### [PLATO-XL: Exploring the Large-scale Pre-training of Dialogue Generation](https://arxiv.org/pdf/2211.00910.pdf)
+#### [PLATO-XL: Exploring the Large-scale Pre-training of Dialogue Generation](https://arxiv.org/pdf/2109.09519.pdf)
 
 
 #### [PLATO: Pre-trained Dialogue Generation Model with Discrete Latent Variable](https://aclanthology.org/2020.acl-main.9.pdf)
