@@ -46,6 +46,11 @@ PLATO-XL 拥有11B参数, 训练自**中英文社交媒体(social media)对话**
 <img width="1082" alt="image" src="https://user-images.githubusercontent.com/8350994/228124645-9da62cb6-00ce-48f8-b330-96cf03ddc0bc.png">
 
 
+#### [PLATO-2: Towards Building an Open-Domain Chatbot via Curriculum Learning](https://arxiv.org/pdf/2006.16779.pdf)
+在训练过程中引入课程学习，将学习阶段分为2步。
+<img width="1013" alt="image" src="https://user-images.githubusercontent.com/8350994/228158532-27871520-c365-4379-b000-51db098865b9.png">
+
+
 #### [PLATO: Pre-trained Dialogue Generation Model with Discrete Latent Variable](https://aclanthology.org/2020.acl-main.9.pdf)
 上下文部分(context)使用bi-directional attention，在response 部分使用uni-directional attention，使用discrete latent variables保证结果的多样性。模型的网络结构如下，
 
