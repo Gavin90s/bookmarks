@@ -54,5 +54,9 @@ PLATO-XL 拥有11B参数, 训练自**中英文社交媒体(social media)对话**
 预训练的LOSS包括，L = L<sub>NLL</sub> + L<sub>BOW</sub> + L<sub>RS</sub> 
 <br/> negative log-likelihood (NLL) loss, bag-of-words (BOW) loss and response selection (RS) loss.
 
+训练流程较为复杂，每个训练样本包含context and target response (c, r)，需要过2次网络。
+<br/>&emsp;&emsp;1）Latent Act Recognition, 计算latent variable z的后验概率分布 the posterior distribution p(z|c, r)，随机抽样负样本r−， 计算L<sub>RS</sub>
+<br/>&emsp;&emsp;2) Response Generation，使用抽样得到的latent value z ∼ p(z|c, r), 计算 L<sub>NLL</sub> and L<sub>BOW</sub>
+<br/>&emsp;&emsp;3) Optimization, Sum up to obtain LOSS
 
 #### [百度PLATO 知乎](https://www.zhihu.com/question/493911256/answer/2931945930)
