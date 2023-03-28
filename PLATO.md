@@ -20,9 +20,14 @@ The preference estimation (PE) loss is then defined as:
 
 <img width="1015" alt="image" src="https://user-images.githubusercontent.com/8350994/227996545-51b7c64a-afe7-4262-9cea-ce1dd78eb2d3.png">
 
-
-
 #### [PLATO-K: Internal and External Knowledge Enhanced Dialogue Generation](https://arxiv.org/pdf/2211.00910.pdf)
+PLATO-K 通过两个阶段的训练，来强化内部知识的记忆和外部知识的利用。第一阶段，PLATO-K 通过预训练和finetune，从大量的对话数据中学习必要的知识。第二阶段，PLATO-K 学习在response中使用搜索到外部信息。
+
+<img width="922" alt="image" src="https://user-images.githubusercontent.com/8350994/228116207-58960dda-fe02-4bbf-9b13-79833118f4c8.png">
+
+将社会媒体评论和网络文本转化为对话的流程：
+
+<img width="912" alt="image" src="https://user-images.githubusercontent.com/8350994/228116367-87621aab-7191-406c-98fa-531afd2bf0fb.png">
 
 
 #### [PLATO-XL: Exploring the Large-scale Pre-training of Dialogue Generation](https://arxiv.org/pdf/2211.00910.pdf)
