@@ -31,10 +31,19 @@ PLATO-K 通过两个阶段的训练，来强化内部知识的记忆和外部知
 
 
 #### [PLATO-XL: Exploring the Large-scale Pre-training of Dialogue Generation](https://arxiv.org/pdf/2109.09519.pdf)
-PLATO-XL 拥有11B参数, 训练自**中英文社交媒体(social media)对话**。在预训练过程中，使用了multi-party aware pretraining区分对话的类型。PLATO-XL在中英文闲聊、任务型对话上都取得了SOTA的效果。
+PLATO-XL 拥有11B参数, 训练自**中英文社交媒体(social media)对话**。PLATO-XL在中英文闲聊、任务型对话上都取得了SOTA的效果。在预训练过程中，使用了multi-party aware pretraining区分对话的类型。
+
+社交媒体(social media)对话的特点：
+
+&emsp;&emsp;1) 在某个上下文环境(contexts)中，会存在不同层次(multi-level)评论(comments).
+
+&emsp;&emsp;2) 多个用户(multiple users)会参与到同一个对话中。 
+
+任何一条从根节点(root node)到叶子节点(tree node)的路径都能被视为一段包含对话上下文和回复的完整对话。
+
+<img width="1082" alt="image" src="https://user-images.githubusercontent.com/8350994/228124645-9da62cb6-00ce-48f8-b330-96cf03ddc0bc.png">
 
 <img width="986" alt="image" src="https://user-images.githubusercontent.com/8350994/228120021-57db1546-208f-4798-878d-c412f3716456.png">
-
 
 
 #### [PLATO: Pre-trained Dialogue Generation Model with Discrete Latent Variable](https://aclanthology.org/2020.acl-main.9.pdf)
