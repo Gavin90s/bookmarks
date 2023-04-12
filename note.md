@@ -776,3 +776,11 @@ pip install fire -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 #### [大模型对比评测](https://crfm.stanford.edu/helm/v0.2.0/?group=core_scenarios)
+
+#### git LFS 文件pointer丢失的问题
+```
+Encountered 1 file that should have been a pointer, but wasn't:
+        resources/tf-idf/HX11_CN_全量电子版用户手册.review.all.txt
+(base) zhuozhu@appledeMacBook-Pro-2 chatgpt-pdf-qa-poc % git lfs fsck --pointers
+Git LFS fsck OK
+```
