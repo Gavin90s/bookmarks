@@ -111,3 +111,4 @@ OpenPrompt是一个research-friendly Prompt Tunning框架, 具有效率(efficien
 
 <img width="902" alt="image" src="https://user-images.githubusercontent.com/8350994/227504958-fa14930a-fdd6-428c-8585-d5f010cf6444.png">
 
+#### [Emergent Abilities of Large Language Models](https://arxiv.org/pdf/2206.07682.pdf)
