@@ -114,3 +114,5 @@ OpenPrompt是一个research-friendly Prompt Tunning框架, 具有效率(efficien
 #### [Emergent Abilities of Large Language Models](https://arxiv.org/pdf/2206.07682.pdf)
 
 #### [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/pdf/2302.04761.pdf)
+
+#### [Unsupervised Key-phrase Extraction and Clustering for Classification Scheme in Scientific Publications](https://arxiv.org/pdf/2101.09990.pdf)
