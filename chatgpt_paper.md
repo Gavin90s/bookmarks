@@ -1,3 +1,4 @@
+```
 为了写本ChatGPT笔记，过去两个月翻了大量中英文资料/paper(中间一度花了大量时间去深入RL)，大部分时间读的更多是中文资料，2月最后几天读的更多是英文paper，正是2月底这最后几天对ChatGPT背后技术原理的研究才真正进入状态(后还组建了一个“ChatGPT之100篇论文阅读组”，我和10来位博士、业界大佬从23年2.27日起100天读完ChatGPT相关技术的100篇论文)，当然 还在不断深入，由此而感慨： 
 
 读的论文越多，你会发现大部分人对ChatGPT的技术解读都是不够准确或全面的，毕竟很多人没有那个工作需要或研究需要，去深入了解各种细节
@@ -239,3 +240,4 @@ Transformer-XL: Attentive language models beyond a fixed-length context
 Tensor programs v: Tuning large neural networks via zero-shot hyperparameter transfer. arXiv preprint arXiv:2203.03466, 2022
 Opt: Open pre-trained transformer language models. arXiv preprint arXiv:2205.01068, 2022
 Language models are unsupervised multitask learners. 2019
+```
