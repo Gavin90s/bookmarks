@@ -118,3 +118,6 @@ OpenPrompt是一个research-friendly Prompt Tunning框架, 具有效率(efficien
 #### [Unsupervised Key-phrase Extraction and Clustering for Classification Scheme in Scientific Publications](https://arxiv.org/pdf/2101.09990.pdf)
 
 #### [ZeRO-Offload: Democratizing Billion-Scale Model Training](https://arxiv.org/pdf/2101.06840.pdf)
+将模型训练流程，拆分为gpu和cpu上的流程。
+<img width="643" alt="image" src="https://user-images.githubusercontent.com/8350994/233888504-846f4ea3-dbd1-4f4d-ad09-46df5eb2bf6f.png">
+
