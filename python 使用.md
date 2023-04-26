@@ -16,7 +16,7 @@ pickle.dump(info, file_handler)
 ### pytorch 中的 @ 和 * 运算符
 @ 和 * 代表矩阵的两种相乘方式：
 @ 表示常规的数学上定义的矩阵相乘；
-* 表示两个矩阵对应位置处的两个元素相乘
+\* 表示两个矩阵对应位置处的两个元素相乘
 ```
 import torch
 x = torch.tensor([[1, 2], [3, 4]])
