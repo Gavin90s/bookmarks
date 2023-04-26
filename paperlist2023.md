@@ -122,3 +122,4 @@ OpenPrompt是一个research-friendly Prompt Tunning框架, 具有效率(efficien
 
 <img width="643" alt="image" src="https://user-images.githubusercontent.com/8350994/233888504-846f4ea3-dbd1-4f4d-ad09-46df5eb2bf6f.png">
 
+#### [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/pdf/2106.09685.pdf)
