@@ -125,3 +125,5 @@ OpenPrompt是一个research-friendly Prompt Tunning框架, 具有效率(efficien
 #### [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/pdf/2106.09685.pdf)
 
 #### [Teaching models to express their uncertainty in words](https://arxiv.org/pdf/2205.14334.pdf)
+
+#### [Language Models (Mostly) Know What They Know](https://arxiv.org/pdf/2207.05221.pdf)
