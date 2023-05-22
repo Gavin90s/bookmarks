@@ -127,3 +127,6 @@ OpenPrompt是一个research-friendly Prompt Tunning框架, 具有效率(efficien
 #### [Teaching models to express their uncertainty in words](https://arxiv.org/pdf/2205.14334.pdf)
 
 #### [Language Models (Mostly) Know What They Know](https://arxiv.org/pdf/2207.05221.pdf)
+
+#### [Text and Code Embeddings by Contrastive Pre-Training](https://cdn.openai.com/papers/Text_and_Code_Embeddings_by_Contrastive_Pre_Training.pdf)
+
