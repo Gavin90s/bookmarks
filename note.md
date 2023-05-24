@@ -794,3 +794,5 @@ Git LFS fsck OK
 #### [在任务型对话里面，WOZ是什么意思？](https://zhuanlan.zhihu.com/p/344837663)
 （Wizard-of-Oz，中文译名为绿野仙踪，又叫做奥兹国奇遇记）数据集构造方法是一种非常常见的方法，简要来说就是为了实现一个人机对话的语料库，我们让一个人来扮演“机器”（叫做Wizard），另一个来扮演人（human），通过他们的human-human对话为模型提供高质量语料。从经典的ATIS数据集，再到现在multi-domain领域非常热门的数据集系列，New Woz（MultiWoz1.0）、MultiWoz2.0、2.1，2.2都是基于此方法。
 
+#### [CrossWOZ 数据集](https://arxiv.org/pdf/2002.11893.pdf)
+CrossWOZ: A Large-Scale Chinese Cross-Domain Task-Oriented Dialogue Dataset
