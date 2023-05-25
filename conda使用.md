@@ -62,4 +62,8 @@ tar -xzf my_env.tar.gz -C my_env
 # 使用python而不激活或修复前缀。 
 # 大多数 python 库可以正常工作，但需要处理前缀的部分将失败。 
 ./my_env/bin/python 
+
+conda init bash 修复提示符问题
+<img width="576" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/351344f4-df96-47ce-8f59-6dca8e14812a">
+
 ```
