@@ -130,3 +130,4 @@ OpenPrompt是一个research-friendly Prompt Tunning框架, 具有效率(efficien
 
 #### [Text and Code Embeddings by Contrastive Pre-Training](https://cdn.openai.com/papers/Text_and_Code_Embeddings_by_Contrastive_Pre_Training.pdf)
 
+#### [SYMBOL TUNING IMPROVES IN-CONTEXT LEARNING IN LANGUAGE MODELS](https://arxiv.org/pdf/2305.08298.pdf)
