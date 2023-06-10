@@ -133,3 +133,7 @@ OpenPrompt是一个research-friendly Prompt Tunning框架, 具有效率(efficien
 #### [Symbol Tuning Improves In-Context Learning In Language Models](https://arxiv.org/pdf/2305.08298.pdf)
 
 #### [Multi-Task Pre-Training for Plug-and-Play Task-Oriented Dialogue System](https://arxiv.org/pdf/2109.14739.pdf)
+
+#### [Unsupervised Deep Keyphrase Generation](https://arxiv.org/pdf/2104.08729.pdf)
+<img width="962" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/f57299e8-46d2-4921-b105-5075bb6fe9fc">
+
