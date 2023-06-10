@@ -137,3 +137,4 @@ OpenPrompt是一个research-friendly Prompt Tunning框架, 具有效率(efficien
 #### [Unsupervised Deep Keyphrase Generation](https://arxiv.org/pdf/2104.08729.pdf)
 <img width="962" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/f57299e8-46d2-4921-b105-5075bb6fe9fc">
 
+#### [Scaling Data-Constrained Language Models](https://arxiv.org/pdf/2305.16264.pdf)
