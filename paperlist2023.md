@@ -142,3 +142,4 @@ OpenPrompt是一个research-friendly Prompt Tunning框架, 具有效率(efficien
 #### [How to Train Your DRAGON: Diverse Augmentation Towards Generalizable Dense Retrieval](https://arxiv.org/pdf/2302.07452.pdf)
 
 #### [SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking](https://arxiv.org/pdf/2107.05720.pdf)
+在检索的第一阶段retrieval candidate generation，通过使用bert来给query和doc的词打权重。
