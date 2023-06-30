@@ -143,3 +143,8 @@ OpenPrompt是一个research-friendly Prompt Tunning框架, 具有效率(efficien
 
 #### [SPLADE: Sparse Lexical and Expansion Model for First Stage Ranking](https://arxiv.org/pdf/2107.05720.pdf)
 在检索的第一阶段retrieval candidate generation，通过使用bert来给query和doc的词打权重。
+
+#### [Fast and Constrained Absent Keyphrase Generation by Prompt-Based Learning]
+<img width="1200" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/d23e21fa-5ff8-4e94-8848-8a0c70c747ce">
+
+
