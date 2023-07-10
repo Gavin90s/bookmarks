@@ -8,10 +8,10 @@
 
 #### 提取句向量的transformer (sentence transformer)
 sentence transformer（bi-encoders）
-![image](https://github.com/Gavin90s/bookmarks/assets/8350994/ca5c6084-7355-42ff-b8cf-a0c3a0391ba3)
+<img width="670" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/5dc3da20-a1d1-4f5c-bf85-b7610fc086c6">
 
 交叉编码器（cross-encoder）
-![image](https://github.com/Gavin90s/bookmarks/assets/8350994/ff9e2e59-b092-47ab-9745-a37e02296d1
+<img width="673" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/cf2a2a73-c367-4e1e-8f7c-8a55b0efd270">
 
 
 用Cross-Encoder对所有挖掘出的段落进行分类, 使用Cross-Encoder帮助Bi-Encoder挖掘困难负例。
