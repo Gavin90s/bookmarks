@@ -11,6 +11,7 @@ sentence transformer（bi-encoders）
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/ca5c6084-7355-42ff-b8cf-a0c3a0391ba3)
 
 交叉编码器（cross-encoder）
-![image](https://github.com/Gavin90s/bookmarks/assets/8350994/ff9e2e59-b092-47ab-9745-a37e02296d1d)
+![image](https://github.com/Gavin90s/bookmarks/assets/8350994/ff9e2e59-b092-47ab-9745-a37e02296d1
+
 
 用Cross-Encoder对所有挖掘出的段落进行分类, 使用Cross-Encoder帮助Bi-Encoder挖掘困难负例。
