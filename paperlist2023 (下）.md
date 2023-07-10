@@ -10,6 +10,7 @@
 sentence transformer（bi-encoders）
 <img width="670" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/5dc3da20-a1d1-4f5c-bf85-b7610fc086c6">
 
+
 交叉编码器（cross-encoder）
 <img width="673" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/cf2a2a73-c367-4e1e-8f7c-8a55b0efd270">
 
