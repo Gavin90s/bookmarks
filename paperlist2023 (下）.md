@@ -7,10 +7,12 @@
 <img width="972" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/1158e1f5-8341-46dd-b8f7-2ef876312a14">
 
 #### 提取句向量的transformer (sentence transformer)
+
+
 sentence transformer（bi-encoders）
 
 
-<img width="678" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/71df0670-2c35-480a-938d-04ee930cbe65">
+<img width="669" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/9c31cf6c-2b8e-46b6-a765-3067bb8e76e1">
 
 
 交叉编码器（cross-encoder）
