@@ -7,6 +7,8 @@
 <img width="972" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/1158e1f5-8341-46dd-b8f7-2ef876312a14">
 
 #### 提取句向量的transformer (sentence transformer)
+
+
 sentence transformer（bi-encoders）
 <img width="670" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/5dc3da20-a1d1-4f5c-bf85-b7610fc086c6">
 
