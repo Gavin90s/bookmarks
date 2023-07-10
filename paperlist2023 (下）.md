@@ -10,11 +10,11 @@
 sentence transformer（bi-encoders）
 
 
-<img width="670" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/5dc3da20-a1d1-4f5c-bf85-b7610fc086c6">
+<img width="678" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/71df0670-2c35-480a-938d-04ee930cbe65">
 
 
 交叉编码器（cross-encoder）
-<img width="673" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/cf2a2a73-c367-4e1e-8f7c-8a55b0efd270">
+<img width="659" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/68933a47-146d-48bb-a059-d6dffe161de4">
 
 
 用Cross-Encoder对所有挖掘出的段落进行分类, 使用Cross-Encoder帮助Bi-Encoder挖掘困难负例。
