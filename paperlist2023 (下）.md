@@ -16,6 +16,8 @@ sentence transformer（bi-encoders）
 
 
 交叉编码器（cross-encoder）
+
+
 <img width="659" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/68933a47-146d-48bb-a059-d6dffe161de4">
 
 
