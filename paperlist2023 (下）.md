@@ -22,3 +22,6 @@ sentence transformer（bi-encoders）
 
 
 用Cross-Encoder对所有挖掘出的段落进行分类, 使用Cross-Encoder帮助Bi-Encoder挖掘困难负例。
+
+#### Constitutional AI
+Constitutional AI is a technique that aims to imbue systems with “values” defined by a “constitution”³. This makes the behavior of systems both easier to understand and simpler to adjust as needed³. The system uses a set of principles to make judgments about outputs, hence the term “Constitutional”
