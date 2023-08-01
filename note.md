@@ -796,3 +796,9 @@ Git LFS fsck OK
 
 #### [CrossWOZ 数据集](https://arxiv.org/pdf/2002.11893.pdf)
 CrossWOZ: A Large-Scale Chinese Cross-Domain Task-Oriented Dialogue Dataset
+
+#### multi-hop QA
+multi-hop QA, 具体来说，给定一个问题，系统只通过一个文档是无法正确回答问题的，需要根据多篇文档回答一个问题，需要多跳推理。
+
+![image](https://github.com/Gavin90s/bookmarks/assets/8350994/5b9b01be-dc44-4b34-86ad-26e99883ac3d)
+
