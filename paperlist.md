@@ -534,3 +534,9 @@ Efficient Conformer with Prob-Sparse Attention Mechanism for End-to-End Speech R
 Deep Sparse Conformer for Speech Recognition
 
 Rethinking Attention with Performers
+
+Edit Distance based RL for RNNT decoding
+
+Mixture-of-Expert Conformer for Streaming Multilingual ASR
+
+mmT5: Modular Multilingual Pre-Training Solves Source Language Hallucinations
