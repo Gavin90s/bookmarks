@@ -25,3 +25,16 @@ sentence transformer（bi-encoders）
 
 #### Constitutional AI
 Constitutional AI is a technique that aims to imbue systems with “values” defined by a “constitution”³. This makes the behavior of systems both easier to understand and simpler to adjust as needed³. The system uses a set of principles to make judgments about outputs, hence the term “Constitutional”
+
+#### [Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned](https://arxiv.org/pdf/2209.07858.pdf)
+
+#### [TRAIN SHORT, TEST LONG: ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION](https://arxiv.org/pdf/2108.12409.pdf)
+
+#### [Adafactor: Adaptive Learning Rates with Sublinear Memory Cost](https://arxiv.org/pdf/1804.04235.pdf)
+
+#### [Scaling Laws and Interpretability of Learning from Repeated Data](https://arxiv.org/pdf/2205.10487.pdf)
+
+#### [GPT-4 Technical Report](https://arxiv.org/pdf/2303.08774.pdf)
+
+#### [TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://arxiv.org/pdf/2109.07958.pdf)
+
