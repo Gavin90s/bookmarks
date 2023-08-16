@@ -13,6 +13,7 @@ specificity 明确性; 具体性; 独特性;
 remarkable 非凡的; 显著的; 引人注目的; 奇异的;
 periodic 周期性; 周期的; 定期的; 间发性的;
 Held-out tasks (tasks which data not included in the finetuning data)
+Held-In tasks (tasks which data included in the finetuning data)
 implicit 含蓄的; 不直接言明的; 成为一部分的; 内含的; 完全的; 无疑问的;
 implicit multitask learning, language model pretraining training process.
 explicit multitask learning, the technique for mixing multiple tasks into a single supervised training process.
