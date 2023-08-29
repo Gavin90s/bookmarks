@@ -38,4 +38,6 @@ Constitutional AI is a technique that aims to imbue systems with “values” de
 
 #### [TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://arxiv.org/pdf/2109.07958.pdf)
 
-#### [Generator-Retriever-Generator: A Novel Approach to Open-domain](Question Answeringhttps://arxiv.org/pdf/2307.11278.pdf)
+#### [Generator-Retriever-Generator: A Novel Approach to Open-domain](https://arxiv.org/pdf/2307.11278.pdf)
+
+#### [A Synthetic Data Generation Framework for Grounded Dialogues](https://aclanthology.org/2023.acl-long.608v2.pdf)
