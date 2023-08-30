@@ -801,3 +801,11 @@ CrossWOZ: A Large-Scale Chinese Cross-Domain Task-Oriented Dialogue Dataset
 multi-hop QA, 具体来说，给定一个问题，系统只通过一个文档是无法正确回答问题的，需要根据多篇文档回答一个问题，需要多跳推理。
 <img width="503" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/87c52809-eec3-43e5-8739-e573f9754c9c">
 
+#### vimdiff 导出文件
+vimdiff ~/Desktop/领克08多轮对话_part1.new.csv ~/Desktop/领克08多轮对话_part1_raw.csv -c TOhtml -c 'set nu' -c 'w! diff.html' -c 'qa!'
+vimdiff $1 $2
+:set nu
+:TOhtml
+:w diff.html
+
+
