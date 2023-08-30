@@ -803,9 +803,11 @@ multi-hop QA, 具体来说，给定一个问题，系统只通过一个文档是
 
 #### vimdiff 导出文件
 vimdiff ~/Desktop/领克08多轮对话_part1.new.csv ~/Desktop/领克08多轮对话_part1_raw.csv -c TOhtml -c 'set nu' -c 'w! diff.html' -c 'qa!'
+```
 vimdiff $1 $2
 :set nu
 :TOhtml
 :w diff.html
+```
 
 
