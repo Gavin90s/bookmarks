@@ -43,3 +43,5 @@ Constitutional AI is a technique that aims to imbue systems with “values” de
 #### [A Synthetic Data Generation Framework for Grounded Dialogues](https://aclanthology.org/2023.acl-long.608v2.pdf)
 
 #### [GLM-Dialog: Noise-tolerant Pre-training for Knowledge-grounded Dialogue Generation](https://arxiv.org/pdf/2302.14401v1.pdf)
+
+#### [RLAIF: Scaling Reinforcement Learning from Human Feedback with AI Feedback](https://arxiv.org/pdf/2309.00267.pdf)
