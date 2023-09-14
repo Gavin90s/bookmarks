@@ -46,4 +46,4 @@ Constitutional AI is a technique that aims to imbue systems with “values” de
 
 #### [RLAIF: Scaling Reinforcement Learning from Human Feedback with AI Feedback](https://arxiv.org/pdf/2309.00267.pdf)
 
-#### [https://arxiv.org/pdf/2305.10403.pdf](https://arxiv.org/pdf/2305.10403.pdf)
+#### [PaLM 2 Technical Report](https://arxiv.org/pdf/2305.10403.pdf)
