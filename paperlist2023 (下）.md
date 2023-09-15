@@ -49,3 +49,5 @@ Constitutional AI is a technique that aims to imbue systems with “values” de
 #### [PaLM 2 Technical Report](https://arxiv.org/pdf/2305.10403.pdf)
 
 #### [IncreLoRA: Incremental Parameter Allocation Method for Parameter-Efficient Fine-tuning](https://arxiv.org/pdf/2308.12043.pdf)
+
+#### [GLM-Dialog: Noise-tolerant Pre-training for Knowledge-grounded Dialogue Generation](https://arxiv.org/pdf/2302.14401v1.pdf)
