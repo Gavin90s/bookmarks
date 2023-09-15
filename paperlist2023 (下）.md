@@ -54,4 +54,4 @@ Constitutional AI is a technique that aims to imbue systems with “values” de
 
 #### [MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION](https://arxiv.org/pdf/2110.08207.pdf)
 
-#### [Training language models to follow instructions with human feedback] (https://arxiv.org/pdf/2203.02155.pdf)
+#### [Training language models to follow instructions with human feedback](https://arxiv.org/pdf/2203.02155.pdf)
