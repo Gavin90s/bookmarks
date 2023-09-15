@@ -57,3 +57,5 @@ Constitutional AI is a technique that aims to imbue systems with “values” de
 #### [Training language models to follow instructions with human feedback](https://arxiv.org/pdf/2203.02155.pdf)
 
 #### [Efficient Open Domain Multi-Hop Question Answering with Few-Shot Data Synthesis](https://arxiv.org/pdf/2305.13691.pdf)
+
+#### [FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning](https://arxiv.org/pdf/2307.08691.pdf)
