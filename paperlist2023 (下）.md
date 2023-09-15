@@ -53,3 +53,5 @@ Constitutional AI is a technique that aims to imbue systems with “values” de
 #### [GLM-Dialog: Noise-tolerant Pre-training for Knowledge-grounded Dialogue Generation](https://arxiv.org/pdf/2302.14401v1.pdf)
 
 #### [MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION](https://arxiv.org/pdf/2110.08207.pdf)
+
+#### [Training language models to follow instructions with human feedback] (https://arxiv.org/pdf/2203.02155.pdf)
