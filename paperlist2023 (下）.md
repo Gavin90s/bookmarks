@@ -65,3 +65,5 @@ Constitutional AI is a technique that aims to imbue systems with “values” de
 #### [TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://arxiv.org/pdf/2109.07958.pdf)
 
 #### [EXTENDING CONTEXT WINDOW OF LARGE LANGUAGE MODELS VIA POSITION INTERPOLATION](https://arxiv.org/pdf/2306.15595.pdf)
+
+#### [ByteTransformer: A High-Performance Transformer Boosted for Variable-Length Inputs](https://arxiv.org/pdf/2210.03052.pdf)
