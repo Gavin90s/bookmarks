@@ -73,3 +73,5 @@ Constitutional AI is a technique that aims to imbue systems with “values” de
 #### [复旦大学：大规模语言模型从理论到实践](https://intro-llm.github.io/chapter/LLM-TAP.pdf)
 
 #### [Instruction Tuning for Large Language Models: A Survey](https://arxiv.org/pdf/2308.10792.pdf)
+
+#### [C-Pack: Packaged Resources To Advance General Chinese Embedding](https://arxiv.org/pdf/2309.07597.pdf)
