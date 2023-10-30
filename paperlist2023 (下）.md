@@ -77,3 +77,5 @@ Constitutional AI is a technique that aims to imbue systems with “values” de
 #### [C-Pack: Packaged Resources To Advance General Chinese Embedding](https://arxiv.org/pdf/2309.07597.pdf)
 
 #### [New Intent Discovery with Pre-training and Contrastive Learning](https://arxiv.org/pdf/2205.12914.pdf)
+
+#### [Enhancing Chat Language Models by Scaling High-quality Instructional Conversations](https://arxiv.org/pdf/2305.14233.pdf)
