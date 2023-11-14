@@ -80,7 +80,7 @@ Constitutional AI is a technique that aims to imbue systems with “values” de
 
 #### [Enhancing Chat Language Models by Scaling High-quality Instructional Conversations](https://arxiv.org/pdf/2305.14233.pdf)
 
-#### [MAKING RETRIEVAL-AUGMENTED LANGUAGE MODELS ROBUST TO IRRELEVANT CONTEXT](https://openreview.net/pdf?id=ZS4m74kZpH)
+#### [Making Retrieval-Augmented Language Models Robust to Irrelevant Context](https://openreview.net/pdf?id=ZS4m74kZpH)
 
 #### [Self-Adaptive In-Context Learning: An Information Compression Perspective for In-Context Example Selection and Ordering](https://arxiv.org/pdf/2212.10375.pdf)
 
