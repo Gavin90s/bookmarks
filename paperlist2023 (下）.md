@@ -84,3 +84,4 @@ Constitutional AI is a technique that aims to imbue systems with “values” de
 
 #### [Self-Adaptive In-Context Learning: An Information Compression Perspective for In-Context Example Selection and Ordering](https://arxiv.org/pdf/2212.10375.pdf)
 
+#### [FLAMES: BENCHMARKING VALUE ALIGNMENT OF CHINESE LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2311.06899.pdf)
