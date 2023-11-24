@@ -87,3 +87,5 @@ Constitutional AI is a technique that aims to imbue systems with “values” de
 #### [FLAMES: BENCHMARKING VALUE ALIGNMENT OF CHINESE LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2311.06899.pdf)
 
 #### [Continuous Training and Fine-tuning for Domain-Specific Language Models in Medical Question Answering](https://arxiv.org/pdf/2311.00204.pdf)
+
+#### [System 2 Attention (is something you might need too)](https://arxiv.org/pdf/2311.11829.pdf)
