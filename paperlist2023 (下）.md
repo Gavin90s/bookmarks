@@ -92,3 +92,4 @@ Constitutional AI is a technique that aims to imbue systems with “values” de
 
 #### [Query2doc: Query Expansion with Large Language Models](https://arxiv.org/pdf/2303.07678.pdf)
 
+#### [Learning to Retrieve In-Context Examples for Large Language Models](https://arxiv.org/pdf/2307.07164.pdf)
