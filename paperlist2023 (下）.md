@@ -100,3 +100,10 @@ Constitutional AI is a technique that aims to imbue systems with “values” de
 然后训练dense retriever。
 ````
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/dab86d4b-0d43-4c1e-bd07-4e4aab242b09)
+
+#### [Unified Demonstration Retriever for In-Context Learning](https://arxiv.org/pdf/2305.04320.pdf)
+````
+训练一个 Unified Demonstration Retriever（UDR），而不是 task-specific retrievers for several tasks separately。
+训练 UDR, 使用语言模型将训练数据整理成unified listwise ranking formulation 训练 Bi-encoder embeddin 特征提取。
+````
+![Uploading image.png…]()
