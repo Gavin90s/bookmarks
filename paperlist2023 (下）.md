@@ -95,4 +95,7 @@ Constitutional AI is a technique that aims to imbue systems with “values” de
 #### [Learning to Retrieve In-Context Examples for Large Language Models](https://arxiv.org/pdf/2307.07164.pdf)
 
 #### [Learning To Retrieve Prompts for In-Context Learning](https://arxiv.org/pdf/2112.08633.pdf)
+````
+用BM25检索到candidates，然后使用LM scorer 打分，得分高的当作正样本，得分低的当作hard negatives, 然后训练dense retriever。
+````
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/dab86d4b-0d43-4c1e-bd07-4e4aab242b09)
