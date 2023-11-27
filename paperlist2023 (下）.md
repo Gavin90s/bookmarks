@@ -106,11 +106,14 @@ Constitutional AI is a technique that aims to imbue systems with “values” de
 训练一个 Unified Demonstration Retriever（UDR），而不是 task-specific retrievers for several tasks separately。
 训练 UDR, 使用语言模型将训练数据整理成unified listwise ranking formulation 训练 Bi-encoder embeddin 特征提取。
 Retrieval Methods 包括：BM25、SBert(Sentence Bert)、Instructor、DR-Target、EPR、UDR。
+````
+````
 UDR 的loss包含2个部分：1、rank list 排序的loss。2、constractive loss。
+````
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/2a1e47cc-f0a9-4c46-8afe-2c427317b95a)
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/1a56ebc2-2865-4027-b45b-775f3f139a4a)
 
-````
+
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/8a73443d-6c60-4319-9e2f-e8aaf92deeff)
 
 
