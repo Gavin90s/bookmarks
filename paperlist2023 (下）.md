@@ -118,3 +118,5 @@ UDR 的loss包含2个部分：1、rank list 排序的loss。2、constractive los
 
 #### [SELF-INSTRUCT: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/pdf/2212.10560.pdf)
 
+#### [Fine-Tuning LLaMA for Multi-Stage Text Retrieval](https://arxiv.org/pdf/2310.08319.pdf)
+
