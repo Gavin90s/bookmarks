@@ -91,6 +91,9 @@ Constitutional AI is a technique that aims to imbue systems with “values” de
 #### [System 2 Attention (is something you might need too)](https://arxiv.org/pdf/2311.11829.pdf)
 
 #### [Query2doc: Query Expansion with Large Language Models](https://arxiv.org/pdf/2303.07678.pdf)
+````
+在BM25检索前，先使用 LLMs 对 query 进行 expansion. 相对于 BM25， query expansion 能够提升效果相对 3%～ 15%。
+````
 
 #### [Learning to Retrieve In-Context Examples for Large Language Models](https://arxiv.org/pdf/2307.07164.pdf)
 
