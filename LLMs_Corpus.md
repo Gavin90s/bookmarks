@@ -8,6 +8,7 @@
 #### [中文有哪些对话数据集？](https://www.zhihu.com/question/273625918/answer/2988303343?utm_id=0)
 #### GSM8K是OpenAI推出的一个包含8500个中学水平的高质量数学题数据集。
 #### [NQ-Open 数据集](https://huggingface.co/datasets/nq_open)
+全部都是信息获取类问题，数据的内容来自维基百科。
 ````
 The NQ-Open task, introduced by Lee et.al. 2019, is an open domain question answering benchmark
 that is derived from Natural Questions. The goal is to predict an English answer string for an
