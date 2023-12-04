@@ -126,4 +126,9 @@ UDR 的loss包含2个部分：1、rank list 排序的loss。2、constractive los
 #### [Large Language Models Need Holistically Thought in Medical Conversational QA](https://arxiv.org/pdf/2305.05410.pdf)
 
 #### [Efficient Fine-tuning Large Language Models for Knowledge-Aware Response Planning](https://arxiv.org/pdf/2308.16753v1.pdf)
+````
+亚马逊alex团队的论文，提出按2个阶段来finetune LLMs提升效果，先进行f(q,c)的finetune，然后f(q）finetune。
+````
+![image](https://github.com/Gavin90s/bookmarks/assets/8350994/95dd986b-8a80-48c0-bd12-48538348ede0)
+
 
