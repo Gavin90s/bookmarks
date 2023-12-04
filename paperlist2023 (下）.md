@@ -123,3 +123,5 @@ UDR 的loss包含2个部分：1、rank list 排序的loss。2、constractive los
 
 #### [Fine-Tuning LLaMA for Multi-Stage Text Retrieval](https://arxiv.org/pdf/2310.08319.pdf)
 
+#### [Large Language Models Need Holistically Thought in Medical Conversational QA](https://arxiv.org/pdf/2305.05410.pdf)
+
