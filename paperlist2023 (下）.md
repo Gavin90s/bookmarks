@@ -137,3 +137,5 @@ UDR 的loss包含2个部分：1、rank list 排序的loss。2、constractive los
 包括正面和负面的反馈，并生成改进以后的回复答案。
 ````
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/82f96f45-e949-4be3-bac9-1e53e9f1b04f)
+
+#### [PhraseSumm: Abstractive Short Phrase Summarization](https://assets.amazon.science/60/9a/67f0f2c24ad39c2c46b5f527b3c1/phrasesumm-abstractive-short-phrase-summarization.pdf)
