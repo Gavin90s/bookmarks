@@ -132,3 +132,5 @@ UDR 的loss包含2个部分：1、rank list 排序的loss。2、constractive los
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/95dd986b-8a80-48c0-bd12-48538348ede0)
 
 #### [Data-Efficient Alignment of Large Language Models with Human Feedback Through Natural Language](https://arxiv.org/pdf/2311.14543.pdf)
+````使用模型来对标注提供一些反馈。 ````
+![image](https://github.com/Gavin90s/bookmarks/assets/8350994/82f96f45-e949-4be3-bac9-1e53e9f1b04f)
