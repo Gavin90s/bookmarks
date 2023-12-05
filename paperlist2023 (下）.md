@@ -145,3 +145,5 @@ UDR 的loss包含2个部分：1、rank list 排序的loss。2、constractive los
 #### [Integrating Summarization and Retrieval for Enhanced Personalization via Large Language Models](https://assets.amazon.science/2e/c9/53f2570d413eba5a5ca95c812c67/integrating-summarization-and-retrieval-for-enhanced-personalization-via-large-language-models.pdf)
 
 #### [Automated Few-shot Classification with Instruction-Finetuned Language Models](https://assets.amazon.science/8e/85/67de5e2b43d4a19e979cc19a4ac1/automated-few-shot-classification-with-instruction-finetuned-language-models.pdf)
+
+####[PROTEGE: Prompt-based Diverse Question Generation from Web Articles](https://assets.amazon.science/4c/31/6432e28e4a71900d5784aba175ad/protege-prompt-based-diverse-question-generation-from-web-articles.pdf)
