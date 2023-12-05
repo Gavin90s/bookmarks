@@ -153,3 +153,5 @@ UDR 的loss包含2个部分：1、rank list 排序的loss。2、constractive los
 #### [Measuring and mitigating dialog-to-API constraint violations of in-context learning](https://assets.amazon.science/82/6f/6e3316d540f8acde5fdb5fa42ff1/measuring-and-mitigating-dialog-to-api-constraint-violations-of-in-context-learning.pdf)
 
 #### [INVITE: A testbed of automatically generated invalid questions to evaluate large language models for hallucinations](https://assets.amazon.science/3f/73/dd51d8824cc0b9b6d3cf3a263908/invite-a-testbed-of-automatically-generated-invalid-questions-to-evaluate-large-language-models-for-hallucinations.pdf)
+
+#### [Improving Contextual Query Rewrite for Conversational AI Agents through User-preference Feedback Learning](https://assets.amazon.science/e8/83/3f5985ed48da948959d43e11ec9f/improving-contextual-query-rewrite-for-conversational-ai-agents-through-user-preference-feedback-learning.pdf)
