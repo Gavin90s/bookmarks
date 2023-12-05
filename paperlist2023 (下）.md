@@ -155,3 +155,5 @@ UDR 的loss包含2个部分：1、rank list 排序的loss。2、constractive los
 #### [INVITE: A testbed of automatically generated invalid questions to evaluate large language models for hallucinations](https://assets.amazon.science/3f/73/dd51d8824cc0b9b6d3cf3a263908/invite-a-testbed-of-automatically-generated-invalid-questions-to-evaluate-large-language-models-for-hallucinations.pdf)
 
 #### [Improving Contextual Query Rewrite for Conversational AI Agents through User-preference Feedback Learning](https://assets.amazon.science/e8/83/3f5985ed48da948959d43e11ec9f/improving-contextual-query-rewrite-for-conversational-ai-agents-through-user-preference-feedback-learning.pdf)
+
+#### [Context Aware Query Rewriting for Text Rankers using LLM](https://arxiv.org/pdf/2308.16753v1.pdf)
