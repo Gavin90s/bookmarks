@@ -139,3 +139,9 @@ UDR 的loss包含2个部分：1、rank list 排序的loss。2、constractive los
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/82f96f45-e949-4be3-bac9-1e53e9f1b04f)
 
 #### [PhraseSumm: Abstractive Short Phrase Summarization](https://assets.amazon.science/60/9a/67f0f2c24ad39c2c46b5f527b3c1/phrasesumm-abstractive-short-phrase-summarization.pdf)
+
+#### [Topic Knowledge based Controlled Generation for Long Documents using Retrieval-based Language Models](https://assets.amazon.science/f2/22/aba0563b43b1be5ef6d6bdd03d50/topic-knowledge-based-controlled-generation-for-long-documents-using-retrieval-based-language-models.pdf)
+
+#### [Integrating Summarization and Retrieval for Enhanced Personalization via Large Language Models](https://assets.amazon.science/2e/c9/53f2570d413eba5a5ca95c812c67/integrating-summarization-and-retrieval-for-enhanced-personalization-via-large-language-models.pdf)
+
+#### [Automated Few-shot Classification with Instruction-Finetuned Language Models](https://assets.amazon.science/8e/85/67de5e2b43d4a19e979cc19a4ac1/automated-few-shot-classification-with-instruction-finetuned-language-models.pdf)
