@@ -149,3 +149,7 @@ UDR 的loss包含2个部分：1、rank list 排序的loss。2、constractive los
 #### [PROTEGE: Prompt-based Diverse Question Generation from Web Articles](https://assets.amazon.science/4c/31/6432e28e4a71900d5784aba175ad/protege-prompt-based-diverse-question-generation-from-web-articles.pdf)
 
 #### [Too much of product information : Don’t worry, let’s look for evidence!](https://assets.amazon.science/47/eb/7bf0577c482782b5ac31a25794b3/too-much-of-product-information-dont-worry-lets-look-for-evidence.pdf)
+
+#### [Measuring and mitigating dialog-to-API constraint violations of in-context learning](https://assets.amazon.science/82/6f/6e3316d540f8acde5fdb5fa42ff1/measuring-and-mitigating-dialog-to-api-constraint-violations-of-in-context-learning.pdf)
+
+#### [INVITE: A testbed of automatically generated invalid questions to evaluate large language models for hallucinations](https://assets.amazon.science/3f/73/dd51d8824cc0b9b6d3cf3a263908/invite-a-testbed-of-automatically-generated-invalid-questions-to-evaluate-large-language-models-for-hallucinations.pdf)
