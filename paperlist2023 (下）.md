@@ -157,3 +157,11 @@ UDR 的loss包含2个部分：1、rank list 排序的loss。2、constractive los
 #### [Improving Contextual Query Rewrite for Conversational AI Agents through User-preference Feedback Learning](https://assets.amazon.science/e8/83/3f5985ed48da948959d43e11ec9f/improving-contextual-query-rewrite-for-conversational-ai-agents-through-user-preference-feedback-learning.pdf)
 
 #### [Context Aware Query Rewriting for Text Rankers using LLM](https://arxiv.org/pdf/2308.16753v1.pdf)
+
+#### [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/pdf/2307.09288.pdf)
+
+#### [Code Llama: Open Foundation Models for Code](https://arxiv.org/pdf/2308.12950.pdf?fbclid=IwAR1lnwBO8AEH9CcL7HSpR4ZypJgzDTKtEnUPoyn81SBwvn3pcFcxUqAgZmE&trk=public_post_comment-text)
+
+#### [Augmented Language Models: a Survey](https://arxiv.org/pdf/2302.07842.pdf)
+
+#### [Evaluating Open-Domain Question Answering in the Era of Large Language Models](https://arxiv.org/pdf/2305.06984.pdf)
