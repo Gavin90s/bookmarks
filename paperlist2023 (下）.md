@@ -167,3 +167,5 @@ UDR 的loss包含2个部分：1、rank list 排序的loss。2、constractive los
 #### [Evaluating Open-Domain Question Answering in the Era of Large Language Models](https://arxiv.org/pdf/2305.06984.pdf)
 
 #### [Unified Contextual Query Rewriting](https://assets.amazon.science/83/56/ec1598c841c198a415bc05153d19/unified-contextual-query-rewriting.pdf)
+
+#### [Entity Contrastive Learning in a Large-Scale Virtual Assistant System](https://assets.amazon.science/c9/cb/a03f4e6241779d3641767b27fd7e/entity-contrastive-learning-in-a-large-scale-virtual-assistant-system.pdf)
