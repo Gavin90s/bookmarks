@@ -177,3 +177,5 @@ UDR 的loss包含2个部分：1、rank list 排序的loss。2、constractive los
 #### [InstructPTS: Instruction-Tuning LLMs for Product Title Summarization](https://assets.amazon.science/f5/bb/857ae49241318362917b8e7bdcd0/instructpts-instruction-tuning-llms-for-product-title-summarization.pdf)
 
 #### [Characterizing Attribution and Fluency Tradeoffs for Retrieval-Augmented Large Language Models](https://arxiv.org/pdf/2302.05578.pdf)
+
+#### [Generative Information Retrieval (slides)](https://docs.google.com/presentation/d/19lAeVzPkh20Ly855tKDkz1uv-1pHV_9GxfntiTJPUug/edit?pli=1#slide=id.g22efd0a58a4_2_0)
