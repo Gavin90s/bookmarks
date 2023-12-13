@@ -175,3 +175,5 @@ UDR 的loss包含2个部分：1、rank list 排序的loss。2、constractive los
 #### [Generating Summaries with Controllable Readability Levels](https://assets.amazon.science/c5/e1/be005cb346ad98ac346a0ecffe19/generating-summaries-with-controllable-readability-levels.pdf)
 
 #### [InstructPTS: Instruction-Tuning LLMs for Product Title Summarization](https://assets.amazon.science/f5/bb/857ae49241318362917b8e7bdcd0/instructpts-instruction-tuning-llms-for-product-title-summarization.pdf)
+
+#### [Characterizing Attribution and Fluency Tradeoffs for Retrieval-Augmented Large Language Models](https://arxiv.org/pdf/2302.05578.pdf)
