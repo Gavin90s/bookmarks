@@ -183,3 +183,5 @@ UDR 的loss包含2个部分：1、rank list 排序的loss。2、constractive los
 #### [Rethinking the Role of Token Retrieval in Multi-Vector Retrieval](https://arxiv.org/pdf/2304.01982.pdf)
 
 #### [Retrieval-based Language Models and Applications, 陈丹琦](https://acl2023-retrieval-lm.github.io/)
+
+#### [Unsupervised Dense Information Retrieval with Contrastive Learning](https://arxiv.org/pdf/2112.09118.pdf)
