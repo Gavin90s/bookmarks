@@ -190,3 +190,5 @@ UDR 的loss包含2个部分：1、rank list 排序的loss。2、constractive los
 #### [Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations](https://arxiv.org/pdf/2312.06674.pdf)
 
 #### [MoQA: Benchmarking Multi-Type Open-Domain Question Answering](https://aclanthology.org/2023.dialdoc-1.2.pdf)
+
+#### [RECITATION-AUGMENTED LANGUAGE MODELS](https://arxiv.org/pdf/2210.01296.pdf)
