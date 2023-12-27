@@ -194,3 +194,5 @@ UDR 的loss包含2个部分：1、rank list 排序的loss。2、constractive los
 #### [RECITATION-AUGMENTED LANGUAGE MODELS](https://arxiv.org/pdf/2210.01296.pdf)
 
 #### [Rethinking the Role of Token Retrieval in Multi-Vector Retrieval](https://arxiv.org/pdf/2304.01982.pdf)
+
+#### [PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel](https://arxiv.org/pdf/2304.11277.pdf)
