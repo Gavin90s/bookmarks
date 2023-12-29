@@ -200,3 +200,5 @@ UDR 的loss包含2个部分：1、rank list 排序的loss。2、constractive los
 #### [Tool Documentation Enables Zero-Shot Tool-Usage with Large Language Models](https://arxiv.org/pdf/2308.00675.pdf)
 
 #### [q2d: Turning Questions into Dialogs to Teach Models How to Search](https://arxiv.org/pdf/2304.14318.pdf)
+
+#### [AppAgent: Multimodal Agents as Smartphone Users](https://arxiv.org/pdf/2312.13771.pdf)
