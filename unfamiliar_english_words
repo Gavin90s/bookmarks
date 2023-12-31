@@ -76,3 +76,4 @@ Holistically 整体的; 整体性; 全面地; 整体地; Large Language Models N
 factoid question;是指针对某些事实性信息提出的问题。这种问题通常需要从文本中提取事实信息来回答。
 例如，针对一篇新闻报道的问题，可能会涉及到事件发生的时间、地点、人物等具体信息。
 解决factoid question通常需要利用文本中的事实性信息进行回答，因此需要使用一些事实信息检索技术。
+the viability(可行性) of this approach is limited by the dearth (匮乏) of large in-domain data
