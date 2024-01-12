@@ -3,4 +3,5 @@
 #### [PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel](https://arxiv.org/pdf/2304.11277.pdf)
 https://huggingface.co/docs/transformers/perf_infer_gpu_one
 #### [Sparse Low-rank Adaptation of Pre-trained Language Models](https://arxiv.org/pdf/2311.11696.pdf)
+#### [WEAK-TO-STRONG GENERALIZATION: ELICITING STRONG CAPABILITIES WITH WEAK SUPERVISION](https://arxiv.org/pdf/2312.15710.pdf)
 
