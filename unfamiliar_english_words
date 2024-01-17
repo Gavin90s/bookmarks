@@ -78,3 +78,4 @@ factoid question;是指针对某些事实性信息提出的问题。这种问题
 解决factoid question通常需要利用文本中的事实性信息进行回答，因此需要使用一些事实信息检索技术。
 the viability(可行性) of this approach is limited by the dearth (匮乏) of large in-domain data
 Rationales 基本原理;根本原因;
+synergy 协同作用;协同增效作用
