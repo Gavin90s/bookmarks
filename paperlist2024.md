@@ -7,3 +7,4 @@ https://huggingface.co/docs/transformers/perf_infer_gpu_one
 #### [Towards Safer Generative Language Models: A Survey on Safety Risks, Evaluations, and Improvements](https://arxiv.org/pdf/2302.09270.pdf)
 #### [Do LLMs Possess a Personality? Making the MBTI Test an Amazing Evaluation for Large Language Models](https://arxiv.org/pdf/2307.16180.pdf)
 #### [ReAct: Synergizing Reasoning and Acting in Language Models](https://react-lm.github.io/)
+#### [TOOLLLM: FACILITATING LARGE LANGUAGE MODELS TO MASTER 16000+ REAL-WORLD APIS](https://arxiv.org/pdf/2307.16789.pdf)
