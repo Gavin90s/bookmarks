@@ -6,3 +6,4 @@ https://huggingface.co/docs/transformers/perf_infer_gpu_one
 #### [WEAK-TO-STRONG GENERALIZATION: ELICITING STRONG CAPABILITIES WITH WEAK SUPERVISION](https://arxiv.org/pdf/2312.15710.pdf)
 #### [Towards Safer Generative Language Models: A Survey on Safety Risks, Evaluations, and Improvements](https://arxiv.org/pdf/2302.09270.pdf)
 #### [Do LLMs Possess a Personality? Making the MBTI Test an Amazing Evaluation for Large Language Models](https://arxiv.org/pdf/2307.16180.pdf)
+#### [ReAct: Synergizing Reasoning and Acting in Language Models](https://react-lm.github.io/)
