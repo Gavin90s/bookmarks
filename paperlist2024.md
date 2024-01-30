@@ -9,6 +9,11 @@ https://huggingface.co/docs/transformers/perf_infer_gpu_one
 #### [ReAct: Synergizing Reasoning and Acting in Language Models](https://react-lm.github.io/)
 #### [TOOLLLM: FACILITATING LARGE LANGUAGE MODELS TO MASTER 16000+ REAL-WORLD APIS](https://arxiv.org/pdf/2307.16789.pdf)
 #### [SPOTLIGHT: MOBILE UI UNDERSTANDING USING VISION-LANGUAGE MODELS WITH A FOCUS](https://arxiv.org/pdf/2209.14927.pdf)
-````文章提出了一个视觉语言模型，可以理解截图（screenshot）中的页面元素的功能，可以理解页面元素。
-可以完成多个手机 UI Task：如 1、Widget Captioning 2、Screen Summarization 3、Command Grounding 4、Tappability Prediction 
+````
+文章提出了一个视觉语言模型，可以理解截图（screenshot）中的页面元素的功能，可以理解页面元素。
+可以完成多个手机 UI Task，如
+1、Widget Captioning
+2、Screen Summarization
+3、Command Grounding
+4、Tappability Prediction 
 ````
