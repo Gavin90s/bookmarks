@@ -17,3 +17,9 @@ https://huggingface.co/docs/transformers/perf_infer_gpu_one
 3、Command Grounding
 4、Tappability Prediction 
 ````
+#### [Salient Phrase Aware Dense Retrieval: Can a Dense Retriever Imitate a Sparse One?](https://scontent-hkg4-2.xx.fbcdn.net/v/t39.8562-6/317501525_8752991914741698_9132568194086426998_n.pdf?_nc_cat=111&ccb=1-7&_nc_sid=e280be&_nc_ohc=6ohBcU_8Ok4AX_TLuvM&_nc_ht=scontent-hkg4-2.xx&oh=00_AfD9QUPISMV_icRdtK8F9aDjQqkN3m95idBRFA_RZS9ohA&oe=65C4F04E)
+````
+使用 BM25 来作为Teacher 模型，训练 Salient Phrase Aware Dense Retrieval, 从而提升模型的zero-shot能力
+````
+<img width="806" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/038a7265-2cd0-48fb-afc2-3bb3b05a23c0">
+
