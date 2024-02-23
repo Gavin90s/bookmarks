@@ -23,3 +23,4 @@ https://huggingface.co/docs/transformers/perf_infer_gpu_one
 ````
 <img width="806" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/038a7265-2cd0-48fb-afc2-3bb3b05a23c0">
 
+#### [The Effect of Context-aware LLM-based NPC Conversations on Player Engagement in Role-playing Video Games](https://projekter.aau.dk/projekter/files/536738243/The_Effect_of_Context_aware_LLM_based_NPC_Dialogues_on_Player_Engagement_in_Role_playing_Video_Games.pdf)
