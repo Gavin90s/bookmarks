@@ -31,5 +31,5 @@ AGENTBENCH 包含了8个不同的应用环境，用于评估LLM-as-Agent的推�
 和决策能力(decision-making abilities）。开源的LLMs在长上下文理解，决策和指令遵循能力上存在不足，
 不利用开发LLM agents。在代码和高质量的多轮对齐数据集上训练，可以提升agent的能力。
 ````
-![image](https://github.com/Gavin90s/bookmarks/assets/8350994/52e5ff26-ec17-46dd-a111-ee411d85682e)
+![image](https://github.com/Gavin90s/bookmarks/assets/8350994/06485259-eff9-4cb7-a57a-b8c3d3d204d2)
 
