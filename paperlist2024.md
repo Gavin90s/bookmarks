@@ -24,3 +24,9 @@ https://huggingface.co/docs/transformers/perf_infer_gpu_one
 <img width="806" alt="image" src="https://github.com/Gavin90s/bookmarks/assets/8350994/038a7265-2cd0-48fb-afc2-3bb3b05a23c0">
 
 #### [The Effect of Context-aware LLM-based NPC Conversations on Player Engagement in Role-playing Video Games](https://projekter.aau.dk/projekter/files/536738243/The_Effect_of_Context_aware_LLM_based_NPC_Dialogues_on_Player_Engagement_in_Role_playing_Video_Games.pdf)
+
+#### [AGENTBENCH: EVALUATING LLMS AS AGENTS](https://arxiv.org/pdf/2308.03688.pdf)
+````
+AGENTBENCH 包含了8个不同的环境，用于评估LLM-as-Agent的推理能力(reasoning abilities)和决策能力(decision-making abilities）。
+开源的LLMs在长上下文理解，决策和指令遵循能力上存在不足，不利用开发LLM agents。在代码和高质量的多轮对齐数据集上训练，可以提升agent的能力。
+````
