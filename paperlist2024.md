@@ -27,6 +27,9 @@ https://huggingface.co/docs/transformers/perf_infer_gpu_one
 
 #### [AGENTBENCH: EVALUATING LLMS AS AGENTS](https://arxiv.org/pdf/2308.03688.pdf)
 ````
-AGENTBENCH 包含了8个不同的环境，用于评估LLM-as-Agent的推理能力(reasoning abilities)和决策能力(decision-making abilities）。
-开源的LLMs在长上下文理解，决策和指令遵循能力上存在不足，不利用开发LLM agents。在代码和高质量的多轮对齐数据集上训练，可以提升agent的能力。
+AGENTBENCH 包含了8个不同的环境，用于评估LLM-as-Agent的推理能力(reasoning abilities)
+和决策能力(decision-making abilities）。开源的LLMs在长上下文理解，决策和指令遵循能力上存在不足，
+不利用开发LLM agents。在代码和高质量的多轮对齐数据集上训练，可以提升agent的能力。
 ````
+![image](https://github.com/Gavin90s/bookmarks/assets/8350994/2f906acd-4c41-4623-9dbe-fcbc1d4c47fc)
+
