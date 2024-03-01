@@ -33,4 +33,4 @@ AGENTBENCH 包含了8个不同的应用环境，用于评估LLM-as-Agent的推�
 ````
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/06485259-eff9-4cb7-a57a-b8c3d3d204d2)
 
-#### [Best Practices for LLM Evaluation of RAG Applications] (https://www.databricks.com/blog/LLM-auto-eval-best-practices-RAG)
+#### [Best Practices for LLM Evaluation of RAG Applications](https://www.databricks.com/blog/LLM-auto-eval-best-practices-RAG)
