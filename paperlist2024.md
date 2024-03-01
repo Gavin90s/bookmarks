@@ -35,6 +35,8 @@ AGENTBENCH 包含了8个不同的应用环境，用于评估LLM-as-Agent的推�
 
 #### [Best Practices for LLM Evaluation of RAG Applications](https://www.databricks.com/blog/LLM-auto-eval-best-practices-RAG)
 ````
+评价回复生成质量的指标：有用性(helpfulness)、相关性(relevance)、准确性(accuracy)、深度(depth)、创造性(creativity)
+和细节水平(level of detail)进行评估。
 自动化评测分为3步：
 1、生成评测数据集。从Databricks文档中的100个问题和上下文创建了一个数据集。上下文表示与问题相关的（大块）文档。
 2、生成答案表。使用评估数据集，在不同的语言模型生成答案，并将 "问题-上下文-答案对" 存储在名为“答案表”的数据集中。
