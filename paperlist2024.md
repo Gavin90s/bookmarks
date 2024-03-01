@@ -50,7 +50,7 @@ Comprehensiveness（加权20%）、Readability（加权20%）的综合得分。
 
 #### [ROLELLM: BENCHMARKING, ELICITING, AND ENHANCING ROLE-PLAYING ABILITIES OF LARGE LANGUAGE MODELS](https://openreview.net/pdf?id=i4ULDEeBss)
 ````
-本文介绍RoleLLM，一个做基准测试、引出和增强LLM中角色扮演能力的框架。
+本文推出了RoleLLM，并开源了rolebench基准测试。
 RoleLLM包括四个阶段：
 （1）Role Profile Construct 100个角色；
 （2） Context-Based Instruction Generation（Context Instruction）生成 instruction；
@@ -58,4 +58,6 @@ RoleLLM包括四个阶段：
 （4）Role-Conditioned Instruction Tuning（RoCIT）和角色定制用于微调开源模型。
 ````
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/27dfe443-dde4-4e99-adfa-e74f73e1a463)
+
+
 
