@@ -47,3 +47,5 @@ AGENTBENCH 包含了8个不同的应用环境，用于评估LLM-as-Agent的推�
 Comprehensiveness（加权20%）、Readability（加权20%）的综合得分。
 ````
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/ba177595-8319-4063-905b-529e794157da)
+
+#### [ROLELLM: BENCHMARKING, ELICITING, AND ENHANCING ROLE-PLAYING ABILITIES OF LARGE LANGUAGE MODELS](https://openreview.net/pdf?id=i4ULDEeBss)
