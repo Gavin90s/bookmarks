@@ -37,7 +37,9 @@ AGENTBENCH 包含了8个不同的应用环境，用于评估LLM-as-Agent的推�
 ````
 自动化评测分为3步：
 1、生成评测数据集。从Databricks文档中的100个问题和上下文创建了一个数据集。上下文表示与问题相关的（大块）文档。
-2、生成答案表。使用评估数据集，在不同的语言模型生成答案，并将 "问题-上下文-答案对" 存储在名为“答案表”的数据集中。在这项研究中，我们使用了GPT-4、GPT-3.5、Claude-v1、Llama2-70b-chat、Vicuna-33b和mpt-30b-chat。
-3、生成分数。在给出答案的情况下，我们使用各种LLM来生成分数并对分数进行推理。这些分数是Correctness（加权60%）、Comprehensiveness（加权20%）、Readability（加权20%）的综合得分。
+2、生成答案表。使用评估数据集，在不同的语言模型生成答案，并将 "问题-上下文-答案对" 存储在名为“答案表”的数据集中。
+在这项研究中，我们使用了GPT-4、GPT-3.5、Claude-v1、Llama2-70b-chat、Vicuna-33b和mpt-30b-chat。
+3、生成分数。在给出答案的情况下，我们使用各种LLM来生成分数并对分数进行推理。这些分数是Correctness（加权60%）、
+Comprehensiveness（加权20%）、Readability（加权20%）的综合得分。
 ````
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/ba177595-8319-4063-905b-529e794157da)
