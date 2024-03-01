@@ -55,4 +55,5 @@ Comprehensiveness（加权20%）、Readability（加权20%）的综合得分。
 （3）Role Prompting用GPT（RoleGPT）进行说话风格模仿；
 （4）Role-Conditioned Instruction Tuning（RoCIT）和角色定制用于微调开源模型。
 ````
-![Uploading image.png…]()
+![image](https://github.com/Gavin90s/bookmarks/assets/8350994/27dfe443-dde4-4e99-adfa-e74f73e1a463)
+
