@@ -67,3 +67,4 @@ ME-Bert首次从理论和实验两个角度论证了当document的长度越长�
 在训练过程中，计算query向量与这8个向量的相似度并取最大值作为最终得分，用cross-entropy损失去优化模型参数。
 当然也做了一些随机负例与难负例的采样。
 ````
+#### [InDi: Informative and Diverse Sampling for Dense Retrieval](https://assets.amazon.science/39/b7/5ce986a64af6a9c21d163aedf307/indi-informative-and-diverse-sampling-for-dense-retrieval.pdf)
