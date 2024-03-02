@@ -59,5 +59,10 @@ RoleLLM包括四个阶段：
 ````
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/27dfe443-dde4-4e99-adfa-e74f73e1a463)
 
-
-
+#### [Sparse, Dense, and Attentional Representations for Text Retrieval](https://arxiv.org/pdf/2005.00181.pdf)
+````
+ME-Bert首次从理论和实验两个角度论证了当document的长度越长时，单个向量的固定维度（bert为768）难以有效的表征doc的语义信息。
+想要获得更好的效果，必须扩大表征的维度或者增加表征向量的个数。由于增加个数对检索性能的影响要小于扩大维度，
+因此作者最终选择以多向量的表征方式来编码单个doc。具体实现起来也很简单，作者选取了每个doc前8个token的向量作为最终的doc表征，
+在训练过程中，计算query向量与这8个向量的相似度并取最大值作为最终得分，用cross-entropy损失去优化模型参数。当然也做了一些随机负例与难负例的采样。
+````
