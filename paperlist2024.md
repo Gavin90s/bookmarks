@@ -68,3 +68,5 @@ ME-Bert首次从理论和实验两个角度论证了当document的长度越长�
 当然也做了一些随机负例与难负例的采样。
 ````
 #### [InDi: Informative and Diverse Sampling for Dense Retrieval](https://assets.amazon.science/39/b7/5ce986a64af6a9c21d163aedf307/indi-informative-and-diverse-sampling-for-dense-retrieval.pdf)
+
+#### [CRUD-RAG: A Comprehensive Chinese Benchmark for Retrieval-Augmented Generation of Large Language Models](https://arxiv.org/pdf/2401.17043.pdf)
