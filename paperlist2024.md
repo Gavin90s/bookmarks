@@ -74,3 +74,9 @@ ME-Bert首次从理论和实验两个角度论证了当document的长度越长�
 #### [Benchmarking Large Language Models in Retrieval-Augmented Generation](https://arxiv.org/pdf/2309.01431.pdf)
 
 #### [UHGEval: Benchmarking the Hallucination of Chinese Large Language Models via Unconstrained Generation](https://arxiv.org/pdf/2311.15296.pdf)
+
+#### [LAVE: LLM-Powered Agent Assistance and Language Augmentation for Video Editing](https://arxiv.org/pdf/2402.10294.pdf)
+````
+基于LLMs的视频剪辑工具。
+````
+![image](https://github.com/Gavin90s/bookmarks/assets/8350994/091bc756-1118-4d00-a786-f44e7dcb1a52)
