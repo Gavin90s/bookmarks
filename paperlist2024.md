@@ -80,3 +80,16 @@ ME-Bert首次从理论和实验两个角度论证了当document的长度越长�
 基于LLMs的视频剪辑工具。
 ````
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/091bc756-1118-4d00-a786-f44e7dcb1a52)
+
+#### [AGENTTUNING: ENABLING GENERALIZED AGENT ABILITIES FOR LLMS](https://arxiv.org/pdf/2310.12823.pdf)
+````
+本质上就是用imitation learning代替reinforcement learning的工作. 
+众所周知,各家大模型的语义理解能力不相上下, 和GPT-4差就差在了推理能力上. 要提高推理能力, 就需要在强化学习上下功夫.
+具体的, Reward Modal有很高的标注成本; 基于PPO的RLHF和KL散度具有很高的训练成本; 这里需要大量人力财力以及时间的打磨.
+传统任务上使用imitation learning最大的困难在于高质量的轨迹标注, 相比于reinforcement learning的reward标注高出了好几个数量级.
+本文巧妙地使用了GPT-4做imitation learning的轨迹标注, 节省了标记成本以及训练成本.
+使用交叉验证的方式混合数据集来替代KL散度以保证泛化能力, 进一步节省了训练成本.
+这么好的降本增效方法一定会被大家广泛采纳.
+PS. 有点naive了, 具体到各个数据集还是需要很多工程上的工作的,这才是本文的工作量.
+````
+
