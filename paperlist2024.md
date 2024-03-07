@@ -91,5 +91,6 @@ ME-Bert首次从理论和实验两个角度论证了当document的长度越长�
 使用交叉验证的方式混合数据集来替代KL散度以保证泛化能力, 进一步节省了训练成本.
 这么好的降本增效方法一定会被大家广泛采纳.
 PS. 有点naive了, 具体到各个数据集还是需要很多工程上的工作的,这才是本文的工作量.
+https://huggingface.co/datasets/THUDM/AgentInstruct/tree/main/data
 ````
 
