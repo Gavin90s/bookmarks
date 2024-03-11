@@ -101,6 +101,7 @@ https://huggingface.co/datasets/THUDM/AgentInstruct/tree/main/data
 
 #### [Reformatted Alignment](https://arxiv.org/pdf/2402.12219.pdf)
 ````
-ReAlign 主要用于知识密集型任务，可以显著提升通用对齐能力(general alignment ability), 数学推理能力(math reasoning), 事实性(factuality), 和LLMs回复生成的可读性(readability of the LLMs)
+ReAlign 主要用于知识密集型任务，可以显著提升通用对齐能力(general alignment ability), 数学推理能力(math reasoning),
+事实性(factuality), 和LLMs回复生成的可读性(readability of the LLMs)。
 ````
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/e303e75a-9fdd-484b-94c7-e32ed0071ee8)
