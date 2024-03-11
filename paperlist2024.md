@@ -93,4 +93,4 @@ ME-Bert首次从理论和实验两个角度论证了当document的长度越长�
 PS. 有点naive了, 具体到各个数据集还是需要很多工程上的工作的,这才是本文的工作量.
 https://huggingface.co/datasets/THUDM/AgentInstruct/tree/main/data
 ````
-
+#### [Efficient Tool Use with Chain-of-Abstraction Reasoning](https://arxiv.org/pdf/2401.17464.pdf)
