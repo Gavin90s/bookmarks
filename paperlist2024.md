@@ -94,3 +94,5 @@ PS. 有点naive了, 具体到各个数据集还是需要很多工程上的工作
 https://huggingface.co/datasets/THUDM/AgentInstruct/tree/main/data
 ````
 #### [Efficient Tool Use with Chain-of-Abstraction Reasoning](https://arxiv.org/pdf/2401.17464.pdf)
+
+#### [QuRating: Selecting High-Quality Data for Training Language Models](https://arxiv.org/pdf/2402.09739.pdf)
