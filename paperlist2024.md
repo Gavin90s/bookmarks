@@ -98,3 +98,5 @@ https://huggingface.co/datasets/THUDM/AgentInstruct/tree/main/data
 #### [QuRating: Selecting High-Quality Data for Training Language Models](https://arxiv.org/pdf/2402.09739.pdf)
 
 #### [Attribute Structuring Improves LLM-Based Evaluation of Clinical Text Summaries](https://arxiv.org/pdf/2403.01002.pdf)
+
+#### [Reformatted Alignment](https://arxiv.org/pdf/2402.12219.pdf)
