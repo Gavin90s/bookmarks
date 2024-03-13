@@ -108,3 +108,8 @@ ReAlign 主要用于知识密集型任务，可以显著提升通用对齐能力
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/e303e75a-9fdd-484b-94c7-e32ed0071ee8)
 
 #### [QuRating: Selecting High-Quality Data for Training Language Models](https://arxiv.org/pdf/2402.09739.pdf)
+````
+QuRating 一种用于选择预训练数据的方法，该方法能够捕捉人类直觉感知到的文本抽象特质（abstract qualities of texts）。
+在本文中，我们研究了四种特质——写作风格(qualities—writing style)、所需的专业知识(required expertise)、
+事实和琐事(facts & trivia)、以及教育价值(educational value)。 
+````
