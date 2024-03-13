@@ -113,3 +113,11 @@ QuRating 一种用于选择预训练数据的方法，该方法能够捕捉人�
 在本文中，我们研究了四种特质——写作风格(qualities—writing style)、所需的专业知识(required expertise)、
 事实和琐事(facts & trivia)、以及教育价值(educational value)。 
 ````
+
+#### [Synthetic Data (Almost) from Scratch: Generalized Instruction Tuning for Language Models](https://arxiv.org/pdf/2402.13064.pdf)
+````
+GLAN 仅利用预先策划(pre-curated)的人类知识(knowledge)和能力(capabilities)分类体系(taxonomy)作为输入，
+并生成跨所有学科的大规模合成指令(synthetic instruction)数据。具体来说，通过将人类知识和能力分解为不同领域、子领域，并最终分解为不同学科，半自动地构建分类体系， LLMs 发挥了促进作用。随后，我们为每个学科生成了一个全面的科目列表，并继续为每个科目设计量身定制的教学大纲，同样利用了 LLMs。凭借教学大纲中每节课程详细描述的精细关键概念，我们能够生成多样化指令，涵盖人类知识和技能的整个领域。
+````
+![image](https://github.com/Gavin90s/bookmarks/assets/8350994/bc2f516e-65be-4f01-8451-b526cf87de95)
+
