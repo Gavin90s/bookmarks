@@ -124,3 +124,4 @@ GLAN 仅利用预先策划(pre-curated)的人类知识(knowledge)和能力(capab
 ````
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/bc2f516e-65be-4f01-8451-b526cf87de95)
 
+#### [Balanced Data Sampling for Language Model Training with Clustering](https://arxiv.org/pdf/2402.14526.pdf)
