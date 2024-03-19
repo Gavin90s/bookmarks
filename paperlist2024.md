@@ -131,3 +131,8 @@ GLAN 仅利用预先策划(pre-curated)的人类知识(knowledge)和能力(capab
 #### [Ziya2: Data-centric Learning is All LLMs Need](https://arxiv.org/pdf/2311.03301.pdf)
 
 #### [Improving Text Embeddings with Large Language Models](https://arxiv.org/pdf/2401.00368.pdf)
+````
+它还是沿用SimCSE和E5这样的双塔结构+InfoNCE对比学习训练，但是加入了两味基于大模型的新成分：
+1、用GPT-4合成高质量训练数据。
+2、使用mistral-7b作为backbone进行微调，[EOS]状态作为text embedding。
+````
