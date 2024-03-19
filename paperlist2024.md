@@ -127,3 +127,5 @@ GLAN 仅利用预先策划(pre-curated)的人类知识(knowledge)和能力(capab
 #### [Balanced Data Sampling for Language Model Training with Clustering](https://arxiv.org/pdf/2402.14526.pdf)
 
 #### [MathScale: Scaling Instruction Tuning for Mathematical Reasoning](https://arxiv.org/pdf/2403.02884.pdf)
+
+#### [Ziya2: Data-centric Learning is All LLMs Need](https://arxiv.org/pdf/2311.03301.pdf)
