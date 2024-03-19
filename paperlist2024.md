@@ -129,3 +129,5 @@ GLAN 仅利用预先策划(pre-curated)的人类知识(knowledge)和能力(capab
 #### [MathScale: Scaling Instruction Tuning for Mathematical Reasoning](https://arxiv.org/pdf/2403.02884.pdf)
 
 #### [Ziya2: Data-centric Learning is All LLMs Need](https://arxiv.org/pdf/2311.03301.pdf)
+
+#### [Improving Text Embeddings with Large Language Models](https://arxiv.org/pdf/2401.00368.pdf)
