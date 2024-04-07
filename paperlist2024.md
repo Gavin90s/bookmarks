@@ -137,3 +137,5 @@ GLAN 仅利用预先策划(pre-curated)的人类知识(knowledge)和能力(capab
 2、使用mistral-7b作为backbone进行微调，[EOS]状态作为text embedding。
 ````
 #### [Text Embeddings by Weakly-Supervised Contrastive Pre-training](https://arxiv.org/pdf/2212.03533.pdf)
+
+#### [Scaling Laws for Downstream Task Performance of Large Language Models](https://arxiv.org/pdf/2402.04177.pdf)
