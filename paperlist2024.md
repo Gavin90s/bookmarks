@@ -144,3 +144,5 @@ GLAN 仅利用预先策划(pre-curated)的人类知识(knowledge)和能力(capab
 ````
 使用LLMs进行俚语检测。
 ````
+#### [Semantic matching for text classification with complex class descriptions](https://assets.amazon.science/91/de/33bafd8e40669a8c5e22563d7e18/semantic-matching-for-text-classification-with-complex-class-descriptions.pdf)
+![image](https://github.com/Gavin90s/bookmarks/assets/8350994/99355196-a217-4829-9332-550018ca2079)
