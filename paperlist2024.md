@@ -139,3 +139,8 @@ GLAN 仅利用预先策划(pre-curated)的人类知识(knowledge)和能力(capab
 #### [Text Embeddings by Weakly-Supervised Contrastive Pre-training](https://arxiv.org/pdf/2212.03533.pdf)
 
 #### [Scaling Laws for Downstream Task Performance of Large Language Models](https://arxiv.org/pdf/2402.04177.pdf)
+
+#### [Toward Informal Language Processing: Knowledge of Slang in Large Language Models](https://assets.amazon.science/bf/e7/91b07f7d4052ac3d96c960545ff8/toward-informal-language-processing-knowledge-of-slang-in-large-language-models.pdf)
+````
+使用LLMs进行俚语检测。
+````
