@@ -152,3 +152,5 @@ GLAN 仅利用预先策划(pre-curated)的人类知识(knowledge)和能力(capab
 在语音助手做商品推荐
 ````
 
+#### [Prompt Perturbation Consistency Learning for Robust Language Models](https://assets.amazon.science/16/e1/b790e6c647aea33749aa5bdf2d51/prompt-perturbation-consistency-learning-for-robust-language-models.pdf)
+
