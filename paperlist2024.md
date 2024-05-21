@@ -153,4 +153,7 @@ GLAN 仅利用预先策划(pre-curated)的人类知识(knowledge)和能力(capab
 ````
 
 #### [Prompt Perturbation Consistency Learning for Robust Language Models](https://assets.amazon.science/16/e1/b790e6c647aea33749aa5bdf2d51/prompt-perturbation-consistency-learning-for-robust-language-models.pdf)
+````
+通过 Prompt Perturbation 提升LLMs 在 slot filling 和 intent classification 的效果。
+````
 
