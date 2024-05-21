@@ -146,3 +146,9 @@ GLAN 仅利用预先策划(pre-curated)的人类知识(knowledge)和能力(capab
 ````
 #### [Semantic matching for text classification with complex class descriptions](https://assets.amazon.science/91/de/33bafd8e40669a8c5e22563d7e18/semantic-matching-for-text-classification-with-complex-class-descriptions.pdf)
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/99355196-a217-4829-9332-550018ca2079)
+
+#### [Identifying Shopping Intent in Product QA for Proactive Recommendations](https://assets.amazon.science/b6/58/4ab7e9bb4fd3b1080e2608310833/identifying-shopping-intent-in-product-qa-for-proactive-recommendations.pdf)
+````
+在语音助手做商品推荐
+````
+
