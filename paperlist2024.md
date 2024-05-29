@@ -163,3 +163,4 @@ GLAN 仅利用预先策划(pre-curated)的人类知识(knowledge)和能力(capab
 ````
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/5b5d829e-12ab-400c-8a92-2e58a9af1107)
 
+#### [Improving RAG with Query expansion & reranking models](https://aksdesai1998.medium.com/improving-rag-with-query-expansion-reranking-models-31d252856580)
