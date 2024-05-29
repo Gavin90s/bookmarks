@@ -157,3 +157,9 @@ GLAN 仅利用预先策划(pre-curated)的人类知识(knowledge)和能力(capab
 通过 Prompt Perturbation 提升 LLMs 在 slot filling 和 intent classification 的效果。
 ````
 
+#### [Query Expansion by Prompting Large Language Models](https://arxiv.org/pdf/2305.03653)
+````
+通过 q + LLM(prompt) 输出作为 Query Expansion 来代替传统的Pseudo-Relevance Feedback (PRF) query扩展方法。
+````
+![image](https://github.com/Gavin90s/bookmarks/assets/8350994/5b5d829e-12ab-400c-8a92-2e58a9af1107)
+
