@@ -43,14 +43,17 @@ Partials can be used to make new derived functions that have some input paramete
 
 To see some real world usage of partials, refer to this really good blog post here
 
-A simple but neat beginner's example from the blog, covers how one might use partial on re.search to make code more readable. re.search method's signature is:
+A simple but neat beginner's example from the blog, covers how one might use partial on
+re.search to make code more readable. re.search method's signature is:
 
 search(pattern, string, flags=0) 
-By applying partial we can create multiple versions of the regular expression search to suit our requirements, so for example:
+By applying partial we can create multiple versions of the regular expression search
+to suit our requirements, so for example:
 
 is_spaced_apart = partial(re.search, '[a-zA-Z]\s\=')
 is_grouped_together = partial(re.search, '[a-zA-Z]\=')
-Now is_spaced_apart and is_grouped_together are two new functions derived from re.search that have the pattern argument applied(since pattern is the first argument in the re.search method's signature).
+Now is_spaced_apart and is_grouped_together are two new functions derived from re.search
+that have the pattern argument applied(since pattern is the first argument in the re.search method's signature).
 
 The signature of these two new functions(callable) is:
 
@@ -65,5 +68,6 @@ for text in lines:
         some_other_action(text)
     else:
         some_default_action()
-You can refer the link above to get a more in depth understanding of the subject, as it covers this specific example and much more..
+You can refer the link above to get a more in depth understanding of the subject,
+as it covers this specific example and much more..
 ```
