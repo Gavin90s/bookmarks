@@ -164,7 +164,9 @@ GLAN 仅利用预先策划(pre-curated)的人类知识(knowledge)和能力(capab
 ![image](https://github.com/Gavin90s/bookmarks/assets/8350994/5b5d829e-12ab-400c-8a92-2e58a9af1107)
 
 #### [Improving RAG with Query expansion & reranking models](https://aksdesai1998.medium.com/improving-rag-with-query-expansion-reranking-models-31d252856580)
+
 #### [Query2doc: Query Expansion with Large Language Models](https://arxiv.org/pdf/2303.07678)
+
 #### [Automated Evaluation of Retrieval-Augmented Language Models with Task-Specific Exam Generation](https://assets.amazon.science/3d/69/0c36f250452ab410ee5f867f80b1/automated-evaluation-of-retrieval-augmented-language-models-with-task-specific-exam-generation.pdf)
 
-####[Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving]([https://github.com/kvcache-ai/Mooncake]
+#### [Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving]([https://github.com/kvcache-ai/Mooncake]
