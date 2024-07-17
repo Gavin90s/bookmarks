@@ -155,6 +155,7 @@ GLAN 仅利用预先策划(pre-curated)的人类知识(knowledge)和能力(capab
 #### [Prompt Perturbation Consistency Learning for Robust Language Models](https://assets.amazon.science/16/e1/b790e6c647aea33749aa5bdf2d51/prompt-perturbation-consistency-learning-for-robust-language-models.pdf)
 ````
 通过 Prompt Perturbation 提升 LLMs 在 slot filling 和 intent classification 的效果。
+一致性训练(Consistency Learning)方法旨在通过在输入中添加进行小的扰动，例如随机噪声、对抗性噪声或数据增强技术，保证(enforcing)输出的稳定性，从而提高模型的鲁棒性。
 ````
 
 #### [Query Expansion by Prompting Large Language Models](https://arxiv.org/pdf/2305.03653)
