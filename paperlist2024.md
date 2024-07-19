@@ -176,3 +176,5 @@ https://www.amazon.science/blog/automated-evaluation-of-rag-pipelines-with-exam-
 #### [Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving](https://github.com/kvcache-ai/Mooncake)
 
 #### [RAG VS FINE-TUNING: PIPELINES, TRADEOFFS, AND A CASE STUDY ON AGRICULTURE](https://arxiv.org/pdf/2401.08406)
+
+#### [RAFT: Adapting Language Model to Domain Specific RAG](https://arxiv.org/pdf/2403.10131)
