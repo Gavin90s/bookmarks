@@ -178,3 +178,5 @@ https://www.amazon.science/blog/automated-evaluation-of-rag-pipelines-with-exam-
 #### [RAG VS FINE-TUNING: PIPELINES, TRADEOFFS, AND A CASE STUDY ON AGRICULTURE](https://arxiv.org/pdf/2401.08406)
 
 #### [RAFT: Adapting Language Model to Domain Specific RAG](https://arxiv.org/pdf/2403.10131)
+
+#### [Instruction-tuned Language Models are Better Knowledge Learners](https://arxiv.org/pdf/2402.12847)
