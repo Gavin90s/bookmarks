@@ -180,3 +180,7 @@ https://www.amazon.science/blog/automated-evaluation-of-rag-pipelines-with-exam-
 #### [RAFT: Adapting Language Model to Domain Specific RAG](https://arxiv.org/pdf/2403.10131)
 
 #### [Instruction-tuned Language Models are Better Knowledge Learners](https://arxiv.org/pdf/2402.12847)
+````
+在post pretrain 之前做Instruction-tunning 效果可以提升17%。
+````
+
