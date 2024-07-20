@@ -183,4 +183,5 @@ https://www.amazon.science/blog/automated-evaluation-of-rag-pipelines-with-exam-
 ````
 在post pretrain 之前做Instruction-tunning 效果可以提升17%。
 ````
+#### [Fine Tuning vs. Retrieval Augmented Generation for Less Popular Knowledge](https://arxiv.org/pdf/2403.01432)
 
