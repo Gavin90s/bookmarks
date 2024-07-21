@@ -185,3 +185,5 @@ https://www.amazon.science/blog/automated-evaluation-of-rag-pipelines-with-exam-
 ````
 #### [Fine Tuning vs. Retrieval Augmented Generation for Less Popular Knowledge](https://arxiv.org/pdf/2403.01432)
 
+#### [RS-DPO: A Hybrid Rejection Sampling and Direct Preference Optimization Method for Alignment of Large Language Models](https://assets.amazon.science/9c/49/6b0e4a8c43df9632ef0e7aad5925/rs-dpo-a-hybrid-rejection-sampling-and-direct-preference-optimization-method-for-alignment-of-large-language-models.pdf)
+
