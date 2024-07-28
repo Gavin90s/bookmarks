@@ -187,6 +187,8 @@ https://www.amazon.science/blog/automated-evaluation-of-rag-pipelines-with-exam-
 
 #### [RS-DPO: A Hybrid Rejection Sampling and Direct Preference Optimization Method for Alignment of Large Language Models](https://assets.amazon.science/9c/49/6b0e4a8c43df9632ef0e7aad5925/rs-dpo-a-hybrid-rejection-sampling-and-direct-preference-optimization-method-for-alignment-of-large-language-models.pdf)
 ````
-使用 rejection sampling (RS) 来构建 contrastive samples
+第一步，为每个prompt生成k个response，
+第二步，使用 rejection sampling (RS) 基于reward distribution 来构建 contrastive samples。
+第三步，使用 DPO 算法来训练模型。
 ````
 #### [Towards Improved Multi-Source Attribution for Long-Form Answer Generation](https://assets.amazon.science/ed/c3/7232c163413b94ed203eb1ea46a0/towards-improved-multi-source-attribution-for-long-form-answer-generation.pdf)
