@@ -195,5 +195,6 @@ https://www.amazon.science/blog/automated-evaluation-of-rag-pipelines-with-exam-
 
 #### Ordinal Classification（序数分类）
 ````
-Ordinal Classification是一种机器学习中的分类任务，它涉及到将数据项分配到一个有序的类别集合中。如sentiment analysis（情感分析）, rating prediction（评分预测）。
+Ordinal Classification是一种机器学习中的分类任务，它涉及到将数据项分配到一个有序的类别集合中。
+如，sentiment analysis（情感分析）, rating prediction（评分预测）。
 ````
