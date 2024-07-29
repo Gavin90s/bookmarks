@@ -198,3 +198,8 @@ https://www.amazon.science/blog/automated-evaluation-of-rag-pipelines-with-exam-
 Ordinal Classification是一种机器学习中的分类任务，它涉及到将数据项分配到一个有序的类别集合中。
 如，sentiment analysis（情感分析）, rating prediction（评分预测）。
 ````
+
+#### curated data
+````
+"Curated data"（策划数据）指的是经过精心挑选、组织和优化的数据集，以确保它们对于特定的应用或分析目的具有相关性、准确性和可用性。
+````
