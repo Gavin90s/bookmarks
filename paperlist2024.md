@@ -192,3 +192,8 @@ https://www.amazon.science/blog/automated-evaluation-of-rag-pipelines-with-exam-
 第三步，使用 DPO 算法来训练模型。
 ````
 #### [Towards Improved Multi-Source Attribution for Long-Form Answer Generation](https://assets.amazon.science/ed/c3/7232c163413b94ed203eb1ea46a0/towards-improved-multi-source-attribution-for-long-form-answer-generation.pdf)
+
+#### Ordinal Classification（序数分类）
+````
+Ordinal Classification是一种机器学习中的分类任务，它涉及到将数据项分配到一个有序的类别集合中。如sentiment analysis（情感分析）, rating prediction（评分预测）。
+````
