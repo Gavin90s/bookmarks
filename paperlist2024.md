@@ -210,8 +210,8 @@ Query-Focused Summarization (QFS) 任务是一种文本摘要技术，专门用�
 这种任务的核心是理解用户提出的查询，并从给定的文本（如一篇文章、报告或数据集）中提取最相关的信息，以形成对查询的简洁、准确且连贯的回答。
 ````
 
-#### Community Summaries
+#### Community Summary
 ````
-"Community Summaries"（社区摘要）不是一个标准化的术语，但它通常指的是由一个社区或用户群体共同参与创作的摘要或概述。
-这种摘要可能用于汇总讨论结果、集体知识或一组共享资源的关键点。
+"community summary" refers to a condensed representation or abstraction of discussions, opinions,
+or information extracted from a community of users, typically from online platforms or social media.
 ````
