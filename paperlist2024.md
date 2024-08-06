@@ -218,4 +218,4 @@ or information extracted from a community of users, typically from online platfo
 
 #### [REAPER: Reasoning based Retrieval Planning for Complex RAG Systems](https://arxiv.org/pdf/2407.18553)
 ![image](https://github.com/user-attachments/assets/8598a0d0-519f-4475-81d8-e46cac9c1b5b)
-
+https://alphaxiv.org/pdf/2407.18553
