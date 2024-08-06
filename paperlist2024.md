@@ -215,3 +215,5 @@ Query-Focused Summarization (QFS) 任务是一种文本摘要技术，专门用�
 "community summary" refers to a condensed representation or abstraction of discussions, opinions,
 or information extracted from a community of users, typically from online platforms or social media.
 ````
+
+#### [REAPER: Reasoning based Retrieval Planning for Complex RAG Systems](https://arxiv.org/pdf/2407.18553)
