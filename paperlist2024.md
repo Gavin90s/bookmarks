@@ -204,6 +204,8 @@ Ordinal Classification是一种机器学习中的分类任务，它涉及到将�
 "Curated data"（策划数据）指的是经过精心挑选、组织和优化的数据集，以确保它们对于特定的应用或分析目的具有相关性、准确性和可用性。
 ````
 
+#### [From Local to Global: A Graph RAG Approach to Query-Focused Summarization](https://arxiv.org/pdf/2404.16130)
+
 #### Query-Focused Summarization (QFS)
 ````
 Query-Focused Summarization (QFS) 任务是一种文本摘要技术，专门用于根据特定的查询或问题生成文本摘要。
