@@ -9,3 +9,10 @@ Intent-aware 四个维度，构建了一个决策树用于判断是否需要检�
 ````
 通过 Answer Swapping 和 Context Enriching 来生成测试集，用于做 RAG 的 Hallucination Evaluation。
 ````
+#### [CharXiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs](https://arxiv.org/pdf/2406.18521)
+````
+开源了CharXiv图表任务的benchmark，包含2类图表问题：
+1）关于检查图表基本元素的描述性问题，
+2) 需要综合图表中复杂视觉元素的信息进行推理的问题。
+多模态大语言模型在简单的图表任务上，能力已经接近human。在需要推理的复杂任务上，效果还不太行。
+````
