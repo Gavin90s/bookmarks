@@ -16,3 +16,5 @@ Intent-aware 四个维度，构建了一个决策树用于判断是否需要检�
 2) 需要综合图表中复杂视觉元素的信息进行推理的问题。
 多模态大语言模型在简单的图表任务上，能力已经接近human。在需要推理的复杂任务上，效果还不太行。
 ````
+
+#### [Meta Reasoning for Large Language Models](https://arxiv.org/pdf/2406.11698)
