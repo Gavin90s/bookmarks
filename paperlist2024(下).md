@@ -18,3 +18,11 @@ Intent-aware 四个维度，构建了一个决策树用于判断是否需要检�
 ````
 
 #### [Meta Reasoning for Large Language Models](https://arxiv.org/pdf/2406.11698)
+
+#### [BRIGHT: A Realistic and Challenging Benchmark for Reasoning-Intensive Retrieval](https://arxiv.org/pdf/2407.12883)
+````
+开源了 BRIGHT Reasoning-Intensive 检索任务 benchmark：
+MTEB 排行榜上的领先模型 [38] 在 nDCG@10 上取得了 59.0 的得分，
+而在 BRIGHT 上，该模型的 nDCG@10 得分为 18.0。
+通过将查询与大语言模型（LLMs）生成的 Chain-of-Thought 推理进行增强，可以将性能提升多达 12.2 分。
+````
