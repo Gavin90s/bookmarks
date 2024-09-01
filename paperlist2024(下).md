@@ -36,3 +36,5 @@ SMMQG 由五个步骤组成：
 4. 问题生成模型从候选来源中选择问题来源，并利用这些来源生成问题和答案。
 5. 模型被要求验证生成的问题是否符合期望的问题风格和模式，以及生成的答案是否正确回答了问题。
 ````
+
+#### [MOSS-MED: Medical Multimodal Model Serving Medical Image Analysis](https://dl.acm.org/doi/pdf/10.1145/3688005)
