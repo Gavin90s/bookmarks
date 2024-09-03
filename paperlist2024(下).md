@@ -38,3 +38,9 @@ SMMQG 由五个步骤组成：
 ````
 
 #### [MOSS-MED: Medical Multimodal Model Serving Medical Image Analysis](https://dl.acm.org/doi/pdf/10.1145/3688005)
+
+#### [TOOLSANDBOX: A Stateful, Conversational, Interactive Evaluation Benchmark for LLM Tool Use Capabilities](https://arxiv.org/pdf/2408.04682)
+````
+TOOLSANDBOX 包含了 有状态的工具执行（stateful tool execution），工具之间的隐式状态依赖（implicit state dependencies between tools）
+支持on-policy 对话评估的内置用户模拟器（user simulator）以及用于任意轨迹（arbitrary trajectory）上的中间和最终里程碑的动态评估策略。
+````
