@@ -46,3 +46,10 @@ TOOLSANDBOX 包含了 有状态的工具执行（stateful tool execution），
 支持 on-policy 对话评估的内置用户模拟器（user simulator）
 以及用于任意轨迹（arbitrary trajectory）上的中间和最终里程碑的动态评估策略。
 ````
+
+#### [Se2: Sequential Example Selection for In-Context Learning](https://aclanthology.org/2024.findings-acl.312.pdf)
+````
+本文提出了一种在In-Context Learning场景的Sequential Example 选择方法，
+它利用大型语言模型（LLM）对不同上下文（varying context）的反馈，
+帮助捕捉示例之间的相互关系（inter-relationships）和顺序信息，显著丰富了ICL提示的上下文性和相关性。
+````
