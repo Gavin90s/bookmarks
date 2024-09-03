@@ -53,3 +53,5 @@ TOOLSANDBOX 包含了 有状态的工具执行（stateful tool execution），
 它利用大型语言模型（LLM）对不同上下文（varying context）的反馈，
 帮助捕捉示例之间的相互关系（inter-relationships）和顺序信息，显著丰富了ICL提示的上下文性和相关性。
 ````
+![image](https://github.com/user-attachments/assets/82eb6a1b-a3bd-4219-b6d2-978162c85241)
+
