@@ -43,6 +43,6 @@ SMMQG 由五个步骤组成：
 ````
 TOOLSANDBOX 包含了 有状态的工具执行（stateful tool execution），
 工具之间的隐式状态依赖（implicit state dependencies between tools）
-支持on-policy 对话评估的内置用户模拟器（user simulator）
+支持 on-policy 对话评估的内置用户模拟器（user simulator）
 以及用于任意轨迹（arbitrary trajectory）上的中间和最终里程碑的动态评估策略。
 ````
