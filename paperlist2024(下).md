@@ -55,3 +55,10 @@ TOOLSANDBOX 包含了 有状态的工具执行（stateful tool execution），
 ````
 ![image](https://github.com/user-attachments/assets/82eb6a1b-a3bd-4219-b6d2-978162c85241)
 
+#### [META-REWARDING LANGUAGE MODELS:Self-Improving Alignment with LLM-as-a-Meta-Judge](https://arxiv.org/pdf/2407.19594)
+````
+Meta-Rewarding 提升模型的判断（judge）和遵循指令（follow instructions）的能力。
+LLMs 用来生成 response(作为actor）、judge response (作为judge)、以及对 judge 后的结果进行判断（作为Meta-judge）。
+通过Llama-3-8B-Instruct 在 AlpacaEval 2 上的胜率从 22.9% 提高到 39.4%，在Arena-Hard上的胜率从 20.6% 提高到 29.1%。
+````
+
