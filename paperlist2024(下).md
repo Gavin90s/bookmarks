@@ -62,3 +62,4 @@ LLMs 用来生成 response(作为actor）、judge response (作为judge)、以�
 通过Llama-3-8B-Instruct 在 AlpacaEval 2 上的胜率从 22.9% 提高到 39.4%，在Arena-Hard上的胜率从 20.6% 提高到 29.1%。
 ````
 
+#### [Direct Preference Knowledge Distillation for Large Language Models](https://arxiv.org/pdf/2406.19774)
