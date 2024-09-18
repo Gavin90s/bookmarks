@@ -220,3 +220,5 @@ or information extracted from a community of users, typically from online platfo
 
 #### [REAPER: Reasoning based Retrieval Planning for Complex RAG Systems](https://arxiv.org/pdf/2407.18553)
 ![image](https://github.com/user-attachments/assets/8598a0d0-519f-4475-81d8-e46cac9c1b5b)
+
+#### [Automated Evaluation of Retrieval-Augmented Language Models with Task-Specific Exam Generation](https://assets.amazon.science/3d/69/0c36f250452ab410ee5f867f80b1/automated-evaluation-of-retrieval-augmented-language-models-with-task-specific-exam-generation.pdf)
