@@ -63,3 +63,10 @@ LLMs 用来生成 response(作为actor）、judge response (作为judge)、以�
 ````
 
 #### [Direct Preference Knowledge Distillation for Large Language Models](https://arxiv.org/pdf/2406.19774)
+
+#### [Attribute First, then Generate: Locally-attributable Grounded Text Generation]
+````
+将传统的端到端生成过程(end-to-end generation process)分解为三个直观的步骤：内容选择(content selection)、
+句子规划(sentence planning)和顺序句子生成(sentence generation)。
+````
+
