@@ -70,3 +70,4 @@ LLMs 用来生成 response(作为actor）、judge response (作为judge)、以�
 句子规划(sentence planning)和顺序句子生成(sentence generation)。
 ````
 
+#### [PRewrite: Prompt Rewriting with Reinforcement Learning](https://arxiv.org/pdf/2401.08189)
