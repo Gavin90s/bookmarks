@@ -71,3 +71,5 @@ LLMs 用来生成 response(作为actor）、judge response (作为judge)、以�
 ````
 
 #### [PRewrite: Prompt Rewriting with Reinforcement Learning](https://arxiv.org/pdf/2401.08189)
+
+#### [Reader-LM：将原始HTML转换为干净Markdown的小型语言模型](https://mp.weixin.qq.com/s/p2KrZKpcYnkc28geheInVA)
