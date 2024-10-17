@@ -86,3 +86,11 @@ specificity指的是“符合对话流的一致性要求”。attribution指的�
 ![image](https://github.com/user-attachments/assets/57259957-5c77-4cd5-bc28-459f9b089484)
 
 #### [Heterogeneous LoRA for Federated Fine-tuning of On-Device Foundation Models](https://arxiv.org/pdf/2401.06432)
+
+#### [“We Need Structured Output”: Towards User-centered Constraints on Large Language Model Output](https://storage.googleapis.com/gweb-research2023-media/pubtools/7754.pdf)
+````
+文章从用户层面出发，分析了对 LLMs 的 Structured Output的需求。
+Low-level constraints：1.Structured Output 2.Multiple Choice 3.Length Constraints
+High-level constraints：1.Semantic Constraints 2.Stylistic Constraints 3.Preventing Hallucination
+````
+
