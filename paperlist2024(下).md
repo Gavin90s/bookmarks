@@ -73,3 +73,13 @@ LLMs 用来生成 response(作为actor）、judge response (作为judge)、以�
 #### [PRewrite: Prompt Rewriting with Reinforcement Learning](https://arxiv.org/pdf/2401.08189)
 
 #### [Reader-LM：将原始HTML转换为干净Markdown的小型语言模型](https://mp.weixin.qq.com/s/p2KrZKpcYnkc28geheInVA)
+
+#### [Investigating Content Planning for Navigating Trade-offs in Knowledge-Grounded Dialogue](https://arxiv.org/pdf/2402.02077)
+````
+Knowledge-grounded 对话生成包含两个优化目标 specificity 和 attribution。
+specificity指的是“符合对话流的一致性要求”。attribution指的是要忠实于参考文档。
+将对话流程分为3步：
+1.使用对话历史 x 和参考文档e，生成对话计划plan c=G(x, e)。
+2.对话计划编辑器EQ迭代地修改plan c，生成 plan c_n = EQ(c, x, e)。
+3.plan c_n 反馈给 G 生成输出响应 y = G(c_n, x, e)。
+````
