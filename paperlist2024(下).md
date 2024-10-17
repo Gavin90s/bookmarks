@@ -94,3 +94,5 @@ Low-level constraints：1.Structured Output 2.Multiple Choice 3.Length Constrain
 High-level constraints：1.Semantic Constraints 2.Stylistic Constraints 3.Preventing Hallucination
 ````
 
+#### [Large Language Models are Effective Text Rankers with Pairwise Ranking Prompting](https://storage.googleapis.com/gweb-research2023-media/pubtools/7775.pdf)
+
