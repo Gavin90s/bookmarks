@@ -84,3 +84,5 @@ specificity指的是“符合对话流的一致性要求”。attribution指的�
 3.plan c_n 反馈给 G 生成输出响应 y = G(c_n, x, e)。
 ````
 ![image](https://github.com/user-attachments/assets/57259957-5c77-4cd5-bc28-459f9b089484)
+
+#### [Heterogeneous LoRA for Federated Fine-tuning of On-Device Foundation Models](https://arxiv.org/pdf/2401.06432)
