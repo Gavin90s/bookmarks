@@ -103,5 +103,8 @@ ImageInWords（IIW），一个精心设计的human-in-the-loop的注释框架(an
 ````
 ![image](https://github.com/user-attachments/assets/d1a2d919-9732-43c3-b26a-24e8b3a0b5fc)
 
-
+#### [CodecLM: Aligning Language Models with Tailored Synthetic Data](https://arxiv.org/pdf/2404.05875)
+````
+通过 seed instruction 生成 synthetic instruction，来增加训练数据丰富度。
+````
 
