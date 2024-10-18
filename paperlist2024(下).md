@@ -108,3 +108,4 @@ ImageInWords（IIW），一个精心设计的human-in-the-loop的注释框架(an
 通过 seed instruction 生成 synthetic instruction，来增加训练数据丰富度。
 ````
 
+#### [Prompt Cache: Modular Attention Reuse for Low-Latency Inference](https://mlsys.org/virtual/2024/poster/2643)
