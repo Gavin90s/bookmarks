@@ -96,3 +96,11 @@ High-level constraints：1.Semantic Constraints 2.Stylistic Constraints 3.Preven
 
 #### [Large Language Models are Effective Text Rankers with Pairwise Ranking Prompting](https://storage.googleapis.com/gweb-research2023-media/pubtools/7775.pdf)
 
+#### [ImageInWords:Unlocking Hyper-Detailed Image Descriptions](https://arxiv.org/pdf/2405.02793)
+````
+ImageInWords（IIW），一个精心设计的human-in-the-loop的注释框架(annotation framework)，
+用于策划超详细(hyper-detailed)的图像描述，以及由此过程产生的新数据集。
+````
+![Uploading image.png…]()
+
+
