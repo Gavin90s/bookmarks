@@ -113,3 +113,5 @@ ImageInWords（IIW），一个精心设计的human-in-the-loop的注释框架(an
 #### [RewriteLM: An Instruction-Tuned Large Language Model for Text Rewriting](https://arxiv.org/pdf/2305.15685)
 
 #### [Learning to Rewrite Prompts for Personalized Text Generation](https://storage.googleapis.com/gweb-research2023-media/pubtools/7614.pdf)
+
+#### [Improving Text Embeddings with Large Language Models](https://arxiv.org/pdf/2401.00368)
