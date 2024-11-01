@@ -115,3 +115,5 @@ ImageInWords（IIW），一个精心设计的human-in-the-loop的注释框架(an
 #### [Learning to Rewrite Prompts for Personalized Text Generation](https://storage.googleapis.com/gweb-research2023-media/pubtools/7614.pdf)
 
 #### [Improving Text Embeddings with Large Language Models](https://arxiv.org/pdf/2401.00368)
+
+#### [Introducing Contextual Retrieval](https://www.anthropic.com/news/contextual-retrieval)
