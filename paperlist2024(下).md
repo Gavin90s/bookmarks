@@ -125,3 +125,5 @@ ImageInWords（IIW），一个精心设计的human-in-the-loop的注释框架(an
 针对LLM解码过程计算利用率低和延时大的问题，在数据层面，通过提示词引导LLM自主规划出答案提纲，
 并利用提纲中不同部分的可并行性，解决LLM解码过程计算单元利用率低和延时大的问题。
 ````
+![image](https://github.com/user-attachments/assets/cc70c768-2932-4145-89bf-40cd7bdd614b)
+
