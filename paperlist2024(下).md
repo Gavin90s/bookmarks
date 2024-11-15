@@ -117,3 +117,5 @@ ImageInWords（IIW），一个精心设计的human-in-the-loop的注释框架(an
 #### [Improving Text Embeddings with Large Language Models](https://arxiv.org/pdf/2401.00368)
 
 #### [Introducing Contextual Retrieval](https://www.anthropic.com/news/contextual-retrieval)
+
+#### [AGENT AI: SURVEYING THE HORIZONS OF MULTIMODAL INTERACTION](https://arxiv.org/pdf/2401.03568)
