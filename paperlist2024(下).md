@@ -122,5 +122,6 @@ ImageInWords（IIW），一个精心设计的human-in-the-loop的注释框架(an
 
 #### [SKELETON-OF-THOUGHT: PROMPTING LLMs FOR EFFICIENT PARALLEL GENERATION](https://arxiv.org/pdf/2307.15337)
 ````
-针对LLM解码过程计算利用率低和延时大的问题，在数据层面，通过提示词引导LLM自主规划出答案提纲，并利用提纲中不同部分的可并行性，解决LLM解码过程计算单元利用率低和延时大的问题。
+针对LLM解码过程计算利用率低和延时大的问题，在数据层面，通过提示词引导LLM自主规划出答案提纲，
+并利用提纲中不同部分的可并行性，解决LLM解码过程计算单元利用率低和延时大的问题。
 ````
