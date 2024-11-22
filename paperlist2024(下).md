@@ -128,3 +128,5 @@ ImageInWords（IIW），一个精心设计的human-in-the-loop的注释框架(an
 ![image](https://github.com/user-attachments/assets/cc70c768-2932-4145-89bf-40cd7bdd614b)
 
 #### [Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study](https://www.microsoft.com/en-us/research/uploads/prod/2023/12/wsdm24-SUC.pdf)
+
+#### [AIOpsLab: A Holistic Framework for Evaluating AI Agents for Enabling Autonomous Cloud](https://www.microsoft.com/en-us/research/uploads/prod/2024/10/AIOpsLab-6705feab5dcdb.pdf)
