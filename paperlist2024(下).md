@@ -132,3 +132,7 @@ ImageInWords（IIW），一个精心设计的human-in-the-loop的注释框架(an
 #### [AIOpsLab: A Holistic Framework for Evaluating AI Agents for Enabling Autonomous Cloud](https://www.microsoft.com/en-us/research/uploads/prod/2024/10/AIOpsLab-6705feab5dcdb.pdf)
 
 #### [End-to-End Automatic Speech Recognition](https://www.microsoft.com/en-us/research/uploads/prod/2024/08/SPS2024_E2E-ASR.pdf)
+````
+以大型语言模型 (LLM) 为中心的 AI 可能是 E2E ASR 的下一个趋势。
+基于 LLM 的模型，如 VALL-E、SpeechX、VioLA、AudioPaLM、SALMONN、WavLLM 和 Speech-LLM，正在推动语音理解和生成的边界。
+````
