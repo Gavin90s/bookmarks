@@ -157,3 +157,5 @@ ImageInWords（IIW），一个精心设计的human-in-the-loop的注释框架(an
 MK Summary 是基于元数据的文档集群内容的高级摘要。 在推理时，用户查询会根据感兴趣的元数据动态增强，从而为该用户提供定制的响应。
 这使得检索器能够跨多个文档进行推理，从而提高搜索结果的深度、覆盖范围和相关性。
 ````
+![image](https://github.com/user-attachments/assets/22b9bb73-f017-4bae-b397-0d57172a8d7c)
+
