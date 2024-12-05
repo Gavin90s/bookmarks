@@ -147,3 +147,13 @@ ImageInWords（IIW），一个精心设计的human-in-the-loop的注释框架(an
 
 
 #### [Controlled Automatic Task-Specific Synthetic Data Generation for Hallucination Detection](https://assets.amazon.science/c8/da/d717c3d447d8a7944c85dccda43d/controlled-automatic-task-specific-synthetic-data-generation-for-hallucination-detection.pdf)
+
+#### [Meta Knowledge for Retrieval Augmented Large Language](https://assets.amazon.science/c8/94/ded22c51481491a0ac359d3b87e8/meta-knowledge-for-retrieval-augmented-large-language-models.pdf)
+````
+创新点：
+1、用合成问答生成代替传统文档分块框架。 传统 RAG 管道严重依赖文档分块，但这会导致信息丢失，并使检索模型难以提取相关信息。
+ 这项研究提出用合成问答生成来代替文档分块，从而减轻信息丢失，并提高检索的准确性。
+2、引入元知识摘要 (MK Summary) 以增强查询。 为了进一步提高零样本搜索增强，该研究引入了 MK Summary 的概念。
+MK Summary 是基于元数据的文档集群内容的高级摘要。 在推理时，用户查询会根据感兴趣的元数据动态增强，从而为该用户提供定制的响应。
+这使得检索器能够跨多个文档进行推理，从而提高搜索结果的深度、覆盖范围和相关性。
+````
