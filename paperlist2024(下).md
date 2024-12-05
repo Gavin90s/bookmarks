@@ -136,3 +136,11 @@ ImageInWords（IIW），一个精心设计的human-in-the-loop的注释框架(an
 以大型语言模型 (LLM) 为中心的 AI 可能是 E2E ASR 的下一个趋势。
 基于 LLM 的模型，如 VALL-E、SpeechX、VioLA、AudioPaLM、SALMONN、WavLLM 和 Speech-LLM，正在推动语音理解和生成的边界。
 ````
+
+#### [Learning to Generate Answers with Citations via Factual Consistency Models](https://assets.amazon.science/b9/c2/2a961e5849c8b3d2b5037920a35e/learning-to-generate-answers-with-citations-via-factual-consistency-models.pdf)
+````
+弱监督微调(Weakly-supervised fine-tuning) 是一种在有限标注资源下提高模型性能的有效方法，它通过利用弱标签和自我生成的伪标签来减少对精确标注数据的需求，并采用多种策略来提高模型的鲁棒性和准确性。
+事实一致性模型（Factual Consistency Models）的核心目标是确保机器生成的文本（如摘要、翻译或回答）与源数据或已知事实保持一致，不产生虚假或不一致的信息。
+````
+![image](https://github.com/user-attachments/assets/1ac92996-9110-4b33-a153-964a07833788)
+
