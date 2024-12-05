@@ -145,3 +145,5 @@ ImageInWords（IIW），一个精心设计的human-in-the-loop的注释框架(an
 ````
 ![image](https://github.com/user-attachments/assets/1ac92996-9110-4b33-a153-964a07833788)
 
+
+#### [Controlled Automatic Task-Specific Synthetic Data Generation for Hallucination Detection](https://assets.amazon.science/c8/da/d717c3d447d8a7944c85dccda43d/controlled-automatic-task-specific-synthetic-data-generation-for-hallucination-detection.pdf)
