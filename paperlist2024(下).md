@@ -163,4 +163,8 @@ MK Summary 是基于元数据的文档集群内容的高级摘要。 在推理�
 #### [RAGChecker: A fine-grained framework for diagnosing retrieval-augmented generation](https://assets.amazon.science/2b/d9/934f060348a994cbac2a2651820a/ragchecker-a-fine-grained-framework-for-diagnosing-retrieval-augmented-generation.pdf)
 ![image](https://github.com/user-attachments/assets/06b5916a-9370-4712-aa3a-a82ea30216c6)
 
+#### [Can Language Models Learn to Skip Steps?](https://assets.amazon.science/cd/35/45697d31476fb8d11b9faeed5a49/can-language-models-learn-to-skip-steps.pdf)
+![image](https://github.com/user-attachments/assets/35b12cb8-844f-4117-8172-c71665a06e1c)
+
+
 
