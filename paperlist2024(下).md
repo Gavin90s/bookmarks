@@ -159,3 +159,6 @@ MK Summary 是基于元数据的文档集群内容的高级摘要。 在推理�
 ````
 ![image](https://github.com/user-attachments/assets/22b9bb73-f017-4bae-b397-0d57172a8d7c)
 
+
+#### [RAGChecker: A fine-grained framework for diagnosing retrieval-augmented generation](https://assets.amazon.science/2b/d9/934f060348a994cbac2a2651820a/ragchecker-a-fine-grained-framework-for-diagnosing-retrieval-augmented-generation.pdf)
+
