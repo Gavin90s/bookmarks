@@ -166,5 +166,5 @@ MK Summary 是基于元数据的文档集群内容的高级摘要。 在推理�
 #### [Can Language Models Learn to Skip Steps?](https://assets.amazon.science/cd/35/45697d31476fb8d11b9faeed5a49/can-language-models-learn-to-skip-steps.pdf)
 ![image](https://github.com/user-attachments/assets/35b12cb8-844f-4117-8172-c71665a06e1c)
 
-
+#### [Qualitative Insights Tool (QualIT): LLM Enhanced Topic Modeling](https://www.amazon.science/blog/unlocking-insights-from-qualitative-text-with-llm-enhanced-topic-modeling)
 
