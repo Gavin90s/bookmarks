@@ -7,5 +7,4 @@ SPECULATIVE RAG
 ````
 
 #### [Re-Invoke: Tool Invocation Rewriting for Zero-Shot Tool Retrieval](https://aclanthology.org/2024.findings-emnlp.270.pdf)
-![Uploading image.png…]()
-
+![image](https://github.com/user-attachments/assets/f83a05ae-2fa6-4e48-9a4d-2ad9ee448166)
