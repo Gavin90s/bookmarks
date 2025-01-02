@@ -5,3 +5,5 @@ SPECULATIVE RAG
 提供了多样化的证据视角，同时减少了每个草稿的输入Token数量。
 2.利用一个更大的通用语言模型来高效验证对每个子集的理解，并减轻了长上下文中潜在的位置偏见(position bias)。
 ````
+
+#### [Re-Invoke: Tool Invocation Rewriting for Zero-Shot Tool Retrieval](https://aclanthology.org/2024.findings-emnlp.270.pdf)
