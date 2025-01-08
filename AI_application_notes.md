@@ -3,3 +3,5 @@
 #### [好听的声音](https://huggingface.co/datasets/rgsgs/asoul_carol/tree/main/dataset_viewer)
 
 #### [AI换衣](https://huggingface.co/spaces/franciszzj/Leffa)
+
+#### [声音克隆](https://modelscope.cn/studios/iic/CosyVoice2-0.5B)
