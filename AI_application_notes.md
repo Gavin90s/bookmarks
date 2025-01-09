@@ -5,3 +5,5 @@
 #### [AI换衣](https://huggingface.co/spaces/franciszzj/Leffa)
 
 #### [声音克隆](https://modelscope.cn/studios/iic/CosyVoice2-0.5B)
+
+#### [图片upscale](https://huggingface.co/jasperai/Flux.1-dev-Controlnet-Upscaler)
