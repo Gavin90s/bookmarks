@@ -9,3 +9,5 @@
 #### [图片upscale](https://huggingface.co/jasperai/Flux.1-dev-Controlnet-Upscaler)
 
 #### [模特商品图](https://huggingface.co/ixarchakos/tryOffAnyone)
+
+#### [AI衣服设计](https://thenewblack.ai/ai-design-features/turn-fabric-textile-into-clothing-fashion-design)
