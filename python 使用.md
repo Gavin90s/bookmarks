@@ -75,3 +75,17 @@ for text in lines:
 You can refer the link above to get a more in depth understanding of the subject,
 as it covers this specific example and much more..
 ```
+
+#### cprint使用
+cprint 是一个 Python 库，用于在终端中打印彩色文本。它提供了一种简单的方法来增强终端输出的可读性和视觉效果。
+```
+# 打印黄色文本
+cprint("This is yellow text", color='yellow')
+
+# 打印带有背景色的文本
+cprint("This is text with a red background", color='white', bg='red')
+
+# 打印加粗文本
+cprint("This is bold text", color='blue', attrs=['bold'])
+```
+
