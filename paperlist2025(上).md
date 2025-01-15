@@ -13,4 +13,4 @@ SPECULATIVE RAG
 
 #### HiFiVFS: High Fidelity Video Face Swapping
 
-#### Tell Me More! Towards Implicit User Intention Understanding of Language Model Driven Agents(https://arxiv.org/pdf/2402.09205)
+#### [Tell Me More! Towards Implicit User Intention Understanding of Language Model Driven Agents](https://arxiv.org/pdf/2402.09205)
