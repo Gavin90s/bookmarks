@@ -11,4 +11,6 @@ SPECULATIVE RAG
 
 #### [Harnessing Multimodal Large Language Models for Multimodal Sequential Recommendation](https://arxiv.org/pdf/2408.09698v2)
 
-HiFiVFS: High Fidelity Video Face Swapping
+#### HiFiVFS: High Fidelity Video Face Swapping
+
+#### Tell Me More! Towards Implicit User Intention Understanding of Language Model Driven Agents(https://arxiv.org/pdf/2402.09205)
