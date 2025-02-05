@@ -16,3 +16,4 @@ SPECULATIVE RAG
 #### [Tell Me More! Towards Implicit User Intention Understanding of Language Model Driven Agents](https://arxiv.org/pdf/2402.09205)
 ![image](https://github.com/user-attachments/assets/42335981-f0c8-4435-9686-4c1815e364ab)
 
+#### [SUFFICIENT CONTEXT: A NEW LENS ON RETRIEVAL AUGMENTED GENERATION SYSTEMS](https://arxiv.org/pdf/2411.06037)
