@@ -33,3 +33,5 @@ considered helpful.)
 #### [Token Pruning Optimization for Efficient Multi-Vector Dense Retrieval](https://assets.amazon.science/a3/46/81ba78eb4a4c9b90e5939b8df2bd/token-pruning-optimization-for-efficient-multi-vector-dense-retrieval.pdf)
 ![image](https://github.com/user-attachments/assets/a3a0506b-4a42-42f5-b97a-eebb1223ef47)
 
+#### [Chain-of-Instructions: Compositional Instruction Tuning on Large Language Models](https://assets.amazon.science/89/c9/421aa5e04e39bb1aba36ae9cc4bf/chain-of-instructions-compositional-instruction-tuning-on-large-language-models.pdf)
+
