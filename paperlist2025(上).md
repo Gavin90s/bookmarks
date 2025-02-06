@@ -20,9 +20,13 @@ SPECULATIVE RAG
 
 #### [Towards Knowledge Checking in Retrieval-augmented Generation: A Representation Perspective](https://assets.amazon.science/b9/82/66f769564f0282f4ea06e22ef42a/towards-knowledge-checking-in-retrieval-augmented-generation-a-representation-perspective.pdf)
 **Internal Knowledge Checking**：用于判断LLMs内化的知识能否回复query。rep-PCA 达到 75% 的准确率，而 rep-Con 达到 79% 的准确率。
+
 **Helpfulness Checking**("Helpfulness" here refers to the relevance of information to the query, information directly addressing the question is
 considered helpful.)
-**Informed Helpfulness Checking** when the LLM has internal knowledge about the query, check external information helpfulness. rep-PCA 达到 79% 的准确率，而 rep-Con 达到 81% 的准确率。
-**Uninformed Helpfulness Checking** when the LLM lacks internal knowledge about the query, check external information helpfulness. rep-PCA 达到 81% 的准确率，而 rep-Con 达到 85% 的准确率。
-**Contradiction Checking** to check if internal knowledge has any contradictions with the retrieved external information. rep-PCA 达到 91% 的准确率，而 rep-Con 达到 95% 的准确率。
+
+>> **Informed Helpfulness Checking** when the LLM has internal knowledge about the query, check external information helpfulness. rep-PCA 达到 79% 的准确率，而 rep-Con 达到 81% 的准确率。
+
+>> **Uninformed Helpfulness Checking** when the LLM lacks internal knowledge about the query, check external information helpfulness. rep-PCA 达到 81% 的准确率，而 rep-Con 达到 85% 的准确率。
+
+>> **Contradiction Checking** to check if internal knowledge has any contradictions with the retrieved external information. rep-PCA 达到 91% 的准确率，而 rep-Con 达到 95% 的准确率。
 
