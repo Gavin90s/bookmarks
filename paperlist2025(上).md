@@ -17,3 +17,5 @@ SPECULATIVE RAG
 ![image](https://github.com/user-attachments/assets/42335981-f0c8-4435-9686-4c1815e364ab)
 
 #### [SUFFICIENT CONTEXT: A NEW LENS ON RETRIEVAL AUGMENTED GENERATION SYSTEMS](https://arxiv.org/pdf/2411.06037)
+
+#### [Towards Knowledge Checking in Retrieval-augmented Generation: A Representation Perspective](https://assets.amazon.science/b9/82/66f769564f0282f4ea06e22ef42a/towards-knowledge-checking-in-retrieval-augmented-generation-a-representation-perspective.pdf)
