@@ -31,4 +31,5 @@ considered helpful.)
 >> **Contradiction Checking** to check if internal knowledge has any contradictions with the retrieved external information. rep-PCA 达到 91% 的准确率，而 rep-Con 达到 95% 的准确率。
 
 #### [Token Pruning Optimization for Efficient Multi-Vector Dense Retrieval](https://assets.amazon.science/a3/46/81ba78eb4a4c9b90e5939b8df2bd/token-pruning-optimization-for-efficient-multi-vector-dense-retrieval.pdf)
+![image](https://github.com/user-attachments/assets/a3a0506b-4a42-42f5-b97a-eebb1223ef47)
 
