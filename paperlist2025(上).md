@@ -19,11 +19,14 @@ SPECULATIVE RAG
 #### [SUFFICIENT CONTEXT: A NEW LENS ON RETRIEVAL AUGMENTED GENERATION SYSTEMS](https://arxiv.org/pdf/2411.06037)
 
 #### [Towards Knowledge Checking in Retrieval-augmented Generation: A Representation Perspective](https://assets.amazon.science/b9/82/66f769564f0282f4ea06e22ef42a/towards-knowledge-checking-in-retrieval-augmented-generation-a-representation-perspective.pdf)
-````
-Internal Knowledge Checking：用于判断LLMs内化的知识能否回复query。
+**Internal Knowledge Checking**：用于判断LLMs内化的知识能否回复query。
+
 **Helpfulness Checking**("Helpfulness" here refers to the relevance of information to the query, information directly addressing the question is
 considered helpful.)
+
 **Informed Helpfulness Checking** when the LLM has internal knowledge about the query, check external information helpfulness
-Uninformed Helpfulness Checking when the LLM lacks internal knowledge about the query, check external information helpfulness
+
+**Uninformed Helpfulness Checking** when the LLM lacks internal knowledge about the query, check external information helpfulness
+
 **Contradiction Checking** to check if internal knowledge has any contradictions with the retrieved external information.
-````
+
