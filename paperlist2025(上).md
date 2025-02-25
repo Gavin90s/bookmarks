@@ -36,3 +36,5 @@ considered helpful.)
 #### [Chain-of-Instructions: Compositional Instruction Tuning on Large Language Models](https://assets.amazon.science/89/c9/421aa5e04e39bb1aba36ae9cc4bf/chain-of-instructions-compositional-instruction-tuning-on-large-language-models.pdf)
 
 #### [DeepSeek 入门到精通](https://docs.qq.com/pdf/DR05PZXNMd2RoUkFQ?)
+
+#### [How to Talk to Language Models: Serialization Strategies for Structured Entity Matching](https://www.amazon.science/publications/how-to-talk-to-language-models-serialization-strategies-for-structured-entity-matching)
