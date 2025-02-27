@@ -38,3 +38,5 @@ considered helpful.)
 #### [DeepSeek 入门到精通](https://docs.qq.com/pdf/DR05PZXNMd2RoUkFQ?)
 
 #### [How to Talk to Language Models: Serialization Strategies for Structured Entity Matching](https://www.amazon.science/publications/how-to-talk-to-language-models-serialization-strategies-for-structured-entity-matching)
+
+####  [AutoEval-ToD: Automated Evaluation of Task-oriented Dialog Systems](https://assets.amazon.science/ff/f0/596370ca4d1cbcd414b2a079aa77/autoeval-tod-automated-evaluation-of-task-oriented-dialog-systems.pdf)
