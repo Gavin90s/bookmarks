@@ -40,3 +40,32 @@ considered helpful.)
 #### [How to Talk to Language Models: Serialization Strategies for Structured Entity Matching](https://www.amazon.science/publications/how-to-talk-to-language-models-serialization-strategies-for-structured-entity-matching)
 
 ####  [AutoEval-ToD: Automated Evaluation of Task-oriented Dialog Systems](https://assets.amazon.science/ff/f0/596370ca4d1cbcd414b2a079aa77/autoeval-tod-automated-evaluation-of-task-oriented-dialog-systems.pdf)
+
+#### [TOAD: Task-Oriented Automatic Dialogs with Diverse Response Styles](https://aclanthology.org/2024.findings-acl.494.pdf)
+````
+在对话系统中，**verbosity（冗长程度）和mirroring（镜像）**是两种用于控制系统响应风格的参数。以下是它们的含义和作用：
+1. Verbosity（冗长程度）
+Verbosity 表示系统响应的详细程度或信息量。它通常分为三个级别：
+LV（Low Verbosity，低冗长程度）：响应简洁、直接，提供最少的信息，适合快速回答。
+MV（Mid Verbosity，中冗长程度）：响应适中，提供足够的信息，但不会过于冗长。
+HV（High Verbosity，高冗长程度）：响应详细、全面，提供丰富的信息，适合需要详细解释的场景。
+示例：
+LV：用户问：“今天天气如何？”
+系统回答：“晴天。”
+MV：用户问：“今天天气如何？”
+系统回答：“今天是晴天，气温适中。”
+HV：用户问：“今天天气如何？”
+系统回答：“今天天气晴朗，气温在20-25摄氏度之间，非常适合户外活动。”
+2. Mirroring（镜像）
+Mirroring 是一种对话策略，表示系统在回答时是否模仿用户的语言风格、情感或表达方式。它的作用是让用户感到系统更自然、更贴近自己，从而增强对话的流畅性和亲和力。
+M（Mirroring，镜像）：系统会模仿用户的语言风格，包括语气、词汇和表达方式。
+非镜像：系统以固定的、标准的语言风格回答，不模仿用户。
+示例：
+用户：嘿，今天天气咋样？（口语化）
+系统（Mirroring）：嘿，今天挺好的，晴天呢！（模仿口语化）
+用户：嘿，今天天气咋样？
+系统（非镜像）：今天天气晴朗，适合外出。
+总结
+Verbosity 控制回答的详细程度，从简洁到详细。
+Mirroring 控制回答是否模仿用户的语言风格，增强对话的自然感和亲和力。
+````
