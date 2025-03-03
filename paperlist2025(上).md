@@ -72,3 +72,5 @@ Mirroring 控制回答是否模仿用户的语言风格，增强对话的自然�
 #### [TOAD: Task-Oriented Automatic Dialogs with Diverse Response Styles](https://aclanthology.org/2024.findings-acl.494.pdf)
 
 #### [Structured object language modeling (SoLM): Native structured objects generation conforming to complex schemas with self-supervised denoising](https://assets.amazon.science/9a/d6/456c33b44d2fb1453fc481b8f6d9/structured-object-language-modeling-solm-native-structured-objects-generation-conforming-to-complex-schemas-with-self-supervised-denoising.pdf)
+![image](https://github.com/user-attachments/assets/e01426e9-d9d4-4549-b587-edd1a648423a)
+
