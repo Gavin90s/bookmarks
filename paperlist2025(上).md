@@ -77,3 +77,4 @@ self-supervised denoising training
 ````
 ![image](https://github.com/user-attachments/assets/e01426e9-d9d4-4549-b587-edd1a648423a)
 
+#### [BFS-Prover: Scalable Best-First Tree Search for LLM-based Automatic Theorem Proving](https://arxiv.org/pdf/2502.03438)
