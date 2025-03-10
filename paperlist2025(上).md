@@ -79,3 +79,5 @@ self-supervised denoising training
 #### [BFS-Prover: Scalable Best-First Tree Search for LLM-based Automatic Theorem Proving](https://arxiv.org/pdf/2502.03438)
 
 #### [SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training](https://arxiv.org/pdf/2501.17161?)
+
+####  [INTERNET OF AGENTS: WEAVING A WEB OF HETEROGENEOUS AGENTS FOR COLLABORATIVE INTELLIGENCE](https://arxiv.org/pdf/2407.07061)
