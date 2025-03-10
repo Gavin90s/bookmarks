@@ -81,3 +81,5 @@ self-supervised denoising training
 #### [SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training](https://arxiv.org/pdf/2501.17161?)
 
 ####  [INTERNET OF AGENTS: WEAVING A WEB OF HETEROGENEOUS AGENTS FOR COLLABORATIVE INTELLIGENCE](https://arxiv.org/pdf/2407.07061)
+
+#### [Agentic flow // let’s see what the agents can do](https://noailabs.medium.com/agentic-flow-lets-see-what-the-agents-can-do-e920c72f64b2)
