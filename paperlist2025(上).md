@@ -84,5 +84,5 @@ self-supervised denoising training
 
 #### [Agentic flow // let’s see what the agents can do](https://noailabs.medium.com/agentic-flow-lets-see-what-the-agents-can-do-e920c72f64b2)
 
-#### [MCTS](https://www.bilibili.com/video/BV1CJ411A7K9/?spm_id_from=333.337.search-card.all.click)
+#### [MCTS bilibili视频](https://www.bilibili.com/video/BV1CJ411A7K9/?spm_id_from=333.337.search-card.all.click)
 https://github.com/Wangmerlyn/MCTS-GSM8k-Demo
