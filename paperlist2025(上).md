@@ -86,3 +86,5 @@ self-supervised denoising training
 
 #### [MCTS bilibili视频](https://www.bilibili.com/video/BV1CJ411A7K9/?spm_id_from=333.337.search-card.all.click)
 https://github.com/Wangmerlyn/MCTS-GSM8k-Demo
+
+#### [hugging face GRPO Trainer](https://huggingface.co/docs/trl/main/en/grpo_trainer)
