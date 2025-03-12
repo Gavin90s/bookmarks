@@ -88,3 +88,7 @@ self-supervised denoising training
 https://github.com/Wangmerlyn/MCTS-GSM8k-Demo
 
 #### [hugging face GRPO Trainer](https://huggingface.co/docs/trl/main/en/grpo_trainer)
+- Generating completions
+- computing the advantage
+- estimating the KL divergence
+- computing the loss.
