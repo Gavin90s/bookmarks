@@ -83,3 +83,6 @@ self-supervised denoising training
 ####  [INTERNET OF AGENTS: WEAVING A WEB OF HETEROGENEOUS AGENTS FOR COLLABORATIVE INTELLIGENCE](https://arxiv.org/pdf/2407.07061)
 
 #### [Agentic flow // let’s see what the agents can do](https://noailabs.medium.com/agentic-flow-lets-see-what-the-agents-can-do-e920c72f64b2)
+
+#### [MCTS](https://www.bilibili.com/video/BV1CJ411A7K9/?spm_id_from=333.337.search-card.all.click)
+https://github.com/Wangmerlyn/MCTS-GSM8k-Demo
