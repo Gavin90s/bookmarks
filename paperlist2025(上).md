@@ -98,5 +98,5 @@ https://github.com/Wangmerlyn/MCTS-GSM8k-Demo
 #### [From Online Softmax to FlashAttention](https://courses.cs.washington.edu/courses/cse599m/23sp/notes/flashattn.pdf)
 ````
 FlashAttention，一种通过模仿在线 Softmax 的技巧来对自注意力计算进行分块的关键创新，
-其核心目标是避免在 GPU 全局内存中存储中间的 logits 和注意力分数，从而融合整个多头注意力层，实现更快且更节省内存的自注意力计算
+其核心目标是避免在 GPU 全局内存中存储中间的 logits 和注意力分数，从而融合整个多头注意力层，实现更快且更节省内存的自注意力计算。
 ````
