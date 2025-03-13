@@ -92,3 +92,5 @@ https://github.com/Wangmerlyn/MCTS-GSM8k-Demo
 - computing the advantage
 - estimating the KL divergence
 - computing the loss.
+
+#### [sgd, adam, adamw 讲解视频](https://www.bilibili.com/video/BV1NZ421s75D/?spm_id_from=333.337.search-card.all.click)
