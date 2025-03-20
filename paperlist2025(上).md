@@ -108,3 +108,4 @@ FlashAttention，一种通过模仿在线 Softmax 的技巧来对自注意力计
 #### [Mastering Text Generation: Unveiling the Secrets of Decoding Strategies in Large Language Models](https://medium.com/@himankvjain/mastering-text-generation-unveiling-the-secrets-of-decoding-strategies-in-large-language-models-e89f91b9b7f1)
 
 #### [旋转位置编码rope讲解](https://www.bilibili.com/video/BV1F1421B7iv/?spm_id_from=333.337.search-card.all.click)
+https://www.zhihu.com/tardis/bd/art/647109286?source_id=1001
