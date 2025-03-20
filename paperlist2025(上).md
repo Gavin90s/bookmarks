@@ -109,3 +109,5 @@ FlashAttention，一种通过模仿在线 Softmax 的技巧来对自注意力计
 
 #### [旋转位置编码rope讲解](https://www.bilibili.com/video/BV1F1421B7iv/?spm_id_from=333.337.search-card.all.click)
 https://www.zhihu.com/tardis/bd/art/647109286?source_id=1001
+
+#### [Chain-of-Retrieval Augmented Generation](https://arxiv.org/pdf/2501.14342)
