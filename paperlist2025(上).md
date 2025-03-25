@@ -113,3 +113,5 @@ https://www.zhihu.com/tardis/bd/art/647109286?source_id=1001
 #### [Chain-of-Retrieval Augmented Generation](https://arxiv.org/pdf/2501.14342)
 
 #### [RLTHF: Targeted Human Feedback for LLM Alignment](https://www.arxiv.org/pdf/2502.13417)
+
+#### [vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention](https://www.microsoft.com/en-us/research/wp-content/uploads/2024/05/vattention_arxiv24.pdf)
