@@ -111,3 +111,5 @@ FlashAttention，一种通过模仿在线 Softmax 的技巧来对自注意力计
 https://www.zhihu.com/tardis/bd/art/647109286?source_id=1001
 
 #### [Chain-of-Retrieval Augmented Generation](https://arxiv.org/pdf/2501.14342)
+
+#### [RLTHF: Targeted Human Feedback for LLM Alignment](https://www.arxiv.org/pdf/2502.13417)
