@@ -117,3 +117,5 @@ https://www.zhihu.com/tardis/bd/art/647109286?source_id=1001
 #### [vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention](https://www.microsoft.com/en-us/research/wp-content/uploads/2024/05/vattention_arxiv24.pdf)
 
 #### [Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention](https://arxiv.org/pdf/2502.11089)
+
+#### [MMED-RAG: VERSATILE MULTIMODAL RAG SYSTEM FOR MEDICAL VISION LANGUAGE MODELS](https://arxiv.org/pdf/2410.13085)
