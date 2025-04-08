@@ -119,3 +119,5 @@ https://www.zhihu.com/tardis/bd/art/647109286?source_id=1001
 #### [Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention](https://arxiv.org/pdf/2502.11089)
 
 #### [MMED-RAG: VERSATILE MULTIMODAL RAG SYSTEM FOR MEDICAL VISION LANGUAGE MODELS](https://arxiv.org/pdf/2410.13085)
+
+#### [Inference-Time Scaling for Generalist Reward Modeling](https://huggingface.co/papers/2504.02495)
