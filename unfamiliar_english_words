@@ -99,3 +99,6 @@ human-in-the-loop annotation framework 指的是在自动化框架中引入人�
 Undermine 削弱，破坏；
 Entity matching (EM), which identifies whether two data records refer to the same real-world entity
 colloquial language 口语，非正式的、日常使用的语言表达方式。
+"Lost-in-the-middle issue" 在处理需要识别相关上下文信息的任务时，如文档问答、键值对索引等，大型语言模型（LLMs）对相关信息的位置非常敏感。
+当相关信息位于输入提示的开头或结尾时，模型能够取得较好的效果。然而，当相关信息位于提示的中间部分时，模型的性能会显著下降。
+这种现象表明，当前的语言模型在长输入上下文中不能稳健地利用信息，尤其是当相关信息出现在输入上下文的中间时，模型性能会显著下降。
