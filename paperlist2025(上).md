@@ -104,6 +104,9 @@ FlashAttention，一种通过模仿在线 Softmax 的技巧来对自注意力计
 #### [Long Context RAG Performance of LLMs](https://www.databricks.com/blog/long-context-rag-performance-llms)
 
 #### [Chain of Agents: Large Language Models Collaborating on Long-Context Tasks](https://openreview.net/pdf?id=LuCLf4BJsr)
+````
+使用 Chain-of-Agents 解决 Long-Context 问题。
+````
 
 #### [Mastering Text Generation: Unveiling the Secrets of Decoding Strategies in Large Language Models](https://medium.com/@himankvjain/mastering-text-generation-unveiling-the-secrets-of-decoding-strategies-in-large-language-models-e89f91b9b7f1)
 
