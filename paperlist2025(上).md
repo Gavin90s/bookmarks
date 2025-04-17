@@ -136,9 +136,6 @@ https://www.zhihu.com/tardis/bd/art/647109286?source_id=1001
 ````
 
 #### [PIKE-RAG: sPecIalized KnowledgE and Rationale Augmented Generation](https://arxiv.org/pdf/2501.11551)
-![image](https://github.com/user-attachments/assets/2edd4719-6ae5-487d-8e0a-960587882e45)
-
-````
 - factual question
 - bridging question
 - quantitative question
@@ -146,4 +143,4 @@ https://www.zhihu.com/tardis/bd/art/647109286?source_id=1001
 - summerizing question
 - predictive question
 - creative question
-````
+![image](https://github.com/user-attachments/assets/2edd4719-6ae5-487d-8e0a-960587882e45)
