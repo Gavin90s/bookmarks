@@ -143,6 +143,7 @@ https://www.zhihu.com/tardis/bd/art/647109286?source_id=1001
 - summerizing question
 - predictive question
 - creative question
+
 - Linkable-Reasoning Questions multi-step reasoning and linking across multiple sources.
 - Predictive Questions extend beyond the available data, requiring inductive reasoning and structuring of retrieved facts into analyzable forms,
 such as time series, for future-oriented predictions. 
@@ -150,5 +151,9 @@ such as time series, for future-oriented predictions.
 synthesizing knowledge and identifying patterns or influencing factors.
 ![image](https://github.com/user-attachments/assets/2edd4719-6ae5-487d-8e0a-960587882e45)
 
+- task decomposition & coordination
+- knowledge retrieval
+- knowledge organization
+- knowledge centric reasoning
 ![image](https://github.com/user-attachments/assets/a3be1b18-a644-48aa-97c1-1c5435ca78b6)
 
