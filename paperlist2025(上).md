@@ -128,3 +128,5 @@ https://www.zhihu.com/tardis/bd/art/647109286?source_id=1001
 "Lost-in-the-middle issue" 在处理需要识别相关上下文信息的任务时，如文档问答、键值对索引等，大型语言模型（LLMs）对相关信息的位置非常敏感。
 当相关信息位于输入提示的开头或结尾时，模型能够取得较好的效果。然而，当相关信息位于提示的中间部分时，模型的性能会显著下降。
 这种现象表明，当前的语言模型在长输入上下文中不能稳健地利用信息，尤其是当相关信息出现在输入上下文的中间时，模型性能会显著下降。
+
+#### [Know Your RAG: Dataset Taxonomy and Generation Strategies for Evaluating RAG Systems](https://aclanthology.org/2025.coling-industry.4.pdf)
