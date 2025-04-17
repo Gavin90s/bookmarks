@@ -132,5 +132,6 @@ https://www.zhihu.com/tardis/bd/art/647109286?source_id=1001
 #### [Know Your RAG: Dataset Taxonomy and Generation Strategies for Evaluating RAG Systems](https://aclanthology.org/2025.coling-industry.4.pdf)
 ````
 基于(context, query)将问题分类为fact_single、summary、reasoning.
+提出了基于 multi-steps 生成问题的方法。
 ````
 
