@@ -130,3 +130,7 @@ https://www.zhihu.com/tardis/bd/art/647109286?source_id=1001
 这种现象表明，当前的语言模型在长输入上下文中不能稳健地利用信息，尤其是当相关信息出现在输入上下文的中间时，模型性能会显著下降。
 
 #### [Know Your RAG: Dataset Taxonomy and Generation Strategies for Evaluating RAG Systems](https://aclanthology.org/2025.coling-industry.4.pdf)
+````
+基于(context, query)将问题分类为fact_single、summary、reasoning.
+````
+
