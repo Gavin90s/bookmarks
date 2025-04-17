@@ -143,4 +143,9 @@ https://www.zhihu.com/tardis/bd/art/647109286?source_id=1001
 - summerizing question
 - predictive question
 - creative question
+- Linkable-Reasoning Questions multi-step reasoning and linking across multiple sources.
+- Predictive Questions extend beyond the available data, requiring inductive reasoning and structuring of retrieved facts into analyzable forms,
+such as time series, for future-oriented predictions. 
+- Creative Questions engage domainspecific logic and creative problem-solving, encouraging the generation of innovative solutions by
+synthesizing knowledge and identifying patterns or influencing factors.
 ![image](https://github.com/user-attachments/assets/2edd4719-6ae5-487d-8e0a-960587882e45)
