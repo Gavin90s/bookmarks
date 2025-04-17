@@ -149,3 +149,6 @@ such as time series, for future-oriented predictions.
 - Creative Questions engage domain specific logic and creative problem-solving, encouraging the generation of innovative solutions by
 synthesizing knowledge and identifying patterns or influencing factors.
 ![image](https://github.com/user-attachments/assets/2edd4719-6ae5-487d-8e0a-960587882e45)
+
+![image](https://github.com/user-attachments/assets/a3be1b18-a644-48aa-97c1-1c5435ca78b6)
+
