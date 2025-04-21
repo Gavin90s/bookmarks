@@ -157,3 +157,5 @@ synthesizing knowledge and identifying patterns or influencing factors.
 - knowledge centric reasoning
 ![image](https://github.com/user-attachments/assets/a3be1b18-a644-48aa-97c1-1c5435ca78b6)
 
+#### [chatgpt temperature & top_p 参数怎么调节](https://community.openai.com/t/cheat-sheet-mastering-temperature-and-top-p-in-chatgpt-api/172683)
+
