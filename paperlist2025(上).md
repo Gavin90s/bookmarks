@@ -159,3 +159,5 @@ synthesizing knowledge and identifying patterns or influencing factors.
 
 #### [chatgpt temperature & top_p 参数怎么调节](https://community.openai.com/t/cheat-sheet-mastering-temperature-and-top-p-in-chatgpt-api/172683)
 
+#### [Learning to Reason under Off-Policy Guidance](https://arxiv.org/pdf/2504.14945)
+
