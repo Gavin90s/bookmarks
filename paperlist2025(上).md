@@ -161,3 +161,4 @@ synthesizing knowledge and identifying patterns or influencing factors.
 
 #### [Learning to Reason under Off-Policy Guidance](https://arxiv.org/pdf/2504.14945)
 
+#### [Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization](https://arxiv.org/pdf/2411.10442)
