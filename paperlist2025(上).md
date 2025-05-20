@@ -168,3 +168,5 @@ synthesizing knowledge and identifying patterns or influencing factors.
 #### [LLMS GET LOST IN MULTI-TURN CONVERSATION](https://arxiv.org/pdf/2505.06120)
 
 #### [Chain-of-Reasoning: Towards Unified Mathematical Reasoning in Large Language Models via a Multi-Paradigm Perspective](https://arxiv.org/pdf/2501.11110)
+
+#### [Scaling Laws of Synthetic Data for Language Models](https://arxiv.org/pdf/2503.19551)
