@@ -170,3 +170,13 @@ synthesizing knowledge and identifying patterns or influencing factors.
 #### [Chain-of-Reasoning: Towards Unified Mathematical Reasoning in Large Language Models via a Multi-Paradigm Perspective](https://arxiv.org/pdf/2501.11110)
 
 #### [Scaling Laws of Synthetic Data for Language Models](https://arxiv.org/pdf/2503.19551)
+
+#### [https://www.microsoft.com/en-us/research/wp-content/uploads/2025/04/75_DEDUCE_DEDUCTIVE_CONSISTENCY.pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2025/04/75_DEDUCE_DEDUCTIVE_CONSISTENCY.pdf)
+本文提出了一套生成 deductive consistency 推理数据的方法。
+- 基准问题（benchmark problem）：是一个标准的、用于测试的数学或逻辑问题。
+- 模板化（templatize）：将解决方案的结构提取出来，形成一个通用的模板。例如，一个数学问题的解决方案可能被提取成一系列的代码逻辑。
+- 可执行的代码解决方案：将模板化的解决方案转化为可以运行的代码，用于生成新的问题实例。
+- 更新变量值：前提数量（number of premises）：指推理过程中需要考虑的初始条件或已知信息的数量。推理步骤数量（number of hops）：指从前提到结论需要经过的推理步骤数量。
+- 生成新的问题：通过改变变量值，生成一个与原始基准问题结构相同但数值不同的新问题。
+
+
