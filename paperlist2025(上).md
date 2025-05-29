@@ -178,5 +178,6 @@ synthesizing knowledge and identifying patterns or influencing factors.
 - 可执行的代码解决方案：将模板化的解决方案转化为可以运行的代码，用于生成新的问题实例。
 - 更新变量值：前提数量（number of premises）：指推理过程中需要考虑的初始条件或已知信息的数量。推理步骤数量（number of hops）：指从前提到结论需要经过的推理步骤数量。
 - 生成新的问题：通过改变变量值，生成一个与原始基准问题结构相同但数值不同的新问题。
+![image](https://github.com/user-attachments/assets/2dec08c2-ab44-4ca4-9fee-8d890b1e9b32)
 
 
