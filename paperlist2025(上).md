@@ -180,4 +180,6 @@ synthesizing knowledge and identifying patterns or influencing factors.
 - 生成新的问题：通过改变变量值，生成一个与原始基准问题结构相同但数值不同的新问题。
 ![image](https://github.com/user-attachments/assets/2dec08c2-ab44-4ca4-9fee-8d890b1e9b32)
 
+#### [Plan∗RAG: Efficient Test-Time Planning for Retrieval Augmented Generation](https://arxiv.org/pdf/2410.20753)
+
 
