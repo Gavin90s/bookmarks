@@ -183,4 +183,6 @@ synthesizing knowledge and identifying patterns or influencing factors.
 
 #### [Plan∗RAG: Efficient Test-Time Planning for Retrieval Augmented Generation](https://arxiv.org/pdf/2410.20753)
 
+#### [Agentic Reasoning and Tool Integration for LLMs via Reinforcement Learning](https://www.microsoft.com/en-us/research/wp-content/uploads/2025/04/AgenticReasoning.pdf)
+
 
