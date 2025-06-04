@@ -168,6 +168,7 @@ synthesizing knowledge and identifying patterns or influencing factors.
 #### [LLMS GET LOST IN MULTI-TURN CONVERSATION](https://arxiv.org/pdf/2505.06120)
 
 #### [Chain-of-Reasoning: Towards Unified Mathematical Reasoning in Large Language Models via a Multi-Paradigm Perspective](https://arxiv.org/pdf/2501.11110)
+本文引入了推理链（Chain-of-Reasoning, CoR），这是一个整合了多种推理范式（自然语言推理、算法推理和符号推理）的新型统一框架，以实现协同合作。
 
 #### [Scaling Laws of Synthetic Data for Language Models](https://arxiv.org/pdf/2503.19551)
 
