@@ -186,3 +186,5 @@ synthesizing knowledge and identifying patterns or influencing factors.
 #### [Agentic Reasoning and Tool Integration for LLMs via Reinforcement Learning](https://www.microsoft.com/en-us/research/wp-content/uploads/2025/04/AgenticReasoning.pdf)
 
 #### [The N+ Implementation Details of RLHF with PPO: A Case Study on TL;DR Summarization](https://arxiv.org/pdf/2403.17031)
+
+#### [Search-o1: Agentic Search-Enhanced Large Reasoning Models](https://arxiv.org/pdf/2501.05366)
