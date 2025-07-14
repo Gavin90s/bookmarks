@@ -19,3 +19,7 @@ LVDS介绍
 <img width="1296" height="396" alt="image" src="https://github.com/user-attachments/assets/16721bff-2fa9-4d55-baa2-f68c392f7780" />
 
 目前，LVDS 仍是车载中低速高清信号传输的主流方案，而车载以太网则逐渐在高带宽需求场景（如 L4 自动驾驶）中普及，两者常结合使用以满足不同层级的传输需求。
+
+VMC介绍
+在车载场景中，VMC 通常指 Vehicle Motion Control（车辆运动控制），是车辆动力学控制的核心技术之一，负责协调车辆的动力、制动、转向等系统，
+实现对车辆行驶状态的精准调控，保障驾驶安全性、稳定性和舒适性。
