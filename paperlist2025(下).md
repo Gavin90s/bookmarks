@@ -7,3 +7,5 @@ LLKD 使用自适应样本选择(adaptive sample selection)方法, 挑选teacher
 ````
 
 #### [DIRECT REASONING OPTIMIZATION: LLMS CAN REWARD AND REFINE THEIR OWN REASONING FOR OPEN-ENDED TASKS](https://arxiv.org/pdf/2506.13351)
+
+#### [GUI-Actor: Coordinate-Free Visual Grounding for GUI Agents](https://www.arxiv.org/pdf/2506.03143)
