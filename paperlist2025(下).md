@@ -5,3 +5,5 @@ Learning with Less computational resources and less data for Knowledge Distillat
 LLKD 使用自适应样本选择(adaptive sample selection)方法, 挑选teacher认为置信度高(high confidence)，
 但student判断到不确定性高(high uncertainty)的样本。
 ````
+
+#### [DIRECT REASONING OPTIMIZATION: LLMS CAN REWARD AND REFINE THEIR OWN REASONING FOR OPEN-ENDED TASKS](https://arxiv.org/pdf/2506.13351)
