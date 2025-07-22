@@ -11,3 +11,5 @@ LLKD 使用自适应样本选择(adaptive sample selection)方法, 挑选teacher
 #### [GUI-Actor: Coordinate-Free Visual Grounding for GUI Agents](https://www.arxiv.org/pdf/2506.03143)
 
 #### [Keeping Humans in the Loop:Human-Centered Automated Annotation with Generative AI](https://arxiv.org/pdf/2409.09467)
+
+#### [LLMS GET LOST IN MULTI-TURN CONVERSATION](https://arxiv.org/pdf/2505.06120)
