@@ -15,3 +15,5 @@ LLKD 使用自适应样本选择(adaptive sample selection)方法, 挑选teacher
 #### [LLMS GET LOST IN MULTI-TURN CONVERSATION](https://arxiv.org/pdf/2505.06120)
 
 #### [Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V](https://arxiv.org/pdf/2310.11441)
+
+#### IMPROVE VISION LANGUAGE MODEL CHAIN-OFTHOUGHT REASONING(https://arxiv.org/pdf/2410.16198)
