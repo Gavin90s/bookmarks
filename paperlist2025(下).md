@@ -16,4 +16,4 @@ LLKD 使用自适应样本选择(adaptive sample selection)方法, 挑选teacher
 
 #### [Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V](https://arxiv.org/pdf/2310.11441)
 
-#### IMPROVE VISION LANGUAGE MODEL CHAIN-OFTHOUGHT REASONING(https://arxiv.org/pdf/2410.16198)
+#### [IMPROVE VISION LANGUAGE MODEL CHAIN-OFTHOUGHT REASONING](https://arxiv.org/pdf/2410.16198)
