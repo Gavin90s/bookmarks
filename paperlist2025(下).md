@@ -57,3 +57,5 @@ https://github.com/Westlake-AGI-Lab/AppAgentX/blob/main/explor_auto.py
 #### [Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory](https://arxiv.org/pdf/2508.09736)
 
 #### [Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory](https://arxiv.org/pdf/2508.09736)
+
+#### [VERIGUI: VERIFIABLE LONG-CHAIN GUI DATASET](https://arxiv.org/pdf/2508.04026)
