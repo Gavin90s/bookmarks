@@ -19,3 +19,5 @@ LLKD 使用自适应样本选择(adaptive sample selection)方法, 挑选teacher
 #### [IMPROVE VISION LANGUAGE MODEL CHAIN-OFTHOUGHT REASONING](https://arxiv.org/pdf/2410.16198)
 
 #### [Group Sequence Policy Optimization](https://arxiv.org/pdf/2507.18071)
+
+#### [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/pdf/2501.12948)
