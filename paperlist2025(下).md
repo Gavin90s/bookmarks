@@ -61,3 +61,5 @@ https://github.com/Westlake-AGI-Lab/AppAgentX/blob/main/explor_auto.py
 #### [VERIGUI: VERIFIABLE LONG-CHAIN GUI DATASET](https://arxiv.org/pdf/2508.04026)
 
 #### [Lost in Transmission:When and Why LLMs Fail to Reason Globally](https://arxiv.org/pdf/2505.08140)
+
+#### [UI-Venus Technical Report: Building High-performance UI Agents with RFT](https://arxiv.org/pdf/2508.10833)
