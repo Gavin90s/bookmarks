@@ -45,3 +45,5 @@ https://github.com/Westlake-AGI-Lab/AppAgentX/blob/main/explor_auto.py
 #### [GUI-Actor: Coordinate-Free Visual Grounding for GUI Agents](https://www.arxiv.org/pdf/2506.03143)
 
 #### [Keeping Humans in the Loop: Human-Centered Automated Annotation with Generative AI](https://arxiv.org/pdf/2409.09467)
+
+#### [LLMS GET LOST IN MULTI-TURN CONVERSATION](https://arxiv.org/pdf/2505.06120)
