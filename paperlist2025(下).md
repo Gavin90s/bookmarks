@@ -51,3 +51,5 @@ https://github.com/Westlake-AGI-Lab/AppAgentX/blob/main/explor_auto.py
 #### [Rewriting Pre-Training Data Boosts LLM Performance in Math and Code](https://arxiv.org/pdf/2505.02881)
 
 #### [UI-E2I-Synth: Advancing GUI Grounding with Large-Scale Instruction Synthesis](https://arxiv.org/pdf/2504.11257)
+
+#### [Mini-Omni: Language Models Can Hear, Talk While Thinking in Streaming](https://arxiv.org/pdf/2408.16725)
