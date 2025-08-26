@@ -41,3 +41,5 @@ https://github.com/Westlake-AGI-Lab/AppAgentX/blob/main/explor_auto.py
 #### [Qwen3 Technical Report](https://arxiv.org/pdf/2505.09388)
 
 #### [DIRECT REASONING OPTIMIZATION: LLMS CAN REWARD AND REFINE THEIR OWN REASONING FOR OPEN-ENDED TASKS](https://arxiv.org/pdf/2506.13351)
+
+#### [GUI-Actor: Coordinate-Free Visual Grounding for GUI Agents](https://www.arxiv.org/pdf/2506.03143)
