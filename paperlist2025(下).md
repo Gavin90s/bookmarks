@@ -28,3 +28,5 @@ LLKD 使用自适应样本选择(adaptive sample selection)方法, 挑选teacher
 https://github.com/apple/axlearn/tree/main/docs/research/mmau
 
 #### [GUI-TARS: Pioneering Automated GUI Interaction with Native Agents](https://arxiv.org/pdf/2501.12326)
+
+#### [AppAgentX: Evolving GUI Agents as Proficient Smartphone Users](https://arxiv.org/pdf/2503.02268)
