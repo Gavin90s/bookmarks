@@ -31,3 +31,5 @@ https://github.com/apple/axlearn/tree/main/docs/research/mmau
 
 #### [AppAgentX: Evolving GUI Agents as Proficient Smartphone Users](https://arxiv.org/pdf/2503.02268)
 https://github.com/Westlake-AGI-Lab/AppAgentX/blob/main/explor_auto.py
+
+#### [Routine: A Structural Planning Framework for LLM Agent System in Enterprise](https://arxiv.org/pdf/2507.14447)
