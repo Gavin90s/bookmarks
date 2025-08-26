@@ -49,3 +49,5 @@ https://github.com/Westlake-AGI-Lab/AppAgentX/blob/main/explor_auto.py
 #### [LLMS GET LOST IN MULTI-TURN CONVERSATION](https://arxiv.org/pdf/2505.06120)
 
 #### [Rewriting Pre-Training Data Boosts LLM Performance in Math and Code](https://arxiv.org/pdf/2505.02881)
+
+#### [UI-E2I-Synth: Advancing GUI Grounding with Large-Scale Instruction Synthesis](https://arxiv.org/pdf/2504.11257)
