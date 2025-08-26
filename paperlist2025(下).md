@@ -25,3 +25,6 @@ LLKD 使用自适应样本选择(adaptive sample selection)方法, 挑选teacher
 #### [Qwen2.5-Omni Technical Report](https://arxiv.org/pdf/2503.20215)
 
 #### [MMAU: A Holistic Benchmark of Agent Capabilities Across Diverse Domains](https://arxiv.org/pdf/2407.18961)
+https://github.com/apple/axlearn/tree/main/docs/research/mmau
+
+#### [GUI-TARS: Pioneering Automated GUI Interaction with Native Agents](https://arxiv.org/pdf/2501.12326)
