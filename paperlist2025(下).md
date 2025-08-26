@@ -23,3 +23,5 @@ LLKD 使用自适应样本选择(adaptive sample selection)方法, 挑选teacher
 #### [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/pdf/2501.12948)
 
 #### [Qwen2.5-Omni Technical Report](https://arxiv.org/pdf/2503.20215)
+
+#### [MMAU: A Holistic Benchmark of Agent Capabilities Across Diverse Domains](https://arxiv.org/pdf/2407.18961)
