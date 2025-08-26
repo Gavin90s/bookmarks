@@ -65,3 +65,5 @@ https://github.com/Westlake-AGI-Lab/AppAgentX/blob/main/explor_auto.py
 #### [UI-Venus Technical Report: Building High-performance UI Agents with RFT](https://arxiv.org/pdf/2508.10833)
 
 #### [ANOLE: An Open, Autoregressive, Native Large Multimodal Models for Interleaved Image-Text Generation](https://arxiv.org/pdf/2407.06135)
+
+#### [MuRAG: Multimodal Retrieval-Augmented Generator for Open Question Answering over Images and Text](https://arxiv.org/pdf/2210.02928)
