@@ -47,3 +47,5 @@ https://github.com/Westlake-AGI-Lab/AppAgentX/blob/main/explor_auto.py
 #### [Keeping Humans in the Loop: Human-Centered Automated Annotation with Generative AI](https://arxiv.org/pdf/2409.09467)
 
 #### [LLMS GET LOST IN MULTI-TURN CONVERSATION](https://arxiv.org/pdf/2505.06120)
+
+#### [Rewriting Pre-Training Data Boosts LLM Performance in Math and Code](https://arxiv.org/pdf/2505.02881)
