@@ -39,3 +39,5 @@ https://github.com/Westlake-AGI-Lab/AppAgentX/blob/main/explor_auto.py
 #### [Demons in the Detail: On Implementing Load Balancing Loss for Training Specialized Mixture-of-Expert Models](https://arxiv.org/pdf/2501.11873)
 
 #### [Qwen3 Technical Report](https://arxiv.org/pdf/2505.09388)
+
+#### [DIRECT REASONING OPTIMIZATION: LLMS CAN REWARD AND REFINE THEIR OWN REASONING FOR OPEN-ENDED TASKS](https://arxiv.org/pdf/2506.13351)
