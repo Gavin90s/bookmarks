@@ -37,3 +37,5 @@ https://github.com/Westlake-AGI-Lab/AppAgentX/blob/main/explor_auto.py
 #### [KIMI K2: OPEN AGENTIC INTELLIGENCE](file:///Users/bytedance/Downloads/tech_report%20.pdf)
 
 #### [Demons in the Detail: On Implementing Load Balancing Loss for Training Specialized Mixture-of-Expert Models](https://arxiv.org/pdf/2501.11873)
+
+#### [Qwen3 Technical Report](https://arxiv.org/pdf/2505.09388)
