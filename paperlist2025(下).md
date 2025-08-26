@@ -34,4 +34,4 @@ https://github.com/Westlake-AGI-Lab/AppAgentX/blob/main/explor_auto.py
 
 #### [Routine: A Structural Planning Framework for LLM Agent System in Enterprise](https://arxiv.org/pdf/2507.14447)
 
-#### [KIMI K2: OPEN AGENTIC INTELLIGENCE](file:///Users/bytedance/Downloads/tech_report%20(1).pdf)
+#### [KIMI K2: OPEN AGENTIC INTELLIGENCE](file:///Users/bytedance/Downloads/tech_report%20.pdf)
