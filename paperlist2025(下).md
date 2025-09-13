@@ -69,3 +69,5 @@ https://github.com/Westlake-AGI-Lab/AppAgentX/blob/main/explor_auto.py
 #### [MuRAG: Multimodal Retrieval-Augmented Generator for Open Question Answering over Images and Text](https://arxiv.org/pdf/2210.02928)
 
 #### [Speculative Decoding Reimagined for Multimodal Large Language Models](https://arxiv.org/pdf/2505.14260)
+
+#### [Mixed Preference Optimization: A Two-stage Reinforcement Learning with Human Feedbacks](https://arxiv.org/pdf/2403.19443)
