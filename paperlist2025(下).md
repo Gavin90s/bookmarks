@@ -67,3 +67,5 @@ https://github.com/Westlake-AGI-Lab/AppAgentX/blob/main/explor_auto.py
 #### [ANOLE: An Open, Autoregressive, Native Large Multimodal Models for Interleaved Image-Text Generation](https://arxiv.org/pdf/2407.06135)
 
 #### [MuRAG: Multimodal Retrieval-Augmented Generator for Open Question Answering over Images and Text](https://arxiv.org/pdf/2210.02928)
+
+#### [Speculative Decoding Reimagined for Multimodal Large Language Models](https://arxiv.org/pdf/2505.14260)
