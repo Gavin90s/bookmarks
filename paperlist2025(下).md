@@ -71,3 +71,5 @@ https://github.com/Westlake-AGI-Lab/AppAgentX/blob/main/explor_auto.py
 #### [Mixed Preference Optimization: A Two-stage Reinforcement Learning with Human Feedbacks](https://arxiv.org/pdf/2403.19443)
 
 #### [Token Level Routing Inference System for Edge Devices](https://arxiv.org/pdf/2504.07878)
+
+#### [RL’S RAZOR: WHY ONLINE REINFORCEMENT LEARNING FORGETS LESS](https://arxiv.org/pdf/2509.04259)
