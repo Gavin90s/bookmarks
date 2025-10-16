@@ -76,7 +76,8 @@ https://github.com/Westlake-AGI-Lab/AppAgentX/blob/main/explor_auto.py
 
 #### [RLP: Reinforcement as a Pretraining Objective](https://arxiv.org/pdf/2510.01265)
 ````
-RLP 把“让模型自己写 CoT→看是否更好预测下一词”作为自监督奖励，首次把强化学习的探索机制提前到预训练阶段，显著且高效地为大模型注入推理能力，为“预训练即推理”提供了新范式。
+RLP 把“让模型自己写 CoT→看是否更好预测下一词”作为自监督奖励，首次把强化学习的探索机制提前到预训练阶段，
+显著且高效地为大模型注入推理能力，为“预训练即推理”提供了新范式。
 ````
 <img width="1950" height="920" alt="image" src="https://github.com/user-attachments/assets/bb8ee8b8-f3dd-4915-9d4b-787e3b0bbe44" />
 
