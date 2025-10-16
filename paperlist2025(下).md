@@ -73,3 +73,5 @@ https://github.com/Westlake-AGI-Lab/AppAgentX/blob/main/explor_auto.py
 #### [Token Level Routing Inference System for Edge Devices](https://arxiv.org/pdf/2504.07878)
 
 #### [RL’S RAZOR: WHY ONLINE REINFORCEMENT LEARNING FORGETS LESS](https://arxiv.org/pdf/2509.04259)
+
+#### [RLP: Reinforcement as a Pretraining Objective](https://arxiv.org/pdf/2510.01265)
