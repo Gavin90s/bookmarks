@@ -81,3 +81,5 @@ RLP 把“让模型自己写 CoT→看是否更好预测下一词”作为自监
 ````
 <img width="1950" height="920" alt="image" src="https://github.com/user-attachments/assets/bb8ee8b8-f3dd-4915-9d4b-787e3b0bbe44" />
 
+#### [JokeEval: Are the Jokes Funny? Review of Computational Evaluation Techniques to improve Joke Generation](https://assets.amazon.science/82/13/9941bff84d2eaaa3f68c7a340d88/jokeeval-are-the-jokes-funny-review-of-computational-evaluation-techniques-to-improve-joke-generation.pdf)
+
