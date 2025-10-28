@@ -86,3 +86,9 @@ RLP 把“让模型自己写 CoT→看是否更好预测下一词”作为自监
 #### [Ambiguity Detection and Uncertainty Calibration for Question Answering with Large Language Models](https://assets.amazon.science/e8/7b/9de54e5442f9a4dd354f7e26f290/ambiguity-detection-and-uncertainty-calibration-for-question-answering-with-large-language-models.pdf)
 
 #### [TopoSem: In-Context Planning with Semantically-Informed Tooling Graph Similarity](https://assets.amazon.science/98/f2/02462d7e409fbc2ed777f6a7c95a/toposem-in-context-planning-with-semantically-informed-tooling-graph-similarity.pdf)
+````
+TopoSem框架：提出TopoSem框架，通过联合考虑API执行图的拓扑距离和API负载的语义差异来增强ICP。利用对比学习方法学习有意义的嵌入，再用于增强的动态聚类机制，以减少示例选择中的噪声和冗余。
+图编辑距离（GED）：定义了一种新的距离度量，基于API执行图的GED，其中节点和边操作根据相应API负载的语义相似性进行加权。节点替换成本考虑了API负载的语义差异和API本身是否相同两个因素。
+数据增强：提出一种合成数据增强管道，扩充现有的（查询，API图）对，以更好地调整语义嵌入。通过四种策略生成新的查询和API图对，以增加训练数据的多样性和覆盖度。
+动态聚类：使用凝聚聚类对检索到的Top-K示例进行聚类，从每个聚类中选择一个示例形成最终的示例集，以增加示例的多样性并减少冗余。
+````
