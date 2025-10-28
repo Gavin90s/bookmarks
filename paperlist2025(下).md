@@ -84,3 +84,5 @@ RLP 把“让模型自己写 CoT→看是否更好预测下一词”作为自监
 #### [JokeEval: Are the Jokes Funny? Review of Computational Evaluation Techniques to improve Joke Generation](https://assets.amazon.science/82/13/9941bff84d2eaaa3f68c7a340d88/jokeeval-are-the-jokes-funny-review-of-computational-evaluation-techniques-to-improve-joke-generation.pdf)
 
 #### [Ambiguity Detection and Uncertainty Calibration for Question Answering with Large Language Models](https://assets.amazon.science/e8/7b/9de54e5442f9a4dd354f7e26f290/ambiguity-detection-and-uncertainty-calibration-for-question-answering-with-large-language-models.pdf)
+
+#### [TopoSem: In-Context Planning with Semantically-Informed Tooling Graph Similarity](https://assets.amazon.science/98/f2/02462d7e409fbc2ed777f6a7c95a/toposem-in-context-planning-with-semantically-informed-tooling-graph-similarity.pdf)
