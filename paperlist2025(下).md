@@ -97,3 +97,5 @@ TopoSem框架：提出TopoSem框架，通过联合考虑API执行图的拓扑距
 ````
 
 #### [A Systematic Survey of Automatic Prompt Optimization Techniques](https://arxiv.org/pdf/2502.16923)
+<img width="2278" height="554" alt="image" src="https://github.com/user-attachments/assets/09759cc0-a1c6-445f-a597-34c64de23dd6" />
+
