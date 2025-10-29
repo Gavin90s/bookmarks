@@ -126,3 +126,15 @@ TICL方法
 #### [Think Clearly: Improving Reasoning via Redundant Token Pruning](https://assets.amazon.science/b5/2e/9db326c7421b967fe0903d6307b9/think-clearly-improving-reasoning-via-redundant-token-pruning.pdf)
 
 #### [Building Multi-Turn RAG for Customer Support with LLM Labeling](https://assets.amazon.science/30/1b/6aca1b504a588cc204adbe49d34f/building-multi-turn-rag-for-customer-support-with-llm-labeling.pdf)
+````
+提出 Multi-Turn-RAG pipeline：
+用 现有客服日志（无标注）+ 知识库文章，让 LLM 扮演“用户+客服”自我对话→自动合成多轮对话；
+同时让 LLM 输出每轮 是否需要检索、检索查询、支撑文档、最终回复 等 4 类标签，全程无人工。
+设计 “检索决策”奖励函数：
+在 RL 阶段把 检索准确率、冗余度、对话轮数 量化成奖励，防止模型“偷懒”或“过度检索”。
+实验结果（真实客服 2 千段人工测试）：
+答案准确率 +18%（62→80）
+平均对话轮数 −1.3 轮
+人工满意度 +15%
+训练数据仅 3 天生成，成本≈人工标注的 4%。
+````
