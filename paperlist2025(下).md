@@ -122,3 +122,5 @@ TICL方法
 <img width="2310" height="998" alt="image" src="https://github.com/user-attachments/assets/1744d60b-9c43-4db3-ac8b-ce2aa8d1455e" />
 
 #### [Trustworthiness-as-Reward: Improving LLM Performance on Text Classification through Reinforcement Learning](https://assets.amazon.science/ea/88/a818c83e4daaa3d920d911747d97/scipub-approval152129-40236693-trustworthinessasreward-improving-llm-performance-on-text-classification-through-reinforcement-learning.pdf)
+
+#### [Think Clearly: Improving Reasoning via Redundant Token Pruning](https://assets.amazon.science/b5/2e/9db326c7421b967fe0903d6307b9/think-clearly-improving-reasoning-via-redundant-token-pruning.pdf)
