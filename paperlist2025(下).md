@@ -138,3 +138,4 @@ TICL方法
 人工满意度 +15%
 训练数据仅 3 天生成，成本≈人工标注的 4%。
 ````
+#### [Mamba Drafters for Speculative Decoding](https://assets.amazon.science/a2/d5/422de2e746e49e3afc26b8597c5f/mamba-drafters-for-speculative-decoding.pdf)
