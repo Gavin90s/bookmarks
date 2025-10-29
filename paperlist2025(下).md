@@ -119,3 +119,5 @@ TICL方法
 #### [Group-Aware Reinforcement Learning for Output Diversity in Large Language Models](https://assets.amazon.science/16/67/383a42e343e79cdaabb5dacc84ea/3937-group-aware-reinforcement-camera-ready.pdf)
 
 #### [Open Domain Question Answering with Conflicting Contexts](https://assets.amazon.science/0c/a1/3066c5854e8e943ecd14d42d8f15/open-domain-question-answering-with-conflicting-contexts.pdf)
+<img width="2310" height="998" alt="image" src="https://github.com/user-attachments/assets/1744d60b-9c43-4db3-ac8b-ce2aa8d1455e" />
+
