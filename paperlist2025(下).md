@@ -95,3 +95,5 @@ TopoSem框架：提出TopoSem框架，通过联合考虑API执行图的拓扑距
 以增加训练数据的多样性和覆盖度。
 动态聚类：使用凝聚聚类对检索到的Top-K示例进行聚类，从每个聚类中选择一个示例形成最终的示例集，以增加示例的多样性并减少冗余。
 ````
+
+#### [A Systematic Survey of Automatic Prompt Optimization Techniques](https://arxiv.org/pdf/2502.16923)
