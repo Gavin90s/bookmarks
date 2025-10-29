@@ -100,9 +100,9 @@ TopoSem框架：提出TopoSem框架，通过联合考虑API执行图的拓扑距
 <img width="2278" height="554" alt="image" src="https://github.com/user-attachments/assets/09759cc0-a1c6-445f-a597-34c64de23dd6" />
 
 #### [FaVe: Factored and Verified Search Rationale for Long-form Answer](https://assets.amazon.science/ab/ec/c27218534e17b398677b12903dc1/scipub-approval152129-36873472-fave-factored-and-verified-search-rationale-for-longform-answer.pdf)
+<img width="1212" height="1588" alt="image" src="https://github.com/user-attachments/assets/14735856-7ec7-4466-acbe-8dd76bea0f65" />
 
 #### [CUDA 编程指南](https://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf)
-<img width="1212" height="1588" alt="image" src="https://github.com/user-attachments/assets/14735856-7ec7-4466-acbe-8dd76bea0f65" />
 
 #### [Tuning-Free Personalized Alignment via Trial-Error-Explain In-Context Learning](https://arxiv.org/pdf/2502.08972)
 ````
@@ -115,3 +115,5 @@ TICL方法
 解释与学习：为负样本生成解释，说明其风格与用户文本的不同之处，并将这些负样本和解释添加到提示中，以便在后续迭代中避免生成类似风格的文本。
 优势：TICL无需对模型进行微调，仅通过增加推理计算量来实现个性化，适用于数据有限且对隐私有要求的场景。
 ````
+
+#### [Group-Aware Reinforcement Learning for Output Diversity in Large Language Models](https://assets.amazon.science/16/67/383a42e343e79cdaabb5dacc84ea/3937-group-aware-reinforcement-camera-ready.pdf)
