@@ -99,3 +99,9 @@ TopoSem框架：提出TopoSem框架，通过联合考虑API执行图的拓扑距
 #### [A Systematic Survey of Automatic Prompt Optimization Techniques](https://arxiv.org/pdf/2502.16923)
 <img width="2278" height="554" alt="image" src="https://github.com/user-attachments/assets/09759cc0-a1c6-445f-a597-34c64de23dd6" />
 
+#### [FaVe: Factored and Verified Search Rationale for Long-form Answer](https://assets.amazon.science/ab/ec/c27218534e17b398677b12903dc1/scipub-approval152129-36873472-fave-factored-and-verified-search-rationale-for-longform-answer.pdf)
+
+#### [CUDA 编程指南](https://docs.nvidia.com/cuda/pdf/CUDA_C_Programming_Guide.pdf)
+<img width="1212" height="1588" alt="image" src="https://github.com/user-attachments/assets/14735856-7ec7-4466-acbe-8dd76bea0f65" />
+
+
