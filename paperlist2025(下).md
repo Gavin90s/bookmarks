@@ -107,7 +107,8 @@ TopoSem框架：提出TopoSem框架，通过联合考虑API执行图的拓扑距
 #### [Tuning-Free Personalized Alignment via Trial-Error-Explain In-Context Learning](https://arxiv.org/pdf/2502.08972)
 ````
 TICL方法
-核心思想：TICL通过迭代地扩展上下文学习提示（in-context learning prompt），引入模型生成的负样本和对这些负样本的解释，从而在不更新模型参数的情况下，使模型更好地理解和模仿特定用户的写作风格。
+核心思想：TICL通过迭代地扩展上下文学习提示（in-context learning prompt），引入模型生成的负样本和对这些负样本的解释，
+从而在不更新模型参数的情况下，使模型更好地理解和模仿特定用户的写作风格。
 主要步骤：
 行为克隆：使用少量用户文本作为示例，通过上下文学习来引导模型生成符合用户风格的文本。
 探索：模型生成文本，然后分析这些文本与用户实际文本之间的风格差异，生成负样本。
