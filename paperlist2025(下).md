@@ -147,3 +147,5 @@ goal correction and switching, ambiguous and implicit goals.
 Below is a list of all included complexities and the number of dialogs covering those complexities.
 ````
 <img width="1690" height="1360" alt="image" src="https://github.com/user-attachments/assets/8d0b64cf-2586-43d5-89c1-71447e4a6e05" />
+
+#### [Expansion Span: Combining Fading Memory and Retrieval in Hybrid State Space Models](https://assets.amazon.science/3a/4a/2c2c65174dc58626cb35522aadb4/expansion-span-combining-fading-memory-and-retrieval-in-hybrid-state-space-models.pdf)
