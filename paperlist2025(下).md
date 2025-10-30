@@ -151,3 +151,6 @@ Below is a list of all included complexities and the number of dialogs covering 
 #### [Expansion Span: Combining Fading Memory and Retrieval in Hybrid State Space Models](https://assets.amazon.science/3a/4a/2c2c65174dc58626cb35522aadb4/expansion-span-combining-fading-memory-and-retrieval-in-hybrid-state-space-models.pdf)
 
 #### [REIC: RAG-enhanced intent classification at scale](https://www.amazon.science/publications/reic-rag-enhanced-intent-classification-at-scale)
+
+#### [GEPA: REFLECTIVE PROMPT EVOLUTION CAN OUTPERFORM REINFORCEMENT LEARNING](https://arxiv.org/pdf/2507.19457)
+<img width="2910" height="1746" alt="image" src="https://github.com/user-attachments/assets/0942715d-67ad-4e32-8db1-da95bf150a39" />
