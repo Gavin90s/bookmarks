@@ -146,3 +146,4 @@ These conversations explicitly target various conversational complexities, such 
 goal correction and switching, ambiguous and implicit goals.
 Below is a list of all included complexities and the number of dialogs covering those complexities.
 ````
+<img width="1690" height="1360" alt="image" src="https://github.com/user-attachments/assets/8d0b64cf-2586-43d5-89c1-71447e4a6e05" />
