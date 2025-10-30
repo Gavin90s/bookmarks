@@ -141,3 +141,8 @@ TICL方法
 #### [Mamba Drafters for Speculative Decoding](https://assets.amazon.science/a2/d5/422de2e746e49e3afc26b8597c5f/mamba-drafters-for-speculative-decoding.pdf)
 
 #### [ConFETTI: Conversational Function-Calling Evaluation Through Turn-Level Interactions](https://github.com/amazon-science/confetti/tree/main)
+````
+These conversations explicitly target various conversational complexities, such as follow-ups,
+goal correction and switching, ambiguous and implicit goals.
+Below is a list of all included complexities and the number of dialogs covering those complexities.
+````
