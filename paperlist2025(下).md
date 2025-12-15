@@ -156,3 +156,7 @@ Below is a list of all included complexities and the number of dialogs covering 
 <img width="2910" height="1746" alt="image" src="https://github.com/user-attachments/assets/0942715d-67ad-4e32-8db1-da95bf150a39" />
 
 #### [Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models](https://www.arxiv.org/abs/2510.04618)
+
+演绎(deductive), 定义1，定义2，推导出结论。所有的鸟都有羽毛（前提1），企鹅是鸟（前提2），因此企鹅有羽毛（结论）。
+归纳(inductive), 从观察样本推导出结论。观察到100只乌鸦都是黑色的（特定观察），因此推断所有的乌鸦都是黑色的（一般性结论）。
+溯因(abductive), 从观测事实，推理出一般结论。
