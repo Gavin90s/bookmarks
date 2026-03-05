@@ -3,3 +3,5 @@
 #### [CL-BENCH: A BENCHMARK FOR CONTEXT LEARNING](https://arxiv.org/pdf/2602.03587)
 
 #### [Recursive Language Models](https://arxiv.org/pdf/2512.24601)
+
+#### [ReSum: Unlocking Long-Horizon Search Intelligence via Context Summarization](https://arxiv.org/pdf/2509.13313)
