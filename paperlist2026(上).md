@@ -13,3 +13,7 @@
 - SFT may introduce co-occurrence-based spurious solutions
 - Policy Gradient enabling better generalization, but suffers from diversity collapse
 - Q-learning provides two key advantages: off-policy learning and diversity preservation at convergence. Careful reward design is necessary to prevent Q-value bias in Q-learning. 
+
+#### RouterReplay 核心作用
+RouterReplay 是针对大模型（尤其是 MoE / 混合专家模型）路由机制设计的「路由行为记录与复现管理器」，
+核心目的是精准控制、复现模型推理 / 训练过程中 “路由层选择哪些专家” 的行为，解决路由随机性导致的实验不可复现、训练不稳定等问题。
