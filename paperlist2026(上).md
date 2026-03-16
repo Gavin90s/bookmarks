@@ -40,7 +40,7 @@ Ray = 分布式计算框架（用来做分布式训练、RL、大模型并行）
 进程 / 节点管理：启动 Ray 的核心服务进程（如 raylet 节点管理器、plasma 共享内存存储），是所有 Ray 任务的 “总控中心”；
 状态维护：记录任务运行状态、资源使用情况，支持任务监控、日志查看等。
 
-#### Evaluating LLM Reasoning Beyond Correctness and CoT(https://arxiv.org/pdf/2510.18134)
+#### [Evaluating LLM Reasoning Beyond Correctness and CoT](https://arxiv.org/pdf/2510.18134)
 LLM 的 “推理” 本质是什么？不应是静态步骤链，而应是动态的观点交互与演化过程；借鉴黑格尔辩证法的 “正题 - 反题 - 合题”（Thesis-Antithesis-Synthesis）三元结构，
 将推理定义为：通过观点冲突、矛盾解决实现认知升级的动态轨迹，而非静态的答案生成过程。
 
