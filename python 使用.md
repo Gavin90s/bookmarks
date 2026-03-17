@@ -89,3 +89,52 @@ cprint("This is text with a red background", color='white', bg='red')
 cprint("This is bold text", color='blue', attrs=['bold'])
 ```
 
+#### Hydra使用
+Hydra 是 Facebook（现 Meta）开源的 Python 配置管理框架，核心作用是优雅地管理复杂应用的配置，
+尤其适合机器学习、数据科学、大型工程化项目中多环境、多参数、多实验的场景。
+```
+my_project/
+├── conf/
+│   └── config.yaml  # 配置文件
+└── my_app.py       # 主程序
+```
+```
+# 配置文件
+training:
+  lr: 0.01
+  batch_size: 32
+data:
+  path: "./data"
+  num_workers: 4
+```
+```
+import hydra
+from omegaconf import DictConfig
+
+# 初始化Hydra，指定配置文件目录
+@hydra.main(version_base=None, config_path="conf", config_name="config")
+def main(cfg: DictConfig):
+    # 直接使用配置参数
+    print(f"学习率: {cfg.training.lr}")
+    print(f"数据路径: {cfg.data.path}")
+    # 也可以修改/扩展配置
+    cfg.training.lr *= 0.5
+    print(f"调整后学习率: {cfg.training.lr}")
+
+if __name__ == "__main__":
+    main()
+```
+```
+python my_app.py
+# 输出：
+# 学习率: 0.01
+# 数据路径: ./data
+# 调整后学习率: 0.005
+
+# 命令行覆盖参数
+python my_app.py training.lr=0.02 data.num_workers=8
+# 输出：
+# 学习率: 0.02
+# 数据路径: ./data
+# 调整后学习率: 0.01
+```
