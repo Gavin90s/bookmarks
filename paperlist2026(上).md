@@ -44,3 +44,4 @@ Ray = 分布式计算框架（用来做分布式训练、RL、大模型并行）
 LLM 的 “推理” 本质是什么？不应是静态步骤链，而应是动态的观点交互与演化过程；借鉴黑格尔辩证法的 “正题 - 反题 - 合题”（Thesis-Antithesis-Synthesis）三元结构，
 将推理定义为：通过观点冲突、矛盾解决实现认知升级的动态轨迹，而非静态的答案生成过程。
 
+#### [DO NOT LET LOW-PROBABILITY TOKENS OVER-DOMINATE IN RL FOR LLMS](https://arxiv.org/pdf/2602.21435)
