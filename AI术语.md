@@ -18,6 +18,7 @@ co-occurrence-based spurious solutions（基于共现的伪解 / 虚假解），
 
 - Level 1: Next-token Prediction (类比推理)：预训练阶段。本质是基于上下文的统计压缩与类比。
   LLM 预训练的下一词预测，本质上就是在做大规模统计类比：看到一段上下文，模型在海量文本里找相似的上下文模式，用 “以前见过的类似情况” 来类比推出下一个词最可能是什么。
+  ````
 1. 什么是 “类比推理”
 类比推理的核心逻辑是：
 A 像 B，A 有结果 C，所以 B 也应该有类似结果 C
@@ -51,6 +52,7 @@ LLM 预训练时，只做一件事：给定前文，预测下一个词。
 找到结构完全一样的模式
 类比推出：蓝色
 这就是类比推理。
+````
 - Level 2: Policy Execution (策略执行)：RLHF/SFT 阶段。模型变成了策略函数 $\pi(a|s)$，每一步生成都是为了最大化期望奖励（Expected Reward）。
 - Level 3: Statement Space Search (陈述空间搜索)：推理过程可以被视为在所有可能的 “陈述”（Statements/Thoughts）构成的空间中进行搜索。Chain of Thought 就是在寻找一条通往答案的最优路径。LATS 等算法正是显式地利用了这一点。
 
