@@ -116,3 +116,5 @@ LLM 的 “推理” 本质是什么？不应是静态步骤链，而应是动�
 #### [REIC: RAG-Enhanced Intent Classification at Scale](https://arxiv.org/pdf/2506.00210)
 
 #### [Towards Compositional Generalization of LLMs via Skill Taxonomy Guided Data Synthesis](https://arxiv.org/pdf/2601.03676)
+
+#### [Enhancing LLM-as-a-Judge via Multi-Agent Collaboration](https://arxiv.org/pdf/2603.00993)
