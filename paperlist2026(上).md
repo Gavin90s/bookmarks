@@ -122,3 +122,5 @@ LLM 的 “推理” 本质是什么？不应是静态步骤链，而应是动�
 
 #### [On Synthetic Data Strategies for Domain-Specific Generative Retrieval](https://aclanthology.org/2025.acl-long.392.pdf)
 
+#### [Exploring Quality and Diversity in Synthetic Data Generation for Argument Mining](https://aclanthology.org/2025.emnlp-main.1351.pdf)
+
