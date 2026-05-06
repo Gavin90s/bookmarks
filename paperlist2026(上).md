@@ -113,3 +113,4 @@ LLM 的 “推理” 本质是什么？不应是静态步骤链，而应是动�
 
 #### [Learning to Reason Over Time: Timeline Self-Reflection for Improved Temporal Reasoning in Language Models](https://cdn.amazon.science/c8/af/efaf81c04dfc946ab697bd1b7cb2/4038-learning-to-reason-over-t.pdf)
 
+#### [REIC: RAG-Enhanced Intent Classification at Scale](https://arxiv.org/pdf/2506.00210)
