@@ -120,3 +120,5 @@ LLM 的 “推理” 本质是什么？不应是静态步骤链，而应是动�
 #### [Enhancing LLM-as-a-Judge via Multi-Agent Collaboration](https://arxiv.org/pdf/2603.00993)
 <img width="2196" height="1436" alt="image" src="https://github.com/user-attachments/assets/1b4a2296-f0c1-49b5-8ae6-1792b7a53d11" />
 
+#### [On Synthetic Data Strategies for Domain-Specific Generative Retrieval](https://aclanthology.org/2025.acl-long.392.pdf)
+
