@@ -107,3 +107,5 @@ LLM 的 “推理” 本质是什么？不应是静态步骤链，而应是动�
 #### [Where Did It All Go Wrong? A Hierarchical Look into Multi-Agent Error Attribution](https://arxiv.org/pdf/2510.04886)
 
 #### [Which Agent Causes Task Failures and When? On Automated Failure Attribution of LLM Multi-Agent Systems](https://arxiv.org/pdf/2505.00212)
+
+#### [Efficient Tool Use with Chain-of-Abstraction Reasoning](https://arxiv.org/pdf/2401.17464)
