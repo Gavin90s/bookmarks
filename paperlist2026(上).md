@@ -125,11 +125,13 @@ LLM 的 “推理” 本质是什么？不应是静态步骤链，而应是动�
 #### [Exploring Quality and Diversity in Synthetic Data Generation for Argument Mining](https://aclanthology.org/2025.emnlp-main.1351.pdf)
 
 #### [Structuring the Unstructured: A Multi-Agent LLM Framework for Transforming Ambiguous SOPs into Code](https://aclanthology.org/2025.emnlp-industry.163.pdf)
+````
 核心定位：亚马逊提出 SYNTACT 多智能体 LLM 框架，专门把模糊、非结构化自然语言 SOP 作业流程，自动转换成结构化规范流程 + 可执行工作流代码。
 核心架构：三段流水线智能体
 消歧器(Clarifier)：找出 SOP 歧义、信息缺失，结合知识库补全信息；
 规划器(Planner)：拆解任务、匹配工具 API、生成标准化流程骨架；
 执行器(Implementor)：加入类型约束、解析分支循环，输出可直接运行的工作流。
+````
 
 #### [DS2-INSTRUCT: Domain-Specific Data Synthesis for Large Language Models Instruction Tuning](https://aclanthology.org/2026.findings-eacl.176.pdf)
 - 关键词构建：基于任务定义，双向扩展构建分层领域关键词池。
