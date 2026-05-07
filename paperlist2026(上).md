@@ -125,3 +125,6 @@ LLM 的 “推理” 本质是什么？不应是静态步骤链，而应是动�
 #### [Exploring Quality and Diversity in Synthetic Data Generation for Argument Mining](https://aclanthology.org/2025.emnlp-main.1351.pdf)
 
 #### [DS2-INSTRUCT: Domain-Specific Data Synthesis for Large Language Models Instruction Tuning](https://aclanthology.org/2026.findings-eacl.176.pdf)
+- 关键词构建：基于任务定义，双向扩展构建分层领域关键词池。
+- 指令生成：结合布鲁姆认知层级，生成多难度、多维度指令集。
+- 质量过滤：通过多响应投票校验，筛选高质量指令 - 响应对。
