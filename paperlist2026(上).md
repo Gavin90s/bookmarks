@@ -189,3 +189,5 @@ AutoEval-ToD 自动化评估框架
 领域合规性（Domain Compliance）
 响应质量（Response Quality）
 ````
+
+#### [Stabilizing MoE Reinforcement Learning by Aligning Training and Inference Routers](https://arxiv.org/pdf/2510.11370)
