@@ -139,3 +139,18 @@ python my_app.py training.lr=0.02 data.num_workers=8
 # 数据路径: ./data
 # 调整后学习率: 0.01
 ```
+
+#### pydantic 数据模型基类
+from pydantic import (
+    BaseModel,       # 核心：数据模型基类
+    Field,           # 给字段加限制、说明、默认值
+    model_validator, # 模型级别的验证（多个字段一起校验）
+    field_serializer,# 字段序列化（输出时自定义格式）
+)
+
+BaseModel = 数据的 “模板 + 校验器”
+作用：
+- 定义数据长什么样（字段名、类型）
+- 自动校验数据是否合法
+- 自动转类型
+- 方便转 JSON /dict
