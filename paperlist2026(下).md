@@ -13,3 +13,19 @@ and workflow logic work together.
 - 弱点挖掘（Weakness Mining）
 - Harness 提议（Harness Proposal）
 - 提议验证（Proposal Validation）
+
+````
+当前 harness h_t
+    │
+    ▼
+① 弱点挖掘：跑任务 → 收集轨迹 → 聚类失败模式（含三层信息）
+    │
+    ▼
+② Harness 提议：模型作为 proposer → 基于有界上下文 → 提出多样化的窄改动候选
+    │
+    ▼
+③ 提议验证：held-in 测修复 + held-out 测无回归 → 两者都通过才合并
+    │
+    ▼
+新 harness h_{t+1}（或无更新，进入下一轮）
+````
