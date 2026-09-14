@@ -10,3 +10,6 @@
 a harness is code that programs how prompts, tool calls, subagents, control flow, memory,
 and workflow logic work together.
 ````
+- 弱点挖掘（Weakness Mining）
+- Harness 提议（Harness Proposal）
+- 提议验证（Proposal Validation）
