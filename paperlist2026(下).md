@@ -7,5 +7,6 @@
 
 # [Harness Engineering for Self-Improvement](https://lilianweng.github.io/posts/2026-07-04-harness/#harness-optimization)
 ````
-a harness is code that programs how prompts, tool calls, subagents, control flow, memory, and workflow logic work together.
+a harness is code that programs how prompts, tool calls, subagents, control flow, memory,
+and workflow logic work together.
 ````
