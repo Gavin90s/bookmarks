@@ -52,7 +52,6 @@ harness 进化的瓶颈在于可观测性—— 也就是说，当一次 rollout
   所有单任务报告被聚合为一份基准概览（benchmark overview），供下一步使用；原始轨迹则可在需要时访问。这种分层访问结构更加节省 token。
   
 - 决策可观测性（Decision observability）
-  
   每一次编辑都附带一个预测，供下一轮验证。一个 Agent（"Evolve Agent"）读取仓库，决定编辑哪个组件，
   然后产出编辑内容及其背后的推理。每一次编辑都是一个文件级的、可证伪的声明，可以在下一轮中得到验证，并受到两条约束：
   编辑仅作用于 harness 工作区。runs 目录、tracer、verifier 和 LLM 配置均为只读 —— 这杜绝了一系列 reward hacking 行为
