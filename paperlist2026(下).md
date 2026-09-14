@@ -4,3 +4,5 @@
 并通过 "UGST用于推理时引导→冷启动 SFT→GRPO 强化学习（通过UGST算reward)" 三阶段训练，使 8B 小模型的目标对齐能力追平甚至超越 70B 大模型，平均成功率最高提升 14.1%。
 
 # [Language model harnesses are compositional generalizers](https://alexzhang13.github.io/blog/2026/harness/)
+
+# [Harness Engineering for Self-Improvement](https://lilianweng.github.io/posts/2026-07-04-harness/#harness-optimization)
