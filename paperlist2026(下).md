@@ -34,21 +34,22 @@ and workflow logic work together.
 ````
 
 ** Agentic Harness Engineering（AHE；Lin 等人，2026）**
+
 harness 进化的瓶颈在于可观测性—— 也就是说，当一次 rollout 失败时，我们需要知道是哪个组件导致了失败，并且每一次编辑都应当有证据支撑。
-````
+
 该框架构建了一个由 三大可观测性支柱驱动的闭环：
-组件可观测性（Component observability）：每一个可编辑的 harness 组件都在文件系统中拥有对应表示，从而使动作空间明确且可追溯。
-一个 harness 包含 7 个组件：系统提示（system prompt）、工具描述（tool description）、工具实现（tool implementation）、
-中间件（middleware）、技能（skill）、子 Agent 配置（sub-agent configuration）和长期记忆（long-term memory）。
-每一种失败模式都被映射到某一个组件上，从而使编辑更有针对性。
-经验可观测性（Experience observability）：将大量原始轨迹分析并总结为一个由证据和失败模式构成的层级结构。
-每个 harness 都会生成轨迹（traces）。
-使用一个 Agent（"Agent Debugger"）来分析这些轨迹 —— 每条轨迹单独存储在一个文件中 —— 并生成针对每个任务的分析报告，说明失败或成功的根本原因。
-所有单任务报告被聚合为一份基准概览（benchmark overview），供下一步使用；原始轨迹则可在需要时访问。这种分层访问结构更加节省 token。
-决策可观测性（Decision observability）：每一次编辑都附带一个预测，供下一轮验证。
-一个 Agent（"Evolve Agent"）读取仓库，决定编辑哪个组件，然后产出编辑内容及其背后的推理。
-每一次编辑都是一个文件级的、可证伪的声明，可以在下一轮中得到验证，并受到两条约束：
-编辑仅作用于 harness 工作区。runs 目录、tracer、verifier 和 LLM 配置均为只读 —— 这杜绝了一系列 reward hacking 行为（例如禁用 verifier、偷换模型、或提高推理预算），从而保证每一个记录在案的增益都可归因于 harness 编辑本身。
-编辑是证据驱动的，并附带一个 manifest 条目：失败证据的名称、推断出的根本原因、靶向修复方案，以及预测影响（包括预期修复的任务和存在回归风险的任务）。
-在 Terminal-Bench-2 上，AHE 的表现优于人工设计的 harness（OpenCode、Terminus-2、Codex），但 Hard 层级以及少数其他自进化基线（ACE、TF-GRPO）除外。同一个被冻结的 harness（不再继续进化）可以迁移到 SWE-bench-verified 上，这表明进化后的 harness 能够将工程经验编码到 harness 组件中，而非进行针对特定基准的优化。
-````
+- 组件可观测性（Component observability）
+  每一个可编辑的 harness 组件都在文件系统中拥有对应表示，从而使动作空间明确且可追溯。
+  一个 harness 包含 7 个组件：系统提示（system prompt）、工具描述（tool description）、工具实现（tool implementation）、
+  中间件（middleware）、技能（skill）、子 Agent 配置（sub-agent configuration）和长期记忆（long-term memory）。
+  每一种失败模式都被映射到某一个组件上，从而使编辑更有针对性。
+- 经验可观测性（Experience observability）
+  将大量原始轨迹分析并总结为一个由证据和失败模式构成的层级结构。每个 harness 都会生成轨迹（traces）。
+  使用一个 Agent（"Agent Debugger"）来分析这些轨迹 —— 每条轨迹单独存储在一个文件中 —— 并生成针对每个任务的分析报告，说明失败或成功的根本原因。
+  所有单任务报告被聚合为一份基准概览（benchmark overview），供下一步使用；原始轨迹则可在需要时访问。这种分层访问结构更加节省 token。
+- 决策可观测性（Decision observability）
+  每一次编辑都附带一个预测，供下一轮验证。一个 Agent（"Evolve Agent"）读取仓库，决定编辑哪个组件，
+  然后产出编辑内容及其背后的推理。每一次编辑都是一个文件级的、可证伪的声明，可以在下一轮中得到验证，并受到两条约束：
+  编辑仅作用于 harness 工作区。runs 目录、tracer、verifier 和 LLM 配置均为只读 —— 这杜绝了一系列 reward hacking 行为
+  （例如禁用 verifier、偷换模型、或提高推理预算），从而保证每一个记录在案的增益都可归因于 harness 编辑本身。
+  编辑是证据驱动的，并附带一个 manifest 条目：失败证据的名称、推断出的根本原因、靶向修复方案，以及预测影响（包括预期修复的任务和存在回归风险的任务）。
