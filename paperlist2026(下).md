@@ -88,5 +88,7 @@ harness 进化的瓶颈在于可观测性—— 也就是说，当一次 rollout
   What evolves?（进化的是什么）
   What feedback drives it?（什么反馈驱动）
   Where does the loop close?（循环在哪里闭合）
-  "If the loop closes on benchmarks, we get stronger benchmark solvers... If it closes on the physical world, agents may become a new way to build and improve real systems. The      world is still the hardest environment. It is also the place where self-evolving agents matter most."
+  "If the loop closes on benchmarks, we get stronger benchmark solvers... If it closes on the physical world,
+  agents may become a new way to build and improve real systems. The world is still the hardest environment.
+  It is also the place where self-evolving agents matter most."
   ````
