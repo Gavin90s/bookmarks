@@ -58,3 +58,30 @@ harness 进化的瓶颈在于可观测性—— 也就是说，当一次 rollout
   编辑仅作用于 harness 工作区。runs 目录、tracer、verifier 和 LLM 配置均为只读 —— 这杜绝了一系列 reward hacking 行为
   （例如禁用 verifier、偷换模型、或提高推理预算），从而保证每一个记录在案的增益都可归因于 harness 编辑本身。
   编辑是证据驱动的，并附带一个 manifest 条目：失败证据的名称、推断出的根本原因、靶向修复方案，以及预测影响（包括预期修复的任务和存在回归风险的任务）。
+
+  # [A Taxonomy of Self-evolving Agents](https://lsl.zone/blog/2026/a-taxonomy-of-self-evolving-agents/)
+  ````
+  核心框架：Model + Harness + Artifact
+  Models（模型）：通常是 LLM，是回应提示的 "大脑"
+  Harness（支架）：循环设计、记忆、工具等外围组件，把模型变成智能体
+  Artifacts（产出物）：智能体产出的成果 —— 发现的算法、论文、机器人策略等
+
+  1. Artifact Iterative Optimization（产出物迭代优化）
+  当前这波浪潮的主力。人设定目标和评估标准，智能体反复生成→验证→改进输出物。
+  代表工作：AlphaEvolve（科学 / 算法发现）、Analemma AI 的 FARS（运行 417 小时产出 166 篇全 AI 论文，花费约 18 万美元）、Recursive Superintelligence（发现更优 GPU kernel）
+  与旧范式的区别：以前（如 Neural Architecture Search）需要人工定义搜索空间和算子；现在 LLM 本身既是算子又是优化器，搜索空间更大、启发式更强
+  趋势：从数字环境（代码、浏览器、模拟器）走向物理世界 ——NVIDIA 的机器人策略搜索、LabOS 生物实验室、Qumus 量子材料实验
+
+  2. Agent Harness Self-improvement（支架自我改进）
+  动机：模型训练太贵，能否在不更新权重的前提下改进智能体？两条路径：
+  提示 / 记忆层：从经验中提取规则存入 prompt（GEPA）、playbook（ACE）或记忆系统（Mem0）。虽然没动权重，但支架更新等价于参数更新
+  工具 / 技能层：生成可复用的工具代码（Alita）或技能封装（Mem-UI、Claude Code Skills、Hermes Agent）。技能本质是上下文管理 —— 不用每次把所有细节塞进上下文窗口
+  多智能体扩展：单个智能体塞太多领域知识会变慢、会混淆（比如 "squeeze" 到底是股市还是挤橙子）。于是走向专家分工 + 路由（Eevee、Alita-G）。路由是核心瓶颈，它本身就需要强模型—— 作者的金句："A human is a router."
+
+  3. Model Learning without Gold Answers（无标准答案的模型学习）
+  这一层真正更新模型权重，回答 "没有金标准时怎么学"。包括：
+  伪标签 / 内部信号：self-training 用模型自己的预测构造伪标签；TTRL 用内部信号；DeepSeek-R1 把信号转成奖励做 RL
+  自博弈与环境弱信号：SPIN、Absolute Zero 的自博弈；与环境交互学习。哪怕 "发消息没人回" 这种无响应也是一种弱信号
+  Test-time Training（TTT）：一类特殊方法，推理时模型内部就在做梯度更新（DeltaNet 路线）
+  与持续学习（Continual Learning）的关系：旧语境下的持续学习核心问题是 "灾难性遗忘"；但今天 LLM 圈说的 continual learning 已更接近自我进化智能体。作者指出同一个术语会随时代漂移（类比 "多模态" 含义的变迁）
+  ````
