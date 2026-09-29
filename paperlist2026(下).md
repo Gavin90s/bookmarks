@@ -84,4 +84,9 @@ harness 进化的瓶颈在于可观测性—— 也就是说，当一次 rollout
   自博弈与环境弱信号：SPIN、Absolute Zero 的自博弈；与环境交互学习。哪怕 "发消息没人回" 这种无响应也是一种弱信号
   Test-time Training（TTT）：一类特殊方法，推理时模型内部就在做梯度更新（DeltaNet 路线）
   与持续学习（Continual Learning）的关系：旧语境下的持续学习核心问题是 "灾难性遗忘"；但今天 LLM 圈说的 continual learning 已更接近自我进化智能体。作者指出同一个术语会随时代漂移（类比 "多模态" 含义的变迁）
+
+  What evolves?（进化的是什么）
+  What feedback drives it?（什么反馈驱动）
+  Where does the loop close?（循环在哪里闭合）
+  "If the loop closes on benchmarks, we get stronger benchmark solvers... If it closes on the physical world, agents may become a new way to build and improve real systems. The      world is still the hardest environment. It is also the place where self-evolving agents matter most."
   ````
