@@ -92,3 +92,12 @@ harness 进化的瓶颈在于可观测性—— 也就是说，当一次 rollout
   agents may become a new way to build and improve real systems. The world is still the hardest environment.
   It is also the place where self-evolving agents matter most."
   ````
+
+# [Discoverative Intelligence(探索式智能)](https://www.apodex.com/blog/apodex-1.0)
+````
+Apodex-1.0 是 Apodex 公司于 2026 年 6 月 8 日发布的新一代深度研究（deep-research）模型，本质是一个标准的、会使用工具的 ReAct 智能体。它的特殊之处在于：当以 Heavy-Duty 模式运行时 —— 即由一个异步智能体团队负责分工、交叉核验，并在作答前对自己的证据进行审计 —— 同一个模型就变成旗舰级的 Apodex-1.0-H，官方称其在多个深度研究基准上达到新的 SOTA（含开源与闭源模型）。
+核心理念：Discoverative Intelligence
+文章的核心论点是：今天最难的研究类任务，瓶颈不在于模型容量，而在于模型被允许与外部世界交互的范围。长时程研究有一个共同的结构特征 —— 单次前向推理不够用，单个上下文窗口装不下全部工作；它要求推理与检索、工具调用、验证交错进行，跨越成百上千步和多条并行分支。这种可靠性无法仅靠参数记忆获得，而必须来自所谓的 "探索式智能"（discoverative intelligence）：通过主动与外部世界互动来推理，并在提交答案前用这种互动自我核验。
+架构：Agent 团队 + 全局验证器 + AgentOS
+与 "拉长单条推理链" 的思路不同，Apodex 用加宽框架的方式来扩展探索能力：由 Orchestrator（协调器）调度一个 Heavy-Duty 智能体团队，专业化的子智能体并行探索，再由一个全局验证器（Global Verifier）在答案提交前审计汇总的证据。官方称单个任务可协调最多 150 个子智能体、跨 15,000 步。支撑它的是 AgentOS—— 一个与任务无关（task-agnostic）的运行时，负责托管整个团队。
+````
