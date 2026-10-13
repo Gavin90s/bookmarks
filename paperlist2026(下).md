@@ -135,3 +135,49 @@ Harness 指的是围绕 LLM agent 的外部脚手架 ——prompt、工具、记
 | Sequential Refinement（顺序精炼） | 不改 harness，固定 | 深度 —— 每条轨迹基于上一条改进 |
 | Harness Evolution（Harness 进化） | 跨任务共享的 harness | 跨任务优化，产出可复用的 harness |
 | Harness Scaling（Harness 缩放） | 单任务特定的 harness | 实例级适配，每道题单独改 harness |
+
+#### Harness Evolution
+````
+  一批任务 (x₁, x₂, ..., xₙ)
+        │
+        ▼
+  用当前 harness h₁ 跑所有任务
+        │
+        ▼
+  收集所有轨迹 + 对错结果
+        │
+        ▼
+  Meta agent 读所有经验，总结规律 → 产出新 harness h₂
+        │
+        ▼
+  用 h₂ 再跑一遍这批任务
+        │
+        ▼
+  重复 K 轮，得到最终 harness ĥ
+        │
+        ▼
+  拿 ĥ 去跑从没见过的新任务 x
+````
+
+#### Harness Scaling
+````
+  一道任务 x
+    │
+    ▼
+  用初始 harness h₁ 跑一遍 → y₁
+    │
+    ▼
+  看 y₁ 的结果 + 对错信号
+    │
+    ▼
+  Meta agent 针对【这道题】改 harness → h₂
+    │
+    ▼
+  用 h₂ 再跑【同一道题】→ y₂
+    │
+    ▼
+  重复 K 轮
+    │
+    ▼
+  返回这条任务的最佳轨迹
+````
