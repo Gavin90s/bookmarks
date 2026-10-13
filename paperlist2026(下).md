@@ -119,9 +119,11 @@ Apodex-1.0 是 Apodex 公司于 2026 年 6 月 8 日发布的新一代深度研�
 ````
 这是一篇批判性评估论文，核心质疑的是当前火热的 "自动 Harness 进化"（Automatic Harness Evolution）研究的评估方法是否成立。
 什么是 Harness？
-Harness 指的是围绕 LLM agent 的外部脚手架 ——prompt、工具、记忆、验证例程、控制逻辑等。固定模型不变，光靠改 harness 就能大幅改变 agent 表现，这就是 Harness Engineering。
+Harness 指的是围绕 LLM agent 的外部脚手架 ——prompt、工具、记忆、验证例程、控制逻辑等。
+固定模型不变，光靠改 harness 就能大幅改变 agent 表现，这就是 Harness Engineering。
 论文指出的两个根本问题
-缺基线对比：现有 harness 进化论文从不和 "更简单的方法" 在相同反馈和推理预算下做对比 —— 比如并行采样、顺序精炼这些 test-time scaling 方法。
+缺基线对比：现有 harness 进化论文从不和 "更简单的方法" 在相同反馈和推理预算下做对比 —— 比如并行采样、
+顺序精炼这些 test-time scaling 方法。
 训练 / 测试污染：用基准测试里的单元测试作为搜索信号来进化 harness，然后又在同一个基准上报告最终性能 —— 相当于用考试题做训练集。
 核心疑问：Harness 进化带来的提升，到底是真的改进了 harness 设计，还是只是因为多试了几次？
 ````
