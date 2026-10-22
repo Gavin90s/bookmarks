@@ -200,11 +200,9 @@ Harness 指的是围绕 LLM agent 的外部脚手架 ——prompt、工具、记
 目标：把 Box A 里五花八门的错误，提炼成结构化、可复用的 "错误检查清单"。
 输入：Box A 的错误轨迹 + 标准答案
 输出：一组 Error Rubric Items（错误评分条目），每条采用三元组结构：
-表格
-字段	示例
-1. Error Keyword（错误关键词）	Integrals（积分）
-2. Error Description（错误描述）	Forgets that a constant term should be added to any calculated indefinite integrals.（忘记计算不定积分时必须加常数项）
-3. Criteria for Error's Presence（判定标准）	(a) 先判断题目是否是求不定积分……（再匹配具体错误特征）
+1. Error Keyword（错误关键词）
+2. Error Description（错误描述）
+3. Criteria for Error's Presence（判定标准）
 作用：从 "零散的错题" 升级为 "有组织的错误分类体系"，相当于自动生成了一份阅卷扣分标准。
 ````
 
@@ -212,9 +210,9 @@ Harness 指的是围绕 LLM agent 的外部脚手架 ——prompt、工具、记
 ````
 目标：把 Box B 的 rubric 变成一个自动打分器，用来训练模型。
 工作流程：
-把待评判的推理轨迹映射到相关关键词
-识别这条轨迹命中了哪些 rubric 条目
-如果命中任何一条错误条目 → Score: 0（即奖励为 0，说明推理有问题）
+1.把待评判的推理轨迹映射到相关关键词
+2.识别这条轨迹命中了哪些 rubric 条目
+3.如果命中任何一条错误条目 → Score: 0（即奖励为 0，说明推理有问题）
 效果：经过这种奖励函数的 RL 训练后，模型（Trained Model）开始能输出正确的推理轨迹
 对比示例：训练后模型会意识到 "...Wait, I need to add +c to this integral..."
 特点：只需要少量人工标签，大部分奖励信号是自动从错误样本中生成的。
