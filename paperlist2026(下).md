@@ -184,7 +184,9 @@ Harness 指的是围绕 LLM agent 的外部脚手架 ——prompt、工具、记
 
 #### [GENERATING DATA-DRIVEN REASONING RUBRICS FOR DOMAIN-ADAPTIVE REWARD MODELING](https://arxiv.org/pdf/2602.06795)
 
-核心思想是：让模型自己 "犯错"，再从错误中总结出检查规则，最后用这些规则作为奖励信号来训练模型改进。整体分为三个阶段（Box A → B → C）。
+核心思想是：让模型自己 "犯错"，再从错误中总结出检查规则，最后用这些规则作为奖励信号来训练模型改进。
+<img width="1552" height="666" alt="image" src="https://github.com/user-attachments/assets/ee93fb53-5a73-4711-ab2d-6d6cd323fd59" />
+
 - Box A：生成错误推理轨迹
 ````
 目标：用一个不完美的模型，在特定复杂领域（这里以大学微积分为例）批量生成 "会做错但推理过程看起来合理" 的样本。
