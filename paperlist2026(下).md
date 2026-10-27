@@ -222,6 +222,6 @@ Harness 指的是围绕 LLM agent 的外部脚手架 ——prompt、工具、记
 
 #### [Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for Open-Ended LLM Reasoning](https://arxiv.org/pdf/2508.16949)
 ````
-本论文把“清单式评分细则（rubric）”同时用作强化学习训练中的两类信号——rollout 阶段的显式“脚手架”引导（随训练逐步衰减，促使模型内化推理模式）
+本论文把rubrics同时用作强化学习训练中的两类信号——rollout 阶段的显式“脚手架”引导（随训练逐步衰减，促使模型内化推理模式）
 和训练阶段的“可验证奖励”——从而打破 RLVR 在开放式通用推理任务上的探索瓶颈。
 ````
