@@ -225,3 +225,21 @@ Harness 指的是围绕 LLM agent 的外部脚手架 ——prompt、工具、记
 本论文把rubrics同时用作强化学习训练中的两类信号——rollout 阶段的显式“脚手架”引导（随训练逐步衰减，促使模型内化推理模式）
 和训练阶段的“可验证奖励”——从而打破 RLVR 在开放式通用推理任务上的探索瓶颈。
 ````
+
+#### [Self-Harness: Harnesses That Improve Themselves](https://arxiv.org/pdf/2606.09498)
+Self-Harness 提出一种新范式：让一个 LLM 智能体在自己当前运行框架（harness）的约束下，通过观察自己执行轨迹中的失败模式，
+提出并验证对 harness 的有界修改，从而迭代式地改进 "自己操作自己的方式"—— 全程不依赖人类工程师，也不依赖更强的外部智能体。
+
+````
+1.Harness 是决定 agent 性能的另一半：LLM 智能体的表现不仅由基础模型决定，还由 "框架层" 决定 —— 系统提示词、
+  工具集、运行时机制、验证规则、编排逻辑、故障恢复流程等。同一模型在不同 harness 下表现差异巨大。
+
+2.Harness 具有模型特异性：不同模型有不同的工具使用习惯、报错模式和提示词敏感度，
+  为一个模型设计的 harness 对另一个模型可能是次优的。
+
+3.现状的瓶颈：从 ReAct 到 Claude Code、Codex、OpenHands，harness 基本都由人类专家手工工程化。
+  模型更新换代越来越快，逐个模型人工调 harness 成本高、不可持续。
+
+4.与已有工作的区别：Meta-Harness 等方法是用更强的外部 agent 来优化较弱 agent 的 harness；
+  Self-Harness 则把改进循环内化到目标 agent 自身，不依赖昂贵或可能 "水土不服" 的外部指导。
+````
