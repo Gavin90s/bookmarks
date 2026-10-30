@@ -245,6 +245,7 @@ Self-Harness 提出一种新范式：让一个 LLM 智能体在自己当前运�
 ````
 
 #### [WILDBENCH: BENCHMARKING LLMS WITH CHALLENGING TASKS FROM REAL USERS IN THE WILD](https://arxiv.org/pdf/2406.04770)
+真实用户任务 + rubric 评分，当前聊天评估的实际标准
 ````
 WildBench 从一百多万条真实用户与聊天机器人的对话日志中筛选出 1024 个高难度任务，构建了一个动态更新、分布自然、抗数据泄漏的评测基准；
 配合"任务专属清单 + LLM 裁判 + 长度惩罚"的自动评估框架，其 WB-Reward 与 WB-Score 在顶尖模型区间与
