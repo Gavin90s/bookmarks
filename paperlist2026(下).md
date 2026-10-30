@@ -243,3 +243,10 @@ Self-Harness 提出一种新范式：让一个 LLM 智能体在自己当前运�
 4.与已有工作的区别：Meta-Harness 等方法是用更强的外部 agent 来优化较弱 agent 的 harness；
   Self-Harness 则把改进循环内化到目标 agent 自身，不依赖昂贵或可能 "水土不服" 的外部指导。
 ````
+
+#### [WILDBENCH: BENCHMARKING LLMS WITH CHALLENGING TASKS FROM REAL USERS IN THE WILD](https://arxiv.org/pdf/2406.04770)
+````
+WildBench 从一百多万条真实用户与聊天机器人的对话日志中筛选出 1024 个高难度任务，构建了一个动态更新、分布自然、抗数据泄漏的评测基准；
+配合"任务专属清单 + LLM 裁判 + 长度惩罚"的自动评估框架，其 WB-Reward 与 WB-Score 在顶尖模型区间与
+ Chatbot Arena 人类 Elo 的 Pearson 相关性分别达到 0.984 与 0.955，是目前与人类偏好对齐最好的通用自动评测框架之一。
+````
